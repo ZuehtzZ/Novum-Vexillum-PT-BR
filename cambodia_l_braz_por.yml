@@ -1,0 +1,100 @@
+﻿l_braz_por:
+
+#ideas
+CAM_king_norodom_sihanouk: "Norodom Sihanouk"
+CAM_king_norodom_sihanouk_desc: "O golpe de 1997 deixou uma grande purga dos monarquistas do Camboja, mas Hun Sen não removeu diretamente o rei. Mas agora o poder de Norodom Sihanouk só pode ser mantido dentro de seu palácio. Ele ainda se opõe à ditadura de Hun Sen, mas sua resistência é apenas uma pequena voz."
+
+CAM_king_norodom_sihanouk_good: "Norodom Sihanouk"
+CAM_king_norodom_sihanouk_good_desc: "A ditadura do Camboja colapsou. Em um novo governo democrático, Sihanouk tem mais autoridade e poder do que nunca, e apoiará o príncipe para ajudar o Camboja a se tornar uma democracia gradual."
+
+CAM_cambodia_civil_war: "A Guerra Civil do Camboja"
+CAM_cambodia_civil_war_desc: "Após o golpe de 1997, o Camboja mais uma vez se manchou de sangue. Todo o país está em uma guerra civil, dividido entre militares e royalistas."
+
+CAM_country_without_intellectuals: "País Sem Intelectuais"
+CAM_country_without_intellectuals_desc: "Devido à política sistemática de 'massacre intelectual' do Camboja no século 20 pelo regime do Khmer Vermelho, o Camboja ainda carece de intelectuais com habilidades industriais acima do nível mais básico. O problema intelectual no Camboja só pode ser melhorado após um longo tempo."
+
+CAM_eliminating_khmer_rouge: "Eliminando o Khmer Vermelho"
+CAM_eliminating_khmer_rouge_desc: "A remoção do Khmer Vermelho comunista, que começou na década de 1990, está quase completa. O Khmer Vermelho foi completamente desmantelado em 1999, restando apenas um pequeno número de soldados escondidos nas forças royalistas."
+
+# Characters
+CAM_hun_sen:0 "Hun Sen"
+CAM_norodom_ranariddh:0 "Norodom Ranariddh"
+CAM_sam_rainsy:0 "Sam Rainsy"
+CAM_khem_veasna:0 "Khem Veasna"
+CAM_lon_rith:0 "Lon Rith"
+CAM_kem_sokha:0 "Kem Sokha"
+CAM_tea_banh:0 "Tea Banh"
+CAM_ke_kim_yanh:0 "Ke Kim Yanh"
+CAM_tea_vinh:0 "Tea Vinh"
+CAM_norodom_sihanouk:0 "Norodom Sihanouk"
+
+# Events
+cambodia_skeleton.1.t: "conteúdo esquelético 1"
+cambodia_skeleton.1.desc: "Conteúdo esquelético sobre a eleição cambojana de 2003. Este texto foi escrito na expectativa de que nenhum jogador humano jogasse o Camboja."
+cambodia_skeleton.1.a: "histórico"
+cambodia_skeleton.1.b: "alt-histórico"
+
+cambodia_skeleton.2.t: "conteúdo esquelético 2"
+cambodia_skeleton.2.desc: "Evento esquelético da Guerra Civil Cambojana. Este texto foi escrito na expectativa de que nenhum jogador humano jogasse o Camboja."
+cambodia_skeleton.2.a: "Ok :)"
+
+cambodia_skeleton.3.t: "conteúdo esquelético 3"
+cambodia_skeleton.3.desc: "Evento esquelético da Guerra Civil Cambojana. Este texto foi escrito na expectativa de que nenhum jogador humano jogasse o Camboja."
+cambodia_skeleton.3.a: "vitória CCP"
+cambodia_skeleton.3.b: "vitória Ranariddh"
+cambodia_skeleton.3.c: "vitória Sihanouk"
+
+cambodia_news.1.t: "Eleição Geral de 2003 [CAM.GetAdjectiveCap]"
+cambodia_news.1.desc: "Desde o golpe militar de 1997, está claro que as eleições parlamentares do Camboja não são justas, e isso não mudou muito nesta eleição também. Começando pelas áreas rurais, o CPP, o partido ditatorial de Hun Sen, interferiu sistematicamente na votação do partido royalista FUNCINPEC, e alguns políticos royalistas foram assassinados.\n\nEm todo o distrito eleitoral do Camboja, o CPP venceu com uma vitória esmagadora, com os royalistas resistindo ao governo ditatorial de Hun Sen recebendo votos muito baixos. O FUNCINPEC, um partido de oposição royalista, protesta contra a eleição, alegando ser uma clara fraude eleitoral, e anunciou que não participará da próxima Assembleia Nacional. O futuro do Camboja é sombrio devido à turbulência política."
+cambodia_news.1.a: "Isso é terrível!"
+cambodia_news.1.b: "O futuro deles é bastante sombrio."
+ 
+cambodia_news.2.t: "O Sucesso das Negociações Cambojanas"
+cambodia_news.2.desc: "Os royalistas cambojanos não se juntaram ao governo desde a eleição geral de 2003, alegando que a última eleição foi fraudulenta. Com o país à beira da divisão devido ao confronto entre o governo autocrático do Camboja e sua oposição royalista, o Rei Norodom Sihanouk apoiou as negociações entre os dois partidos.\n\nApós longas negociações, a paz chegou ao Camboja. O FUNCINPEC reconheceu a vitória de Hun Sen, e alguns ministros do governo serão nomeados para os legisladores do FUNCINPEC."
+cambodia_news.2.a: "A paz chegou."
+cambodia_news.2.b: "No final, Hun Sen venceu novamente."
+
+cambodia_news.3.t: "A Guerra Civil Cambojana"
+cambodia_news.3.desc: "A vitória obscura do CPP na eleição geral de 2003 trouxe uma reação do FUNCINPEC. As tentativas de coordenar negociações entre o governo e os partidos de oposição falharam, e o FUNCINPEC começou a organizar milícias. Já, o líder da oposição Norodom Ranariddh anunciou que abandonou todas as expectativas de que a revolução monárquica possa ter sucesso pacificamente.\n\nO Primeiro-Ministro Hun Sen declarou lei marcial em todo o Camboja, mas algumas unidades royalistas já se juntaram à milícia. Lutas esporádicas estão ocorrendo por todo o Camboja. Especialistas dizem que o Camboja já entrou em um estado de guerra civil."
+cambodia_news.3.a: "Isso é terrível!"
+cambodia_news.3.b: "Que tragédia!"
+
+cambodia_news.4.t: "O Fim da Guerra Civil Cambojana"
+cambodia_news.4.desc: "A situação política no Camboja foi muito perturbada pela fraude eleitoral em 2003, e essa turbulência política escalou para uma guerra civil. Especialistas previam que o CPP, que tinha um poder militar mais forte, prevaleceria, e como esperado, o CPP derrotou completamente o exército royalista do FUNCINPEC.\n\nDevido à derrota na guerra civil, políticos do FUNCINPEC fugiram do país, e Hun Sen estendeu a lei marcial indefinidamente, apesar de ter vencido a guerra civil. Ele anunciou que 'nenhuma eleição será realizada' para evitar futuras turbulências políticas no Camboja. A liberdade do Camboja está morta mais uma vez."
+cambodia_news.4.a: "Isso é terrível!"
+cambodia_news.4.b: "Resultado previsível."
+
+cambodia_news.5.t: "A Primavera Cambojana"
+cambodia_news.5.desc: "A situação política no Camboja foi muito perturbada pela fraude eleitoral em 2003, e essa turbulência política escalou para uma guerra civil. Embora muitos especialistas previssem que o exército governamental liderado por Hun Sen prevaleceria, o exército royalista do FUNCINPEC rapidamente capturou a capital e conseguiu destituir Hun Sen. O ex-ditador Hun Sen foi exilado para um estado neutro, e o FUNCINPEC declarou a anulação da última eleição geral de 2003 e a dissolução do governo existente.\nNorodom Ranariddh, o filho do Rei Norodom Sihanouk, foi reconhecido como primeiro-ministro. Embora se espere que o FUNCINPEC fortaleça a autoridade do monarca e transplante o 'Constitucionalismo Prussiano' do século 19 para o Camboja, pelo menos Ranariddh anunciou que as futuras eleições se tornarão mais 'democráticas' e que mais autonomia local será ativada."
+cambodia_news.5.a: "Ótimas notícias!"
+cambodia_news.5.b: "Imperfeito, mas pelo menos conseguiram um pouco de liberdade."
+
+cambodia_news.6.t: "A 'Primavera' Cambojana"
+cambodia_news.6.desc: "A situação política no Camboja foi muito perturbada pela fraude eleitoral em 2003, e essa turbulência política escalou para uma guerra civil. Embora muitos especialistas previssem que o exército governamental liderado por Hun Sen prevaleceria, o exército royalista do FUNCINPEC rapidamente capturou a capital e conseguiu destituir Hun Sen. O ex-ditador Hun Sen foi exilado para um estado neutro, e o FUNCINPEC declarou a anulação da última eleição geral de 2003 e a dissolução do governo existente.\nO novo governo decidiu delegar todos os poderes ao Rei Norodom Sihanouk, e Sihanouk proibiu todos os partidos de oposição, exceto o FUNCINPEC. A polícia que apoia o novo governo já está prendendo numerosos políticos e celebridades, e purgas de oficiais leais ao governo existente de Hun Sen parecem estar ocorrendo em todo o Camboja."
+cambodia_news.6.a: "Ótimas notícias!"
+cambodia_news.6.b: "A 'Revolução' do Camboja nos surpreende."
+ 
+ #desc
+POLITICS_HUN_SEN_DESC: "§YDescrição do Líder\nNascido:§! 5 de agosto de 1952, em Peam Kaoh Sna, Stung Trang, Kampong Cham, Indochina Francesa\n§YCarreira Política:§! Como um oficial no Khmer Rouge, o regime comunista que controlou o Camboja durante a Guerra Fria, Hun Sen conseguiu controlar o governo do Camboja, que estava em tumulto desde os anos 1980.\n\nMas após a queda do governo comunista do Camboja, Hun Sen foi derrotado pelo Partido Royalista, FUNCINPEC, em eleições sob supervisão da ONU. No entanto, ele se recusou a admitir sua derrota eleitoral. Hun Sen declarou que estava preparado para travar uma guerra civil em vez de ceder o poder, e o FUNCINPEC teve que aceitar um compromisso de 'governo de coalizão' com Hun Sen.\n\nMas a coalizão com os royalistas não durou muito. Se ele pudesse assumir o poder sozinho, estava pronto para fazê-lo. O golpe de 1997 imediatamente removeu a influência do FUNCINPEC do governo. Ainda há um monarca formal, a 'Casa de Norodom', no Camboja. Mas agora o 'verdadeiro' rei do Camboja é Hun Sen. Todo o poder no Camboja vem dele, e os royalistas estão se escondendo na escuridão."
+
+POLITICS_Norodom_Ranariddh_DESC: "§YDescrição do Líder\nNascido:§! 2 de janeiro de 1944, em Phnom Penh, Camboja, Indochina Francesa\n§YCarreira Política:§! O Príncipe Norodom Ranariddh, ao contrário de seu pai, o Rei Sihanouk, que 'praticamente' usou todas as ideologias, do comunismo à extrema direita, é muito mais moderado e tem uma convicção mais forte de democracia. Um acadêmico que estudou direito na França, Ranariddh poderia viver uma vida confortável e rica como professor de direito na Universidade de Provença, na França, se quisesse. Abrir mão do cargo de professor e lutar contra ditaduras não lhe traria riqueza ou honra. Mas ele entrou na selva para ajudar os cambojanos que sofriam e se juntou ao FUNCINPEC.\n\nEle tinha alto apoio público em um Camboja democratizado, mas o golpe de Hun Sen em 1997 destruiu completamente sua carreira política. Mas após a brutal ditadura de Hun Sen entrar em colapso, ele finalmente conseguiu assumir o poder como primeiro-ministro de um Camboja livre.\n\nEstabelecer democracia e liberdade no Camboja não será fácil. Mas ele sabe que a ditadura não dura para sempre. Ele tem poder absoluto no Camboja, mas sabe que um dia terá que abrir mão desse poder absoluto. E será realmente um dia em que o Camboja será revivido."
+
+POLITICS_Norodom_Sihanouk_DESC: "§YDescrição do Líder\nNascido:§! 31 de outubro de 1922, em Phnom Penh, Camboja, Indochina Francesa\n§YCarreira Política:§! É difícil definir Norodom Sihanouk em uma frase. Ele foi um ativista pela independência cambojana e rei do Camboja, às vezes um líder comunista e presidente; quando perdeu o poder, ele desertou para a RPDC e se tornou um amigo de confiança de Kim Il-sung. Ele é monarquista? Ou é nacionalista? Ou é marxista? Ou é jucheísta? O importante é que ele usou todas essas ideologias de forma muito 'prática'.\n\nEm meio à caótica situação política no Camboja, ele está pronto para usar todas as cartas que pode para sobreviver. As duas cartas, comunismo e monarquismo, não parecem se encaixar, mas ele aprendeu que elas se misturam melhor do que pensava em Pyongyang.\n\nA brutal ditadura de Hun Sen entrou em colapso, e Sihanouk teve outra chance. Ele ainda se lembra dos vários conhecimentos que adquiriu durante o exílio. E seu governo experimental, que combinou uma economia socialista com uma monarquia hereditária, começou. Isso pode ter sucesso? Ele diria \"sim.\""
+
+#Regra do Jogo
+CAM_AI_BEHAVIOR: "@CAM O Futuro do Camboja"
+
+RULE_OPTION_CAM_HUN_SEN: "Ditadura Militar de Hun Sen"
+RULE_OPTION_CAM_HUN_SEN_AI_DESC: "Hun Sen estabelece firmemente seu poder político após a fraude eleitoral de 2003."
+
+RULE_OPTION_CAM_CIVIL_WAR_RANDOM: "Guerra Civil §g(Random)§!"
+RULE_OPTION_CAM_CIVIL_WAR_RANDOM_AI_DESC: "Camboja Devido à influência da fraude eleitoral de 2003, o partido de oposição royalista FUNCINPEC inicia uma guerra civil."
+
+RULE_OPTION_CAM_CIVIL_WAR_HUN_SEN: "Guerra Civil §Y(Vitória de Hun Sen)§!"
+RULE_OPTION_CAM_CIVIL_WAR_HUN_SEN_AI_DESC: "Camboja Devido à influência da fraude eleitoral de 2003, o partido de oposição royalista FUNCINPEC inicia uma guerra civil. Esta guerra civil termina com a vitória da junta militar de Hun Sen."
+
+RULE_OPTION_CAM_CIVIL_WAR_DEMOCRACY: "Guerra Civil §G(Vitória de Ranariddh)§!"
+RULE_OPTION_CAM_CIVIL_WAR_DEMOCRACY_AI_DESC: "Camboja Devido à influência da fraude eleitoral de 2003, o partido de oposição royalista FUNCINPEC inicia uma guerra civil. A guerra civil termina com uma vitória para a oposição royalista FUNCINPEC. O FUNCINPEC implementa reformas democráticas graduais no Camboja, guiado pelo príncipe moderado Ranariddh."
+
+RULE_OPTION_CAM_CIVIL_WAR_SIHANOUK: "Guerra Civil §R(Vitória de Sihanouk)§!"
+RULE_OPTION_CAM_CIVIL_WAR_SIHANOUK_AI_DESC: "Camboja Devido à influência da fraude eleitoral de 2003, o partido de oposição royalista FUNCINPEC inicia uma guerra civil. A guerra civil termina com a vitória da oposição monárquica, FUNCINPEC. O FUNCINPEC apoia o Rei Sihanouk, ele estabelecerá uma terrível ditadura juche fascista, combinando um sistema econômico socialista com um culto real."

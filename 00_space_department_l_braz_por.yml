@@ -1,0 +1,101 @@
+﻿l_braz_por:
+
+upgrade_space_department:0 "Agências Espaciais"
+upgrade_space_department_desc:0 "§LDesde que o Sputnik, o primeiro satélite artificial, foi lançado em 1957, o espaço deixou de ser uma área separada da civilização humana. Diversas tecnologias espaciais, incluindo satélites, desempenham um papel fundamental nos países modernos.§!"
+
+global_space_decision_category:0 "[GetSpaceAgenciesName]"
+
+Global_space_decision_category_key:0 "Embora, ao contrário do jogo da Paradox Interactive §YStellaris§!, não existam naves de batalha espaciais sofisticadas ou trocas com civilizações alienígenas no espaço da nossa linha do tempo, observar o universo é um tanto monótono, e ele parece permanecer estático. No entanto, mesmo que a tecnologia de exploração espacial da humanidade ainda esteja em um nível rudimentar, hoje a tecnologia espacial pode exercer uma influência significativa na civilização do início do século 21. §GSatélites Espiões§! tornam possível identificar bases militares inimigas e desempenham um papel muito importante em nosso grande plano de batalha.\n\n[GetSpaceAgenciesDesc]\n\n"
+
+### América ###
+SpaceAgenciesName_NASA:0 "NASA"
+
+SpaceAgenciesDesc_NASA:0 "A §YNational Aeronautics and Space Administration§!, NASA foi fundada em 29 de julho de 1958. A NASA perdeu repetidamente sua corrida espacial para a União Soviética durante a Guerra Fria. O primeiro satélite do mundo não foi dos Estados Unidos, mas sim o Sputnik da União Soviética, e o primeiro animal a ir ao espaço foi Laika, da União Soviética. O primeiro humano a ir ao espaço foi Yuri Gagarin, da União Soviética. Mas está tudo bem. Mesmo com 99 por cento de derrotas, quem venceu a última batalha será lembrado como o vencedor da corrida espacial na história. Perdemos todas as outras batalhas, mas foram os americanos que chegaram à lua primeiro, certo? De qualquer forma, fizemos algo que nem mesmo Yuri Gagarin conseguiu. Após o colapso da União Soviética, a NASA é reconhecida como a principal pioneira espacial do mundo."
+ 
+SpaceAgenciesTradition_NASA:0 "§gAs Unidades de Medida Costumeiras dos Estados Unidos são como um símbolo que separa os Estados Unidos de outros países. Embora quase todos os países do mundo, exceto os Estados Unidos, usem o mesmo Sistema Internacional de Unidades padronizado (SI), os Estados Unidos não aceitaram o SI, como metros e quilogramas, do século 20 até o século 21. Por que deveríamos seguir o SI de estrangeiros mais fracos, quando os Estados Unidos são o país mais avançado do mundo? Polegada, libra e muitas unidades costumeiras americanas são como símbolos do Espírito Pioneiro Americano de que 'Não precisamos seguir os padrões dos estrangeiros'. ...Embora isso esteja causando *alguns* problemas na corrida espacial.\n\nO desastre do Mars Surveyor '98 Orbiter em 1998 mostrou que não usar unidades do SI pode criar situações cientificamente complicadas. Em 1998, os EUA gastaram 320 milhões de dólares para lançar um orbitador para explorar Marte. Engenheiros americanos usaram suas unidades costumeiras habituais para ajustar a órbita do orbitador, mas os computadores, que não se interessavam pelo espírito pioneiro americano, reconheceram esses números como SI e ajustaram a órbita. e os 320 milhões de dólares foram perdidos em vão, de maneira sem sentido, quando o orbitador colidiu com Marte.\n\nNossos engenheiros agora passam muito tempo convertendo as unidades costumeiras americanas dos documentos de várias empresas americanas para as unidades do SI 'seguras' e garantindo que sejam números corretos. Essas tarefas aumentaram a carga de trabalho da NASA e estão consumindo orçamentos desnecessários.§!\n§Y-----§!\nEfeito da Tradição: $MODIFIER_CONSUMER_GOODS_FACTOR$ da §YRede de Satélites Espiões§! de [THIS.GetName]: §R+50,0%§!"
+
+### Japão ###
+SpaceAgenciesName_JAXA:0 "JAXA"
+
+SpaceAgenciesDesc_JAXA:0 "A §YAgência de Exploração Aeroespacial do Japão§!, JAXA foi fundada em uma tentativa do início do século 21 de unir várias agências espaciais, incluindo a Agência Nacional de Desenvolvimento Espacial do Japão. As tentativas de desenvolvimento espacial do Japão começaram na década de 1950. O Japão, que começou a se reconstruir após sua derrota na Segunda Guerra Mundial, também lançou com sucesso um foguete Kappa em 1958, que alcançou até 40 quilômetros de altitude. Após os anos 1960, iniciaram-se tentativas de desenvolvimento de satélites, e em 1970, o lançamento do Ohsumi, um satélite feito com tecnologia exclusivamente japonesa, foi bem-sucedido. Isso faz do Japão o quarto país do mundo a ter satélites, depois da União Soviética, dos Estados Unidos e da França. Desde então, a tecnologia espacial do Japão se desenvolveu em velocidade acelerada e gradualmente começaram as pesquisas militares em tecnologia espacial. JAXA está preparando vários estudos hoje para desenvolver ainda mais a tecnologia espacial do Japão."
+
+### China PR ###
+SpaceAgenciesName_CASC:0 "CASC"
+
+SpaceAgenciesDesc_CASC:0 "A §YCorporação de Ciência e Tecnologia Aeroespacial da China§!, CASC foi fundada em 1º de julho de 1999. A CASC em si foi oficialmente criada em 1999, mas a história dos foguetes da China começou em 1956. Inicialmente desenvolvendo foguetes para uso como armas, pesquisadores do Departamento de Defesa descobriram que satélites artificiais poderiam ser anexados a esses foguetes em vez de armas nucleares. Em comparação com os dois gigantes, América e União Soviética, o desenvolvimento espacial da China começou muito mais tarde, mas temos perseguido as potências anteriores em ritmo acelerado. Talvez a CASC possa ocupar o lugar da NASA no futuro. ...Talvez."
+  
+### União Europeia ###
+SpaceAgenciesName_EUSPA:0 "EUSPA"
+
+SpaceAgenciesDesc_EUSPA:0 "A §YAgência da União Europeia para o Programa Espacial§!, EUSPA é uma agência espacial conjunta para os países pertencentes à União Europeia. Embora os países da UE nem sempre mantenham uma amizade perfeita, a EUSPA está investindo em apoiar serviços GNSS apenas para países da UE e pesquisando programas de desenvolvimento espacial conjuntos para países europeus contra uma coalizão de grandes potências, incluindo os Estados Unidos e a China."
+
+SpaceAgenciesTradition_EUSPA:0 "§gA EUSPA não é uma reunião de países europeus. É uma reunião de países da 'UE'. É por isso que aqueles que desejam sair da UE devem estar preparados para serem expulsos da EUSPA também. Claro, nacionalistas que insistem em sair da União Europeia não se preocuparão seriamente com o universo. Nossa terra está no chão, então por que deveríamos nos preocupar com o espaço?\n\nMas, após sair da UE, após serem expulsos de todos os serviços espaciais que eram facilmente fornecidos por pertencerem à UE, eles perceberão algo. Tudo tem um custo.§!\n§Y-----§!\nEfeito da Tradição: Os países da §YUnião Europeia§! compartilham as pesquisas da §GESA§! em §GSatélites GNSS§! e §GMeteorológicos§!. No entanto, §Rse um país sair da União Europeia, ele será privado de todos os seus efeitos de pesquisa.§!"
+
+### Reino Unido ###
+SpaceAgenciesName_UKSA:0 "UKSA"
+
+SpaceAgenciesDesc_UKSA:0 "O Brexit foi doce. Sim, tivemos a oportunidade de chutar a traseira da França e da Alemanha e de outros porcos arrogantes que pensam ser os Líderes da Europa. Claro, após um momento de doçura, vem um gosto amargo. É como fazer um tratamento dentário depois de comer doces deliciosos. A saída da União Europeia significa que fomos excluídos de todos os serviços oficiais de segurança espacial que recebíamos da EUSPA. Teremos que reconstruir todos os serviços de segurança espacial do zero. Mas tudo bem. O Brexit foi uma ação que valeu a pena. Não é? A §YAgência Espacial do Reino Unido§!, UKSA tentará produzir um novo GNSS apenas para o Reino Unido após sair da UE. Pode levar algum tempo, mas quando esse processo terminar, poderemos demonstrar que somos capazes de nos defender sem a ajuda de outros europeus."
+
+### Coreia do Sul ###
+SpaceAgenciesName_KARI:0 "KARI"
+
+SpaceAgenciesDesc_KARI:0 "O §YInstituto de Pesquisa Aeroespacial da Coreia§!, KARI foi fundado em 10 de outubro de 1989. Comparada a outros países avançados, a Coreia começou a desenvolver sua economia em um ritmo tardio. Em meados do século 20, a Coreia era o país mais pobre do mundo e não podia investir em tecnologia espacial. Mas, como resultado de vários fatores complexos, no século 20, a Coreia conseguiu crescer economicamente e, finalmente, ao final do século 20, teve o privilégio de investir em tecnologia espacial."
+
+### Genérico ###
+SpaceAgenciesName_generic:0 "A Agência Espacial"
+
+SpaceAgenciesDesc_generic:0 "A agência espacial do nosso país está tentando desenvolver a tecnologia espacial do futuro. Embora possa ter uma história curta comparada a agências espaciais famosas, como a NASA, os cientistas de nossa nação estudarão com paixão novos satélites."
+
+SpaceAgenciesTradition_generic:0 "§g[GetSpaceAgenciesName] não possui uma tradição única.§!\n§Y-----§!\nEfeito da Tradição: NENHUM"
+ 
+ ###########
+ 
+global_space_decision_effect_tt:0 "§YBônus Atual da [GetSpaceAgenciesName] Agência Espacial§!\nDetecção de Interceptação: [?space_spy_satellite_dm_air_interception_detect_factor|+=%2]\nDetecção de Caças: [?space_spy_satellite_dm_air_superiority_detect_factor|+%=2]\nPosicionamento: [?space_spy_satellite_dm_positioning|+%=2]\nDetecção Noturna: [?space_spy_satellite_dm_night_spotting_chance|+%=2]\nFator Máximo de Planejamento: [?space_spy_satellite_dm_max_planning_factor|+%=2]\nAvanço: [?space_spy_satellite_dm_breakthrough_factor|+%=2]\nAvanço contra países menores: [?space_spy_satellite_dm_army_breakthrough_against_minor_factor|+%=2]\n\n§Ccustos de Manutenção§!\nFator de Bens de Consumo: [?space_spy_satellite_dm_consumer_goods_factor|%-=R2]\nDeclínio na Saúde Econômica: £GFX_scarab_texticon [?space_spy_satellite_dm_economic_health|=R1] (A cada 365 dias)"
+ 
+ #global_space_decision_effect_tt:0 "§YCurrent [GetSpaceAgenciesName]'s Space Agence Bonus§!\n$MODIFIER_AIR_INTERCEPTION_DETECT_FACTOR$: [?space_spy_satellite_dm_air_interception_detect_factor|+=%2]\n$MODIFIER_AIR_SUPERIORITY_DETECT_FACTOR$: [?space_spy_satellite_dm_air_superiority_detect_factor|+%=2]\n$MODIFIER_POSITIONING$: [?space_spy_satellite_dm_positioning|+%=2]\n$MODIFIER_NIGHT_SPOTTING_CHANCE$: [?space_spy_satellite_dm_night_spotting_chance|+%=2]\n$MODIFIER_MAX_PLANNING_FACTOR$: [?space_spy_satellite_dm_max_planning_factor|+%=2]\n$MODIFIER_BREAKTHROUGH$: [?space_spy_satellite_dm_breakthrough_factor|+%=2]\n$MODIFIERS_ARMY_BREAKTHROUGH_AGAINST_MINOR_FACTOR$: [?space_spy_satellite_dm_army_breakthrough_against_minor_factor|+%=2]"
+ 
+global_space_decision_tradition_tt:0 "Tradição da [GetSpaceAgenciesName]\n§Y-----§!\n[GetSpaceAgenciesTradition]"
+
+global_space_level_tt: "Nível Atual do §YSatélite Espião§!: [?space_spy_satellite_preparation]"
+decline_in_economic_health_tt: "Declínio na Saúde Econômica: £GFX_scarab_texticon [?space_spy_satellite_dm_economic_health|=R1]"
+
+##### Decisões #####
+
+space_add_spy_satellite_preparation:0 "Expansão da Rede de Satélites Espiões"
+space_add_spy_satellite_preparation_desc:0 "Se lançarmos mais satélites espiões no espaço, podemos aumentar ainda mais sua eficiência. Claro, não devemos esquecer que lançar satélites exige muito dinheiro."
+
+space_decrease_spy_satellite_preparation:0 "Reduzir a Rede de Satélites Espiões"
+space_decrease_spy_satellite_preparation_desc:0 "A tecnologia espacial é muito complexa e difícil para os humanos do início do século 21, e requer um orçamento muito grande. Reduzir o orçamento para o espaço reduzirá imediatamente o peso sobre nossa economia."
+
+space_space_agency_maintenance_costs:0 "§gCustos de Manutenção da Rede de Satélites Espiões§!"
+space_space_agency_maintenance_costs_desc:0 "A tecnologia espacial custa muito, muito dinheiro. E mesmo após o lançamento dos satélites, eles precisam de custos de manutenção constantes. Uma vasta rede de espionagem nos trará benefícios militares, mas expandi-la além dos nossos limites afetará a saúde econômica a longo prazo. Para evitar esse risco econômico, seria melhor reduzir o custo de investimento no espaço quando não estamos em tempo de guerra."
+
+space_add_gnss_network_extension:0 "Expansão da Rede GNSS"
+space_add_gnss_network_extension_desc:0 "GNSS (Sistema Global de Navegação por Satélite) é uma tecnologia espacial que fornece informações de localização precisas para nossos cidadãos ou soldados em terra usando satélites. Os Estados Unidos e a União Soviética concluíram os sistemas GNSS chamados 'GPS' e 'GLONASS' durante a Guerra Fria, respectivamente, mas outros países não conseguiram estabelecer seus sistemas de localização no século 20.\n\nClaro, se este é um tempo de paz, poderemos pegar emprestado informações de GPS e GNSS do [USA.GetName] ou [SOV.GetName] gratuitamente, mas se houver uma guerra, as coisas serão diferentes. Nossos soldados precisam construir nosso próprio sistema GNSS para receber a localização correta dos satélites espaciais e realizar operações. mas, isso requer uma rede que possa cobrir o planeta inteiro com satélites, e leva muito tempo para preparar.\n\n§CPara conveniência, GNSS não gera custos adicionais de 'manutenção' como os satélites espiões.§!"
+
+space_add_meteorological_satellite_network_extension:0 "Expansão da Rede de Satélites Meteorológicos"
+space_add_meteorological_satellite_network_extension_desc:0 "Satélites meteorológicos lançados para fins de observação do clima são comumente usados para 'previsão do tempo' em transmissões de televisão e rádio, mas também podem ser totalmente aproveitados para operações militares. Se soubermos o clima do futuro com antecedência, podemos preparar nossos soldados para uma mudança climática de emergência no meio de uma operação militar.\n\n§CPara conveniência, a Rede de Satélites Meteorológicos não gera custos adicionais de 'manutenção' como os satélites espiões.§!"
+
+space_meteorological_satellite_network_extension_full_tt:0 "§gOs Satélites Meteorológicos estão atualmente no nível mais alto.§!\n\n§Y-----§!\nEfeito:\nPenalidade de Clima Adverso (Aéreo/Naval): §G-0.05%§!"
+
+space_meteorological_satellite_network_extension_1:0 "Rede de Satélites Meteorológicos Nível 1"
+space_meteorological_satellite_network_extension_2:0 "Rede de Satélites Meteorológicos Nível 2"
+
+space_add_gnss_network_extension_1:0 "Rede GNSS Nível 1"
+space_add_gnss_network_extension_2:0 "Rede GNSS Nível 2"
+space_add_gnss_network_extension_3:0 "Rede GNSS Nível 3"
+
+space_spy_satellite_dm:0 "Satélite Espião"
+ 
+##### Eventos #####
+
+space_events.5.t:0 "Expulsos da EUSPA"
+space_events.5.desc:0 "Ao sairmos da União Europeia, não podemos mais contar com o apoio do sistema espacial da União Europeia."
+space_events.5.a:0 "Precisaremos de um novo orçamento."
+
+space_events.6.t:0 "Ingressamos na EUSPA"
+space_events.6.desc:0 "Ao ingressarmos na União Europeia, conseguimos obter serviços espaciais fornecidos pela União Europeia."
+space_events.6.a:0 "Espero que isso nos ajude."
+
+### Tooltips
+space_events_goodbye_EU_tt:0 "§RDevido à saída da UE, todas as ideias de Rede GNSS e Rede de Satélites Meteorológicos são removidas.§!"

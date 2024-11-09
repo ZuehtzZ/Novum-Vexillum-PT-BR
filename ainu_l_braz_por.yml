@@ -1,0 +1,215 @@
+﻿l_braz_por:
+
+ ######################
+ ###
+ ### Focus
+ ###
+ ######################
+ 
+AIN_hokkaido_government_established:0 "Governo de Hokkaido Estabelecido"
+AIN_hokkaido_government_established_desc:0 "Com o estabelecimento de um novo governo em Hokkaido, temos que assumir o poder de [JAP.GetName] e manter a ordem."
+
+AIN_transfer_of_police_force:0 "Transferência da Força Policial"
+AIN_transfer_of_police_force_desc:0 "Os atuais policiais de Hokkaido poderão continuar a exercer suas funções no novo país."
+
+AIN_restore_order:0 "Restaurar a Ordem"
+AIN_restore_order_desc:0 "À medida que o governo existente perde Hokkaido, há um aumento temporário nas taxas de criminalidade. Para restaurar a ordem, ações decisivas são necessárias contra o crime."
+
+AIN_new_ezo:0 "Novo Ezo"
+AIN_new_ezo_desc:0 "Após a República de Ezo, somos a segunda nação a ser estabelecida em Hokkaido. Nunca falharemos como a anterior República de Ezo."
+
+AIN_declaration_of_martial_law:0 "Declaração de Lei Marcial"
+AIN_declaration_of_martial_law_desc:0 "Até que o novo governo tenha controle total de nosso território, podemos declarar lei marcial temporária."
+
+AIN_seizure_of_japanese_capital:0 "Confisco do Capital Japonês"
+AIN_seizure_of_japanese_capital_desc:0 "Conseguimos confiscar e controlar a propriedade estatal deixada pelo governo japonês existente."
+
+AIN_transfer_of_property_to_a_leader_state:0 "Transferência de Propriedade"
+AIN_transfer_of_property_to_a_leader_state_desc:0 "Conseguimos confiscar e controlar a propriedade estatal deixada pelo governo japonês existente. No entanto, nosso governo é fortemente influenciado por países estrangeiros. A propriedade confiscada será transferida para o estado líder."
+
+AIN_industrial_infrastructure_development:0 "Desenvolvimento Industrial"
+AIN_industrial_infrastructure_development_desc:0 "O governo mudou, mas as fábricas em Hokkaido permanecem. Vamos apoiá-las para continuar suas operações estáveis."
+
+AIN_reopens_hokkaido_university:0 "Reabertura da Universidade de Hokkaido"
+AIN_reopens_hokkaido_university_desc:0 "A Universidade de Hokkaido é uma universidade influente em Hokkaido."
+
+AIN_dairy_support:0 "Apoio ao Setor Lácteo"
+AIN_dairy_support_desc:0 "A economia de Hokkaido depende fortemente da agricultura leiteira. Precisamos apoiar as indústrias lácteas que foram danificadas pela mudança de governo."
+
+AIN_reorganization_of_JRH:0 "Reorganização da JRH"
+AIN_reorganization_of_JRH_desc:0 "A JRH, a empresa que gerencia os trens em Hokkaido, agora está sob nosso controle. Vamos garantir que os trens possam operar em Hokkaido novamente."
+
+AIN_invigorate_the_economy:0 "Revitalizar a Economia"
+AIN_invigorate_the_economy_desc:0 "Desde o estabelecimento de um novo governo, nossa economia tem se recuperado."
+
+AIN_the_end_of_martial_law:0 "O Fim da Lei Marcial"
+AIN_the_end_of_martial_law_desc:0 "Recuperamos a ordem completa e é hora de suspender a lei marcial."
+
+AIN_republic_of_hokkaido:0 "Governo Capitalista"
+AIN_republic_of_hokkaido_desc:0 "A Guerra Fria já havia terminado em 1991. Gostemos ou não, construiremos uma economia de mercado de acordo com a ordem ocidental."
+
+AIN_ainu_friendly_government:0 "Governo Amigo dos Ainu"
+AIN_ainu_friendly_government_desc:0 "O problema em nosso país é multiétnico. Nativos Ainu e imigrantes japoneses. O número de japoneses é esmagador, mas não devemos esquecer a importância dos nativos Ainu."
+
+AIN_ainu_language_education:0 "Educação em Língua Ainu"
+AIN_ainu_language_education_desc:0 "A língua Ainu praticamente não é mais utilizada na sociedade de Hokkaido, mas pelo menos podemos ensinar a língua à próxima geração."
+ 
+AIN_our_history:0 "Nossa História"
+AIN_our_history_desc:0 "A língua Ainu praticamente não é mais utilizada na sociedade de Hokkaido, mas pelo menos podemos ensinar a língua à próxima geração."
+
+AIN_succession_to_the_ainu_culture_promotion_act:0 "Sucessão à Lei de Promoção da Cultura Ainu"
+AIN_succession_to_the_ainu_culture_promotion_act_desc:0 "Se houver uma nova lei para proteger a cultura tradicional Ainu, podemos transmitir a tradição Ainu à próxima geração."
+
+AIN_alliance_with_koreans:0 "Aliança com os Coreanos"
+AIN_alliance_with_koreans_desc:0 "Embora os coreanos sejam uma minoria, um número suficiente de pessoas vive na área de Hokkaido. A garantia de seus direitos expandirá ainda mais nosso multiculturalismo."
+
+AIN_right_to_hunt_whales:0 "Direito de Caçar Baleias"
+AIN_right_to_hunt_whales_desc:0 "Nos velhos tempos, os Ainu viviam caçando baleias. Podemos apoiar os Ainu permitindo que eles voltem a pescar baleias."
+
+AIN_development_of_ainu_tourist_attractions:0 "Desenvolvimento de Atrações Turísticas Ainu"
+AIN_development_of_ainu_tourist_attractions_desc:0 "Muitas ruínas Ainu permanecem sem preservação em nosso território. Vamos restaurar as ruínas e desenvolvê-las como atrações turísticas."
+
+AIN_establishment_of_the_ainu_human_rights_organization:0 "Estabelecimento da Organização de Direitos Humanos Ainu"
+AIN_establishment_of_the_ainu_human_rights_organization_desc:0 "Os nativos Ainu já se tornaram uma minoria em Hokkaido. Vamos estabelecer uma agência governamental para os Ainu para proteger fortemente seus direitos."
+
+AIN_hokkaido_army:0 "Exército de Hokkaido"
+AIN_hokkaido_army_desc:0 "Exército para proteger nosso território."
+
+AIN_hokkaido_navy:0 "Marinha de Hokkaido"
+AIN_hokkaido_navy_desc:0 "Marinha para proteger nosso território."
+
+AIN_hokkaido_air_force:0 "Força Aérea de Hokkaido"
+AIN_hokkaido_air_force_desc:0 "Força Aérea para proteger nosso território."
+
+AIN_japanese_friendly_government:0 "Governo Amigo dos Japoneses"
+AIN_japanese_friendly_government_desc:0 "Nossa identidade é japonesa, não Ainu."
+
+AIN_japanese_language_first:0 "Língua Japonesa em Primeiro Lugar"
+AIN_japanese_language_first_desc:0 "Precisamos ensinar a educação em língua Ainu nas escolas? Em vez de ensinar a língua antiga esquecida, nossa escola poderá oferecer aulas mais úteis."
+
+AIN_don_t_lose_balance:0 "Não Perder o Equilíbrio"
+AIN_don_t_lose_balance_desc:0 "Embora priorizemos o povo japonês, devemos continuar a fornecer bem-estar mínimo para as minorias."
+
+AIN_fishery_support:0 "Apoio à Pesca"
+AIN_fishery_support_desc:0 "Apoiar os pescadores em Hokkaido fará com que os cidadãos amem ainda mais nosso governo."
+
+AIN_horse_must_run:0 "O Cavalo Deve Correr"
+AIN_horse_must_run_desc:0 "Muitos dos cavalos de corrida no Japão antigo nasceram e foram criados em Hokkaido. Como Hokkaido possui grandes terras para criação de cavalos, poderemos sediar uma nova corrida de cavalos de Hokkaido para os cidadãos de Hokkaido."
+
+AIN_industrialization_in_hokkaido:0 "Industrialização em Hokkaido"
+AIN_industrialization_in_hokkaido_desc:0 "Vamos expandir a base industrial de Hokkaido para que possamos nos sustentar."
+
+AIN_sapporo_breweries:0 "Cervejarias de Sapporo"
+AIN_sapporo_breweries_desc:0 "Cervejarias de Sapporo é uma cerveja muito popular em Hokkaido. Embora sua sede esteja em Tóquio, construiremos uma fábrica para que possam continuar a fornecer cerveja a Hokkaido."
+
+AIN_people_s_republic:0 "República Popular"
+AIN_people_s_republic_desc:0 "Novo Hokkaido para os Trabalhadores!"
+ 
+AIN_flag_of_the_juche:0 "Bandeira do Juche"
+AIN_flag_of_the_juche_desc:0 "O Juche Soken Kenkyukai de Hokkaido argumenta que apenas o Jucheísmo é uma ideologia que pode liderar o novo governo de Hokkaido."
+
+AIN_grand_purge:0 "Grande Purga"
+AIN_grand_purge_desc:0 "Há muitos reacionários em Hokkaido. Temos a lista deles, e eles serão removidos imediatamente."
+
+AIN_internet_illegalization:0 "Ilegalização da Internet"
+AIN_internet_illegalization_desc:0 "Se os cidadãos tiverem liberdade demais, isso é ruim para o país."
+
+AIN_racial_superiority:0 "Superioridade Racial"
+AIN_racial_superiority_desc:0 "O que nos distingue dos de fora é o sangue puro."
+
+AIN_construction_of_gulag:0 "O Gulag"
+AIN_construction_of_gulag_desc:0 "Para manter a ordem, vamos remover os reacionários da sociedade. Os prisioneiros políticos desenvolverão ainda mais nossa base industrial através do trabalho forçado."
+
+AIN_thoughtcrime:0 "Crime de Pensamento"
+AIN_thoughtcrime_desc:0 "O estado deve se unir em uma mente unificada. O descontentamento com o estado deve ser sancionado."
+
+AIN_people_s_army:0 "Exército Popular"
+AIN_people_s_army_desc:0 "Exército para proteger nosso território."
+
+AIN_people_s_air_force:0 "Força Aérea Popular"
+AIN_people_s_air_force_desc:0 "Força Aérea para proteger nosso território."
+
+AIN_people_s_navy:0 "Marinha Popular"
+AIN_people_s_navy_desc:0 "Marinha para proteger nosso território."
+
+AIN_flag_of_the_soviet:0 "Bandeira do Soviético"
+AIN_flag_of_the_soviet_desc:0 "O Marxismo-Leninismo é o caminho que devemos seguir."
+
+AIN_nationalization_of_enterprises:0 "Nacionalização das Empresas"
+AIN_nationalization_of_enterprises_desc:0 "As empresas privadas restantes em Hokkaido se tornarão gradualmente empresas estatais."
+
+AIN_national_harmony:0 "Harmonia Nacional"
+AIN_national_harmony_desc:0 "As minorias de Hokkaido e os japoneses se unirão sob uma só nação."
+
+AIN_compensation_for_ainu:0 "Compensação para os Ainu"
+AIN_compensation_for_ainu_desc:0 "Vamos pedir desculpas pela conquista de Hokkaido pelo antigo governo, que vem ocorrendo desde o período pré-moderno, e recompensar os nativos."
+
+AIN_ainu_autonomous_region:0 "Região Autônoma Ainu"
+AIN_ainu_autonomous_region_desc:0 "Vamos designar distritos autônomos para as comunidades minoritárias Ainu."
+
+AIN_heavy_industrial_development:0 "Desenvolvimento Industrial Pesado"
+AIN_heavy_industrial_development_desc:0 "Hokkaido é excessivamente dependente da agricultura e vamos investir em indústria pesada para melhorar a situação econômica em Hokkaido."
+
+######################
+###
+### Ideias
+###
+######################
+
+AIN_mamoru_mori:0 "Mamoru Mori"
+AIN_aina_suzuki:0 "Aina Suzuki"
+AIN_akira_suzuki:0 "Akira Suzuki"
+AIN_hisashi_inatsu:0 "Hisashi Inatsu"
+AIN_kaori_tahara:0 "Kaori Tahara"
+AIN_muneo_suzuki:0 "Muneo Suzuki"
+AIN_takashi_ukaji:0 "Takashi Ukaji"
+AIN_seiji_osaka:0 "Seiji Osaka"
+AIN_takahiro_yokomichi:0 "Takahiro Yokomichi"
+AIN_OKI:0 "OKI"
+
+AIN_ainu_folk_musician:0 "Músico Popular Ainu"
+AIN_chitose_city_s_superstar:0 "Superstar da Cidade de Chitose"
+AIN_genius_chemist:0 "Químico Gênio"
+AIN_welfare_expert:0 "Especialista em Bem-Estar"
+AIN_ainu_historian:0 "Historiador Ainu"
+AIN_pro_russian_politician:0 "Político Pró-Russo"
+AIN_ainu_star_actor:0 "Ator Estrela Ainu"
+AIN_prince_of_socialist_party:0 "Príncipe do Partido Socialista"
+
+AIN_nitori:0 "Nitori"
+AIN_Crypton_Future_Media:0 "Crypton Future Media"
+ 
+AIN_three_peoples:0 "Três Povos"
+AIN_three_peoples_desc:0 "Existem três grupos étnicos principais vivendo em Hokkaido. Ainu, japoneses e coreanos. O número de japoneses é o mais alto, mas não devemos ignorar os direitos dos outros grupos étnicos também."
+
+AIN_confusion_of_identity:0 "Confusão de Identidade"
+AIN_confusion_of_identity_desc:0 "Embora nosso país use o nome Ainu, ainda é confuso se realmente somos um país Ainu. Já, a maior parte da população de Hokkaido se tornou japonesa, e a tradição Ainu está sendo esquecida. Devemos determinar o futuro do nosso país. Somos os sucessores dos Ainu ou devemos encontrar uma nova identidade em Hokkaido?"
+
+AIN_JRH_problem:0 "Problema do JRH"
+AIN_JRH_problem_desc:0 "Precisamos resolver o problema da JR Hokkaido, ou Companhia Ferroviária de Hokkaido. A JRH gerenciava os trens de Hokkaido quando Hokkaido era território japonês, mas seu status tornou-se ambíguo quando Hokkaido se tornou um país independente. Até que tenhamos total controle sobre as instalações da JRH e retiremos seus direitos, será difícil construir uma nova infraestrutura de transporte."
+
+AIN_ainu_dairy:0 "Apoio à Laticínios"
+AIN_ainu_dairy_2:0 "Apoio à Laticínios e Pesca"
+
+AIN_ainu_support_of_koreans:0 "Harmonia com os Coreanos"
+AIN_ainu_support_of_koreans_desc:0 "Os coreanos, minoria em Hokkaido, estão dando total apoio ao governo [AIN.GetName]."
+
+AIN_ainu_s_pride:0 "Orgulho Ainu"
+AIN_umamusume:0 "A Terra dos Cavalos"
+
+AIN_ainu_autonomous_government:0 "Governo Autônomo Ainu"
+AIN_ainu_autonomous_government_desc:0 "Os nativos Ainu podem ter governos autônomos separados dos japoneses."
+
+AIN_seized_property:0 "Propriedade Apreendida"
+AIN_seized_property_desc:0 "O novo governo [AIN.GetName] apreendeu todos os ativos do governo japonês, que originalmente governava Hokkaido."
+
+AIN_ainu_education:0 "Educação em Língua Ainu"
+AIN_japanese_education:0 "Educação em Língua Japonesa"
+AIN_reconstruction:0 "Plano de Reconstrução de Hokkaido"
+AIN_ainu_human_rights_organization:0 "Organização de Direitos Humanos Ainu"
+
+### Tooltips
+AIN_end_prologue_tt:0 "§GAgora você pode escolher o futuro dos Ainu.§!"
+AIN_police_tt:0 "§Y3 Divisões são criadas em Hokkaido.§!"
+ 
+ ###

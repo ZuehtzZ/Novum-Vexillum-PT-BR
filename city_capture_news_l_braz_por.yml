@@ -1,0 +1,249 @@
+﻿l_braz_por:
+city_capture_news.1.t:0 "A Queda de Londres"
+city_capture_news.1.desc.1:0 "Relatórios de Londres confirmam que a capital inglesa foi capturada pelas tropas [ROOT.GetAdjective] em avanço. \n\nDisparos de armas pequenas ainda podem ser ouvidos em alguns bairros, mas não foram avistadas forças britânicas significativas dentro da cidade.\n\nBig Ben, o símbolo mais importante de Londres, foi destruído por shells de artilharia durante uma luta de rua. Não se sabe se os projéteis de uma das forças defensivas ou ofensivas destruíram o Big Ben.\n\nPela primeira vez desde Guilherme, o Conquistador, Londres caiu para um invasor estrangeiro."
+city_capture_news.1.desc.2:0 "Relatórios de Londres foram capturados pelas tropas [ROOT.GetAdjective] em avanço. \n\nDisparos de armas pequenas ainda podem ser ouvidos em alguns bairros, mas não foram avistadas forças [FROM.GetAdjective] significativas dentro da cidade.\n\nBig Ben, o símbolo mais importante de Londres, foi destruído por shells de artilharia durante uma luta de rua. Não se sabe se os projéteis de uma das forças defensivas ou ofensivas destruíram o Big Ben."
+city_capture_news.1.a:0 "Isso é um Desastre!"
+city_capture_news.1.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.1.c:0 "O fim desta guerra parece estar à vista."
+
+city_capture_news.2.t:0 "A Queda de Paris"
+city_capture_news.2.desc:0 "Após a Segunda Guerra Mundial, Paris foi mais uma vez dominada por forças inimigas. O exército [FROM.GetAdjective] lutou até o fim para bloquear o inimigo de entrar no centro de Paris, mas acabou permitindo a entrada das tropas [ROOT.GetAdjective].\n\nO comandante [ROOT.GetAdjective] tirou uma foto comemorativa em frente à Torre Eiffel, e os parisienses estão sendo humilhados por mais uma derrota."
+city_capture_news.2.a:0 "Isso é um Desastre!"
+city_capture_news.2.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.2.c:0 "O fim desta guerra parece estar à vista."
+
+city_capture_news.3.t:0 "A Queda de Bruxelas"
+city_capture_news.3.desc:0 "Bruxelas, que há muito serve como a capital da UE, nunca enfrentou a ameaça de guerra desde o fim da Segunda Guerra Mundial, então ninguém esperava que a cidade fosse alvo de uma invasão militar. A artilharia [ROOT.GetAdjective] entrou em Bruxelas e destruiu as paredes externas do edifício do Parlamento Europeu durante uma guerra de rua, causando danos permanentes a várias instalações importantes da UE.\n\nOs cidadãos de Bruxelas lembram do domínio militar da Alemanha nazista durante a Segunda Guerra Mundial. Felizmente, o domínio militar na Segunda Guerra Mundial foi de curto prazo, mas alguns cidadãos temem que um novo domínio possa continuar permanentemente."
+city_capture_news.3.a:0 "Isso é um Desastre!"
+city_capture_news.3.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.3.c:0 "A UE foi danificada."
+
+city_capture_news.4.t:0 "A Queda de Amsterdã"
+city_capture_news.4.desc:0 "Uma vez capturada durante a Segunda Guerra Mundial, Amsterdã agora foi novamente capturada pelas tropas [ROOT.GetAdjective]. Alguns defensores continuaram sua resistência escondendo-se na estação Amsterdam Centraal, mas os bombardeios da Força Aérea [ROOT.GetAdjective] destruíram completamente a instalação ferroviária.\n\nNo centro de Amsterdã, devastado por uma luta feroz, apenas um silêncio tranquilo paira sobre ele. Levará muito tempo para que a outrora bela cidade turística de Amsterdã recupere sua aparência pacífica original."
+city_capture_news.4.a:0 "Isso é um Desastre!"
+city_capture_news.4.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.4.c:0 "Veneza do Norte está morta..."
+
+city_capture_news.5.t:0 "A Queda de Berlim"
+city_capture_news.5.desc:0 "Berlim, que caiu após uma feroz guerra de rua durante a Segunda Guerra Mundial, caiu novamente. Após uma batalha intensa, as tropas [ROOT.GetAdjective] exterminaram a resistência de Berlim e marcharam em frente ao Portão de Brandemburgo para declarar vitória. A ocupação de Berlim, que teve um papel muito importante na economia europeia do século XXI, foi uma ótima notícia para [ROOT.GetLeader], também. Eles introduziram a notícia da vitória para a nação por meio de entrevistas na TV, e muitos cidadãos [ROOT.GetAdjective] estão comemorando.\n\nClaro, o povo [FROM.GetAdjective] ficou muito frustrado com a notícia de que Berlim foi ocupada. O exército [FROM.GetAdjective] ainda está lutando fora de Berlim, mas a opinião pública está crescendo de que a maré da guerra já mudou."
+city_capture_news.5.a:0 "Isso é um Desastre!"
+city_capture_news.5.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.5.c:0 "Estou feliz por não ser berlinense hoje."
+
+city_capture_news.6.t:0 "A Queda de Roma"
+city_capture_news.6.desc:0 "As tropas [ROOT.GetAdjective] entraram recentemente em Roma após a rendição de sua guarnição, e a cidade agora está sob ocupação militar. Devido ao poderio avassalador das armas da guerra moderna, alguns dos sítios culturais de Roma já foram permanentemente atingidos. O comandante das forças de ocupação, em uma declaração emitida acima dos escombros da completamente destruída Fonte de Trevi, disse que manteria os restos remanescentes da cidade de Roma o mais seguros possível. Mas alguns cidadãos romanos já estão compartilhando fotos de soldados saqueando sistematicamente as heranças culturais romanas na Internet."
+city_capture_news.6.a:0 "Isso é um Desastre!"
+city_capture_news.6.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.6.c:0 "O fim desta guerra parece estar à vista."
+
+city_capture_news.7.t:0 "A Queda de [341.GetCapitalVictoryPointName]"
+city_capture_news.7.desc.1:0 "Os esforços militares da Grécia para restaurar Istambul, outrora chamada 'Constantinopla', finalmente tiveram sucesso. Após entrar em Istambul, o exército grego foi o primeiro a levantar a bandeira grega na entrada da Hagia Sophia. [ROOT.GetLeader] declarou que Constantinopla 'retornou permanentemente' ao território grego e realizará trabalhos para restaurar os restos gregos danificados pelos estados de ocupação existentes.\n\nA vitória é uma grande conquista para a Grécia, mas ainda não se sabe se eles conseguirão continuar sua ocupação de Istambul." #GRE
+city_capture_news.7.desc.2:0 "[341.GetCapitalVictoryPointName], uma grande cidade como a porta de entrada que conecta a Europa e a Ásia, caiu oficialmente hoje. Os soldados [FROM.GetAdjective] continuaram suas atividades de resistência baseadas em uma série de instalações importantes, incluindo a Hagia Sophia, mas foram eventualmente forçados a se retirar da cidade.\n\nA vitória é uma grande conquista para [ROOT.GetName], mas ainda não se sabe se eles conseguirão continuar sua ocupação de [341.GetCapitalVictoryPointName]." #Generic
+city_capture_news.7.a:0 "Isso é um Desastre!"
+city_capture_news.7.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.7.c:0 "O fim desta guerra parece estar à vista."
+
+city_capture_news.8.t:0 "A Queda de Kharkiv"
+city_capture_news.8.desc:0 "Kharkiv, a capital cultural da Ucrânia e uma cidade importante na região ucraniana, caiu oficialmente hoje. As forças móveis [ROOT.GetAdjective] aniquilaram as tropas de resistência em Kharkiv e hastearam a bandeira [ROOT.GetAdjective] na câmara municipal. Embora o exército [FROM.GetAdjective] tenha declarado em uma declaração oficial que reocuparia Kharkiv 'em um futuro próximo', essa é uma grande vitória para [ROOT.GetName]."
+city_capture_news.8.a:0 "Isso é um Desastre!"
+city_capture_news.8.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.8.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.9.t:0 "A Queda de Donetsk"
+city_capture_news.9.desc:0 "Hoje, a cidade de Donetsk foi oficialmente tomada pelo Exército [ROOT.GetAdjective]. Donetsk, que existe na fronteira da Ucrânia e da Rússia, esteve em conflito há muito tempo entre os locais que apoiam os dois países, mas essa ocupação deve trazer esse conflito ao fim também."
+city_capture_news.9.a:0 "Isso é um Desastre!"
+city_capture_news.9.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.9.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.10.t:0 "A Queda de Kiev"
+city_capture_news.10.desc:0 "Embora [FROM.GetLeader] tenha declarado em sua própria transmissão na Internet logo após o início da guerra que 'Estamos todos aqui defendendo nossa independência', e ministros e [FROM.GetLeader] tenham declarado que nunca deixariam Kiev e protegeriam a cidade, mas [FROM.GetLeader] acabou tendo que deixar Kiev no último minuto, enquanto as tropas [ROOT.GetAdjective] entravam no centro de Kiev. Depois que os soldados [ROOT.GetAdjective] removeram toda a resistência, eles penduraram a bandeira [ROOT.GetAdjective] no Edifício do Governo de Kiev."
+city_capture_news.10.a:0 "Nós nunca vamos ceder."
+city_capture_news.10.b:0 "\"Eles não estão todos aqui; suas forças armadas não estão aqui.\""
+city_capture_news.10.c:0 "O fim desta guerra parece estar à vista."
+
+city_capture_news.11.t:0 "A Queda de Moscovo"
+city_capture_news.11.desc:0 "Ninguém esperava que Moscovo, que não foi tomada pelo inimigo nem mesmo durante a Segunda Guerra Mundial, permitisse uma invasão externa. As tropas [ROOT.GetAdjective] entraram em Moscovo e avançaram para capturar o Kremlin. Os defensores continuaram sua resistência, ganhando o máximo de tempo possível até que todas as informações classificadas no Kremlin tivessem sido incineradas. Eventualmente, toda a resistência terminou naquela noite, e Moscovo caiu."
+city_capture_news.11.a:0 "Nós nunca vamos ceder."
+city_capture_news.11.b:0 "\"Nós apunhalamos o urso no coração!\""
+city_capture_news.11.c:0 "Eles alcançaram uma vitória que até Hitler não conseguiu."
+
+city_capture_news.12.t:0 "A Queda de [195.GetCapitalVictoryPointName]"
+city_capture_news.12.desc:0 "Uma cidade muito significativa para os russos, [195.GetCapitalVictoryPointName] caiu hoje. Lutas esporádicas ainda podem ser ouvidas em alguns subúrbios, mas uma estranha calma parece ter se instalado sobre o restante da cidade arruinada.\n\nAs forças de ocupação realizaram uma marcha pública em frente à Prefeitura de [195.GetCapitalVictoryPointName], e os cidadãos [FROM.GetAdjective] os observaram com olhos ansiosos."
+city_capture_news.12.a:0 "Isso é um Desastre!"
+city_capture_news.12.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.12.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.13.t:0 "A Queda de Jerusalém"
+city_capture_news.13.desc:0 "Hoje, com as tropas [ROOT.GetAdjective] entrando em Jerusalém, Jerusalém é oficialmente capturada. Como Jerusalém é considerada uma cidade muito sagrada por muitas religiões, o governo [ROOT.GetAdjective] decidiu administrar a cidade ocupada com muito cuidado, consciente da opinião pública internacional."
+city_capture_news.13.a:0 "Isso é um Desastre!"
+city_capture_news.13.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.13.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.14.t:0 "A Queda do Cairo"
+city_capture_news.14.desc:0 "Após uma feroz batalha nos arredores do Cairo, os soldados [ROOT.GetAdjective] finalmente entraram no Cairo. Alguns dos grandes patrimônios culturais do Cairo foram permanentemente danificados por shells lançados durante os combates. O Cairo ainda está uma bagunça, com toneladas de marcas de balas. Pode levar muito tempo para que a outrora grande cidade recupere sua beleza original."
+city_capture_news.14.a:0 "Isso é um Desastre!"
+city_capture_news.14.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.14.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.15.t:0 "A Queda de Islamabad"
+city_capture_news.15.desc:0 "Islamabad havia sido fortemente protegida pelas forças de [FROM.GetName] por sua importância estratégica, mas no final, sua operação defensiva parece ter falhado.\n\nOs soldados [ROOT.GetAdjective] finalmente entraram na cidade hoje, e as forças de defesa incineraram todas as informações confidenciais deixadas na cidade antes de se retirarem. A notícia da queda de Islamabad parece ter chocado o povo [FROM.GetAdjective]. Rumores pessimistas estão se espalhando de que eles perderão esta guerra."
+city_capture_news.15.a:0 "Isso é um Desastre!"
+city_capture_news.15.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.15.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.16.t:0 "A Queda de Délhi"
+city_capture_news.16.desc:0 "Délhi, capital da Índia, foi capturada pelos exércitos [ROOT.GetAdjective] em avanço de [FROM.GetName]. \n\nA queda de Délhi, que era como o coração da Índia, é como uma notícia de que todo o norte da Índia está sob a influência de [FROM.GetName]. E agora as tropas [ROOT.GetAdjective] estão avançando para o sul da Índia, e não está claro se conseguem detê-las."
+city_capture_news.16.a:0 "Isso é um Desastre!"
+city_capture_news.16.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.16.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.17.t:0 "A Queda de Hanói"
+city_capture_news.17.desc:0 "Embora o exército de [FROM.GetName] lutasse desesperadamente para proteger Hanói, as tropas [ROOT.GetAdjective] conseguiram capturar a cidade de Hanói, o centro do norte do Vietnã.\n\nO Vietnã venceu até agora contra numerosos inimigos externos, mas agora parece estar passando pelo período mais perigoso da história do Vietnã. Especialistas estão prevendo cautelosamente que a guerra terminará na derrota de [FROM.GetName]."
+city_capture_news.17.a:0 "Isso é um Desastre!"
+city_capture_news.17.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.17.c:0 "A Guerra do Vietnã não se repetirá."
+
+city_capture_news.18.t:0 "A Queda de [783.GetCapitalVictoryPointName]"
+city_capture_news.18.desc:0 "Mais cedo hoje, as forças [ROOT.GetAdjective] ocuparam com sucesso o [783.GetCapitalVictoryPointName], um objetivo estratégico vital em sua guerra contra [FROM.GetName].\n\nCom a captura de [783.GetCapitalVictoryPointName], uma cidade comercial desenvolvida no sul da Indochina, [FROM.GetName] deve enfrentar uma pressão considerável."
+city_capture_news.18.a:0 "Isso é um Desastre!"
+city_capture_news.18.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.18.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.19.t:0 "A Queda de Kinmen"
+city_capture_news.19.desc:0 "Kinmen, uma pequena ilha entre o continente da China e a ilha de Taiwan, foi fortemente fortificada contra invasões externas. Mas a pequena fortaleza foi eventualmente capturada por tropas [ROOT.GetAdjective] em uma feroz ofensiva.\n\nA notícia da queda de Kinmen, uma poderosa fortaleza, veio como um choque para o governo [FROM.GetAdjective]. É um sinal da queda de [FROM.GetName]?"
+city_capture_news.19.a:0 "Isso é um Desastre!"
+city_capture_news.19.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.19.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.20.t:0 "A Queda de Taipei"
+city_capture_news.20.desc.1:0 "A notícia da entrada do exército chinês em Taipei foi bem recebida pelos apoiadores do Kuomintang, os nacionalistas Pan-azuis e Pan-chineses. Os apoiadores do Kuomintang os receberam voluntariamente em frente aos chineses marchando em Taipei.\n\nO exército chinês hasteou a bandeira chinesa no Edifício do Escritório Presidencial e anunciou que continuará a trabalhar para manter a segurança em Taipei no futuro.\n\n[FROM.GetLeader] insiste que continuarão a resistência na parte oriental da ilha de Taiwan, mas não está claro por quanto tempo sua resistência durará." #PRC
+city_capture_news.20.desc.2:0 "O exército de [FROM.GetName] tentou até o fim evitar que o inimigo entrasse em Taipei, mas eventualmente as tropas [FROM.GetAdjective] tiveram que se retirar de Taipei.\n\nO exército [ROOT.GetAdjective] hasteou a bandeira [ROOT.GetAdjective] no Edifício do Escritório Presidencial e anunciou que continuará a trabalhar para manter a segurança em Taipei no futuro.\n\n[FROM.GetLeader] insiste que continuarão a resistência na parte oriental da ilha de Taiwan, mas não está claro por quanto tempo sua resistência durará." #generic
+city_capture_news.20.a:0 "Isso é um Desastre!"
+city_capture_news.20.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.20.c:0 "A queda de [FROM.GetName] está chegando?"
+
+city_capture_news.21.t:0 "A Queda de Xangai"
+city_capture_news.21.desc:0 "Xangai foi tomada pelo exército [ROOT.GetAdjective] hoje. Como a cidade era altamente desenvolvida e densamente povoada, esperava-se que fosse vantajosa para a defesa. No entanto, o exército [ROOT.GetAdjective] obteve resultados bem-sucedidos em combate urbano dentro de Xangai.\n\nÁreas importantes de Xangai foram completamente ocupadas, e as forças de ocupação realizaram desfiles ao longo da Nanjing Road, o distrito comercial mais avançado de Xangai."
+city_capture_news.21.a:0 "Isso é um Desastre!"
+city_capture_news.21.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.21.c:0 "As luzes de Xangai se apagaram."
+
+city_capture_news.22.t:0 "A Queda de Nanjing"
+city_capture_news.22.desc.1:0 "A ocupação de Nanjing pelos japoneses em 1937 não estabeleceu um bom precedente. É por isso que esse processo de ocupação de Nanjing pelos soldados japoneses foi muito cuidadoso.\n\nNo processo de hastear a bandeira japonesa na Prefeitura de Nanjing hoje, o comandante das forças de ocupação convidou correspondentes de guerra de vários países neutros. O comandante disse aos repórteres que a ocupação japonesa de Nanjing seria muito cautelosa e não causaria danos à população local.\n\nNo entanto, a agitação entre os cidadãos de Nanjing não parece ter desaparecido completamente. Atividades de resistência voluntária começaram fora de Nanjing, e alguns comerciantes de Nanjing anunciaram que proibiriam as forças de ocupação japonesas de entrar no mercado." #JAP
+city_capture_news.22.desc.2:0 "Nanjing, a capital da República da China até a metade do século 20, foi tomada hoje pelas forças [ROOT.GetAdjective].\n\nDisparos esporádicos ainda podem ser ouvidos e vários incêndios estão queimando em diferentes partes da cidade, mas a maioria das forças [FROM.GetAdjective] sobreviventes se retirou ou foi capturada. Esta é uma vitória significativa para [ROOT.GetName] em sua guerra contra [FROM.GetName]." #Generic
+city_capture_news.22.desc.3:0 "Nanjing, a capital da República da China até a metade do século 20, foi tomada hoje pelas forças [ROOT.GetAdjective].\n\nA notícia de recuperar a capital da antiga República da China enviou entusiasmo entre os nacionalistas Pan-China de [ROOT.GetName], facção Pan Azul. Mas os nacionalistas taiwaneses Pan Verde disseram que era apenas uma ocupação temporária." #CHI
+city_capture_news.22.a:0 "Isso é um Desastre!"
+city_capture_news.22.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.22.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.23.t:0 "A Queda de Chongqing"
+city_capture_news.23.desc:0 "Soldados [ROOT.GetAdjective] ocuparam Chongqing, uma importante cidade metropolitana na China, hoje. Sendo a capital temporária da China durante a Segunda Guerra Mundial, simbolizava o espírito de resistência do povo chinês, o que torna essa ocupação ainda mais chocante para seus cidadãos.\n\nEssa ocupação irá completamente abafar a vontade de resistência de [FROM.GetAdjective]? a situação da guerra parece estar se voltando contra [FROM.GetName]."
+city_capture_news.23.a:0 "Isso é um Desastre!"
+city_capture_news.23.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.23.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.24.t:0 "A Queda de [608.GetCapitalVictoryPointName]"
+city_capture_news.24.desc.1:0 "A cidade de [608.GetCapitalVictoryPointName], oficialmente chamada de 'Beiping' durante a República da China, foi capturada pelo exército taiwanês hoje.\n\nDesde a década de 1990, à medida que a diferença de poder nacional entre a China Continental e Taiwan se tornava mais séria, nenhum especialista esperava que o exército de Taiwan entrasse na cidade de [608.GetCapitalVictoryPointName]. Mas isso realmente aconteceu, e muitos especialistas ficaram chocados.\n\nOs Pan Azuis em Taiwan, nacionalistas chineses pan-nacionalistas, estão animados com isso, pois é uma prova de que a reunificação da China e Taiwan está próxima. Mas o DPP, um partido nacionalista taiwanês, argumentou fortemente em um comunicado que a ocupação de [608.GetCapitalVictoryPointName] deve ser temporária e que nunca significou 'reunificação' com a China Continental." #CHI
+city_capture_news.24.desc.2:0 "[608.GetCapitalVictoryPointName], o centro político da China, pensava-se que não estaria mais sujeito a agressões externas no século 21, quando a China se tornou um país poderoso. No entanto, essa ilusão desmoronou à medida que as tropas [ROOT.GetAdjective] entraram em [608.GetCapitalVictoryPointName].\n\nAs tropas [ROOT.GetAdjective] realizaram um desfile militar para celebrar sua vitória em frente ao famoso símbolo da cidade, a Cidade Proibida. Os cidadãos de [608.GetCapitalVictoryPointName] observam a cena com um olhar melancólico. Será que este será o evento que simboliza a queda de [FROM.GetNameDef]?" #generic
+city_capture_news.24.a:0 "Lutaremos até o Fim!"
+city_capture_news.24.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.24.c:0 "O dragão gigante ficou chocado."
+
+city_capture_news.25.t:0 "A Queda de Pyongyang"
+city_capture_news.25.desc.1:0 "A cidade fortemente fortificada de Pyongyang era improvável que permitisse uma invasão externa, mas foi eventualmente dominada por soldados [ROOT.GetAdjective].\nApós entrar na cidade, as forças sul-coreanas destruíram completamente o icônico Hotel Ryugyong em Pyongyang com um intenso ataque de bombardeio. O exército sul-coreano, que ocupou a cidade, levantou a bandeira sul-coreana na residência presidencial em Pyongyang.\nO comandante das forças de ocupação decidiu destruir completamente o Cemitério dos Mártires Revolucionários de Taesongsan, onde estão enterrados os restos de políticos leais ao governo norte-coreano e ativistas pela independência que lutaram pela criação de um estado comunista durante o período colonial da Coreia. Vários tanques esmagaram e destruíram todos os túmulos. Esse processo foi declarado um momento histórico para declarar vitória na Guerra." #KOR
+city_capture_news.25.desc.2:0 "A cidade fortemente fortificada de Pyongyang era improvável que permitisse uma invasão externa, mas foi eventualmente dominada por soldados [ROOT.GetAdjective].\n\nA resistência continua por toda Pyongyang, mas espera-se que essa resistência termine em poucas horas. Esta vitória causou consideráveis danos a [FROM.GetName].\n\nRelatos não confirmados indicam que o corpo embalsamado de Kim Il-sung foi evacuado em segurança." #Juche NK
+city_capture_news.25.desc.3:0 "A cidade fortemente fortificada de Pyongyang era improvável que permitisse uma invasão externa, mas foi eventualmente dominada por soldados [ROOT.GetAdjective].\n\nA resistência continua por toda Pyongyang, mas espera-se que essa resistência termine em poucas horas. Esta vitória causou consideráveis danos a [FROM.GetName]." #generic
+city_capture_news.25.a:0 "Isso é um Desastre!"
+city_capture_news.25.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.25.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.26.t:0 "A Queda de [525.GetCapitalVictoryPointName]"
+city_capture_news.26.desc.1:0 "Devido à diferença econômica entre a Coreia do Norte e a Coreia do Sul, poucos especialistas esperavam que o exército norte-coreano conseguisse ocupar [525.GetCapitalVictoryPointName]. Mas isso realmente aconteceu.\n\nSoldados norte-coreanos detonaram os túmulos de soldados sul-coreanos enterrados no Cemitério Nacional de Seul com dinamite e realizaram desfiles militares ao longo de Gangnam, [525.GetCapitalVictoryPointName].\n\nAgora, as forças invasoras olham para o sul." #PRK
+city_capture_news.26.desc.2:0 "A cidade fortemente fortificada de [525.GetCapitalVictoryPointName] era improvável que permitisse uma invasão externa, mas foi eventualmente dominada por soldados [ROOT.GetAdjective].\n\nApós realizar um desfile militar para declarar vitória, as forças de ocupação hastearam a bandeira [ROOT.GetAdjective] na entrada do marco de [525.GetCapitalVictoryPointName], o Palácio Gyeongbokgung.\n\nAgora, as forças invasoras olham para o sul." #generic
+city_capture_news.26.desc.3:0 "Por causa do colapso econômico, e do cinismo resultante que se seguiu à declaração da \"República do Japão\", até mesmo a notícia da Queda de [525.GetCapitalVictoryPointName] parece não ser mais uma notícia chocante para os cidadãos de [FROM.GetName].\n\nO exército [ROOT.GetAdjective] parece estar confuso pelo fato de que os cidadãos indefesos não estão envolvidos em quaisquer atividades de resistência.\n\nAgora, as forças invasoras olham para o sul." #generic RoJ
+city_capture_news.26.a:0 "Isso é um Desastre!"
+city_capture_news.26.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.26.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.27.t:0 "A Queda de [870.GetCapitalVictoryPointName]"
+city_capture_news.27.desc:0 "[870.GetCapitalVictoryPointName], a cidade portuária mais ao sul da Península Coreana, foi dominada por soldados [ROOT.GetAdjective] hoje.\n\n[870.GetCapitalVictoryPointName] foi a 'última capital' que não foi ocupada pelo inimigo mesmo durante a Guerra da Coreia, então a ocupação desta cidade deu um grande choque psicológico aos cidadãos de [FROM.GetName].\n\nVários especialistas alertam que o governo [FROM.GetAdjective] provavelmente declarará rendição nos próximos dias."
+city_capture_news.27.a:0 "Isso é um Desastre!"
+city_capture_news.27.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.27.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.28.t:0 "A Queda de Vladivostok"
+city_capture_news.28.desc:0 "Vladivostok, a maior cidade do [FROM.GetAdjective] Extremo Oriente e lar da [FROM.GetAdjective] Frota do Pacífico, foi atacada por tropas [ROOT.GetAdjective]. Sua posição estratégica no extremo da Ferrovia Transiberiana torna sua perda ainda mais prejudicial para o esforço de guerra [FROM.GetAdjective] na Ásia.\n\nAgora, as forças invasoras olham para o norte."
+city_capture_news.28.a:0 "Isso é um Desastre!"
+city_capture_news.28.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.28.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.29.t:0 "A Queda de Hiroshima"
+city_capture_news.29.desc:0 "Hiroshima também foi a primeira cidade do mundo a sofrer um ataque nuclear durante a Segunda Guerra Mundial. 'A guerra nunca deve acontecer novamente.' Este símbolo do pacifismo foi pisoteado pela guerra ressurgente também.\n\nAo entrar em Hiroshima, tropas [ROOT.GetAdjective] eliminaram completamente a resistência e tomaram o controle de Hiroshima. Espera-se que isso fortaleça a influência de [ROOT.GetName] no Japão Ocidental."
+city_capture_news.29.a:0 "Isso é um Desastre!"
+city_capture_news.29.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.29.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.30.t:0 "A Queda de Kyoto"
+city_capture_news.30.desc:0 "Kyoto, a antiga capital do Japão e com sua longa tradição, também não conseguiu escapar dos danos da guerra. Muitos dos patrimônios culturais de Kyoto foram destruídos à medida que as tropas [ROOT.GetAdjective] entraram no interior de Kyoto.\n\nGuerras urbanas também ocorreram dentro do Castelo Nijo, um belo castelo que simboliza Kyoto, e importantes instalações do castelo, como Tozamurai, foram danificadas por balas.\n\nMuitos cidadãos de Kyoto estão em choque com os patrimônios culturais destruídos pela invasão de [ROOT.GetName]. Algum dia, os edifícios destruídos serão restaurados após o fim da guerra, mas seu sofrimento mental não será restaurado."
+city_capture_news.30.a:0 "Isso é um Desastre!"
+city_capture_news.30.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.30.c:0 "Cultura e tradição não valem nada na guerra."
+
+city_capture_news.31.t:0 "A Queda de Tóquio"
+city_capture_news.31.desc:0 "O centro de Tóquio, os Distritos Especiais de Tóquio, é uma enorme fortaleza de concreto com muitos arranha-céus. É por isso que a força de defesa estava confiante de que seria suficiente para deter o ataque de [ROOT.GetName] através da guerra urbana. No entanto, as tropas [ROOT.GetAdjective] conseguiram capturar toda Tóquio por meio de ataques persistentes.\n\nAs forças de defesa continuam a resistir no centro de Tóquio, incluindo Shinjuku, mas a queda de Tóquio já é certa. A bandeira [ROOT.GetAdjective] já foi hasteada na Residência Oficial do Primeiro-Ministro, e [FROM.GetLeader] se refugiou fora de Tóquio."
+city_capture_news.31.a:0 "Isso é um Desastre!"
+city_capture_news.31.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.31.c:0 "O Japão está em uma crise terrível..."
+
+city_capture_news.32.t:0 "A Queda de Sapporo"
+city_capture_news.32.desc:0 "A cidade de Sapporo, o centro econômico da parte norte do arquipélago japonês, foi dominada por tropas [ROOT.GetAdjective] hoje.\n\nOs defensores se barricadearam e continuaram a resistência em torno de Chuo-ku, mas a resistência esporádica terminou em fracasso. As tropas [ROOT.GetAdjective] conseguiram derrotar a resistência e capturar a cidade.\n\nEssa ocupação militar trouxe toda a ilha de Hokkaido e o Norte do Japão sob a influência de [ROOT.GetName]."
+city_capture_news.32.a:0 "Isso é um Desastre!"
+city_capture_news.32.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.32.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.33.t:0 "A Queda de Okinawa"
+city_capture_news.33.desc:0 "Com a captura da cidade de Naha, o epicentro de Okinawa, a influência de [FROM.GetName] sobre Okinawa desapareceu efetivamente.\n\nDevido à importância estratégica de Okinawa na parte sul do arquipélago japonês, espera-se que esta ocupação mude significativamente o curso da guerra."
+city_capture_news.33.a:0 "Isso é um Desastre!"
+city_capture_news.33.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.33.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.34.t:0 "A Queda do Havai"
+city_capture_news.34.desc:0 "Forças [ROOT.GetAdjective] invadiram e tomaram Honolulu, a maior cidade da ilha havaiana de O'ahu. Segundo testemunhas, marinheiros e fuzileiros navais [FROM.GetAdjective], sobrecarregados, recuaram para a Ilha Ford, onde continuaram a oferecer resistência teimosa até serem submetidos a um intenso bombardeio de artilharia e aéreo.\n\nEssa ocupação militar deve expandir grandemente a influência [ROOT.GetAdjective] através do Oceano Pacífico."
+city_capture_news.34.a:0 "Isso é um Desastre!"
+city_capture_news.34.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.34.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.35.t:0 "A Queda de Los Angeles"
+city_capture_news.35.desc:0 "Após estabelecer uma base no continente [FROM.GetAdjective], forças [ROOT.GetAdjective] convergiram sobre Los Angeles e derrotaram os defensores da cidade. Uma longa procissão de tropas [ROOT.GetAdjective] marchou pela Central Avenue esta tarde enquanto fotógrafos de noticiários [ROOT.GetAdjective] filmavam o evento.\n\nAntes que as forças [FROM.GetAdjective] recuassem, a luta foi, segundo relatos, feroz em várias áreas da cidade. Hollywood sofreu danos particularmente pesados, e muitos oficiais [ROOT.GetAdjective] tiveram suas fotos tiradas em frente ao Letreiro de Hollywood perfurado e em ruínas."
+city_capture_news.35.a:0 "Isso é um Desastre!"
+city_capture_news.35.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.35.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.37.t:0 "A Queda de São Francisco"
+city_capture_news.37.desc:0 "Forças [ROOT.GetAdjective] avançando em [FROM.GetNameDef] conseguiram capturar São Francisco.\n\nSão Francisco, que tem uma tradição excepcional de arte e cultura, também não conseguiu escapar dos danos da guerra. Muitos teatros de ópera foram destruídos por shells de artilharia, e centros culturais que não foram destruídos também foram fechados.\n\nDevido à queda de São Francisco, [FROM.GetName] é forçado a lutar contra as invasões inimigas dentro das Américas. Especialistas alertam que [FROM.GetName] está em uma situação perigosa na guerra."
+city_capture_news.37.a:0 "Isso é um Desastre!"
+city_capture_news.37.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.37.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.38.t:0 "A Queda de Nova York"
+city_capture_news.38.desc:0 "Após horas de guerra de rua, muito dela supostamente contra irregulares armados, vanguardas [ROOT.GetAdjective] avançaram para a cidade de Nova York e tomaram o controle da cidade.\n\nA resistência final irrompeu no Empire State Building em Manhattan, mas quando a artilharia [ROOT.GetAdjective] começou a atingir intensamente o edifício, a resistência [FROM.GetAdjective] eventualmente colapsou e eles levantaram uma bandeira branca.\n\nIncêndios estão fora de controle nas partes orientais da cidade há vários dias, iluminando o horizonte à noite.\n\nA Estátua da Liberdade foi decapitada por um projétil de artilharia perdido, embora qual lado disparou permaneça uma questão de disputa."
+city_capture_news.38.a:0 "Isso é um Desastre!"
+city_capture_news.38.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.38.c:0 "Parece que eles estão em uma crise considerável."
+
+city_capture_news.39.t:0 "A Queda de Washington"
+city_capture_news.39.desc:0 "Os combates na área de Washington D.C. chegaram ao fim hoje, quando os últimos focos de resistência na cidade foram eliminados por forças [ROOT.GetAdjective] avançando ao longo do Potomac.\n\nUma densa camada de fumaça paira sobre a cidade, e pelo menos parte dela supostamente vem de agentes da CIA que estavam queimando documentos sensíveis até o último momento. A bandeira [ROOT.GetAdjective] foi erguida na entrada do edifício da Casa Branca, e soldados [ROOT.GetAdjective] tiraram uma foto comemorativa histórica na Casa Branca."
+city_capture_news.39.a:0 "Isso é um Desastre!"
+city_capture_news.39.b:0 "É um Grande Dia de Vitória!"
+city_capture_news.39.c:0 "Que coisa inimaginável aconteceu!"
+ 
+city_capture_news.40.t:0 "A Queda de Basra"
+city_capture_news.40.desc:0 "As forças da coalizão acabaram de entrar no porto mais importante do Iraque e na segunda cidade em população. Embora alguns bairros ainda resistam, a maioria das grandes estradas principais e edifícios importantes estão assegurados. Sem seus campos de petróleo e seu complexo industrial, as chances do Iraque de vencer praticamente se esgotaram..."
+city_capture_news.40.a:0 "O Iraque está condenado..."
+city_capture_news.40.b:0 "Não parem para descansar, amanhã jantamos em Bagdá!"
+city_capture_news.40.c:0 "Esperávamos que a cidade resistisse um pouco mais..."
+
+city_capture_news.41.t:0 "A Queda de Bagdá"
+city_capture_news.41.desc:0 "As forças da coalizão acabaram de entrar na capital do Iraque, Bagdá. Combates ferozes ainda ocorrem em alguns bairros, mas a maior parte da cidade está sob controle da coalizão. Dizem que Saddam fugiu, embora ninguém saiba para onde..."
+city_capture_news.41.a:0 "O Iraque nunca teve uma chance..."
+city_capture_news.41.b:0 "Agora só precisamos encontrar Saddam..."

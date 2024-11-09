@@ -1,0 +1,128 @@
+﻿l_braz_por:
+#Argies
+ ARG_Militares_organization:0 "Fabricaciones Militares"
+#Australia
+ AST_nqea_organization:0 "NQEA"
+ AUS_steyr_mannlicher_organization:0 "Steyr Mannlicher"
+#Austria
+ AUS_steyr_organization:0 "Steyr"
+ AUS_steyr_arms_organization:0 "Steyr Arms"
+ AUS_lithgow_arms_organization:0 "Lithgow Arms"
+ AUS_diamond_aircraft_organization:0 "Diamond Aircraft"
+#Belgium
+ BEL_fn_organization:0 "FN Herstal"
+#Brazil
+ BRA_embraer_organization:0 "Embraer"
+ BRA_engesa_organization:0 "Engesa"
+ BRA_itaguai_construcoes_navais_SA_organization:0 "Itaguaí Construções Navais S.A."
+#Commie china
+ PRC_Norinco_organization:0 "Norinco"
+ PRC_CSSC_organization:0 "CSSC"
+ PRC_CSIC_organization:0 "CSIC"
+ PRC_Jiangnan_Shipyard_organization:0 "Jiangnan Shipyard"
+ PRC_Poly_Technologies_organization:0 "Poly Technologies"
+ PRC_Norinco_air_organization:0 "Norinco"
+ PRC_CATIC_organization:0 "CATIC"
+ PRC_CSGC_organization:0 "CSGC"
+ PRC_china_poly_group_organization:0 "China Poly Group"
+#France
+ FRA_AMX_organization:0 "AMX"
+ FRA_nexter_systems_organization:0 "Nexter Systems"
+ FRA_dassault_organization:0 "Dassault Aviation"
+ FRA_nexter_systems_small_arms_organization:0 "Nexter Systems"
+#Germany
+ GER_MTU_Fridrichshafen_organization:0 "MTU Fridrichshafen"
+ GER_RheinmetallAG_organization:0 "Rheinmetall AG"
+ GER_Krauss_Maffei_Wegmann_organization:0 "Krauss Maffei Wegmann"
+ GER_heckler_und_koch_organization:0 "Heckler und Koch"
+#India
+ RAJ_ashokleyland_organization:0 "Ashok Leyland"
+#Israel
+ ISR_iwi_arms_organization:0 "IWI Arms"
+ ISR_mantak_organization:0 "Mantak"
+ ISR_israel_shipyards_organization:0 "Israel Shipyards"
+ ISR_iai_ramta_organization:0 "IAI-Ramta"
+ ISR_elbit_systems_ltd_organization:0 "Elbit Systems Ltd"
+ ISR_israel_aerospace_organization:0 "Israel Aerospace"
+#Italy
+ ITA_Finmeccanica_organization:0 "Finmeccanica"
+ ITA_beretta_organization:0 "Beretta"
+ ITA_iveco_organization:0 "Inveco"
+ ITA_fincantieri_spa_organization:0 "Fincantieri S.p.A."
+ ITA_intermarine_organization:0 "Intermarine"
+ ITA_amx_international_organization:0 "AMX International Ltd"
+ ITA_leonardo_spa_organization:0 "Leonardo S.p.A."
+ ITA_alenia_aermacch_organization:0 "Alenia Aermacchi"
+#Japan
+ JAP_Mitsubishi_land_organization:0 "Mitsubishi"
+ JAP_ihi_organization:0 "IHI"
+ JAP_sumitomo_naval_organization:0 "Sumitomo"
+ JAP_Mitsubishi_naval_organization:0 "Mitsubishi"
+ JAP_Subaru_organization:0 "Subaru"
+ JAP_Mitsubishi_organization:0 "Mitsubishi"
+ JAP_kawasaki_organization:0 "Kawasaki"
+ JAP_showa_aircraft_industries_organization:0 "Showa Aircraft Industries"
+ JAP_sumitomo_organization:0 "Sumitomo"
+ JAP_mitsubishi_infantry_organization:0 "Mitsubishi"
+ JAP_komatsu_organization:0 "Komatsu"
+ JAP_toshiba_organization:0 "Toshiba"
+#Korea
+ KOR_hyundai_rotem_organization:0 "Hyundai Rotem"
+ KOR_shinjeong_organization:0 "Shinjeong"
+ KOR_ls_mtron_organization:0 "LS Mtron"
+ KOR_samsung_heavy_industries_organization:0 "Samsung Heavy Industries"
+ KOR_dsme_organization:0 "DSME"
+ KOR_hyundai_heavy_industries_naval_organization:0 "Hyundai Heavy Industries"
+ KOR_korean_air_organization:0 "Korean Air"
+ KOR_kai_organization:0 "KAI"
+ KOR_hanwha_aerospace_organization:0 "Hanwha Aerospace"
+ KOR_hyundai_wia_organization:0 "Hyundai WIA"
+ KOR_daewoo_precision_industries_organization:0 "Daewoo Precision Industries"
+ KOR_hanwha_defence_organization:0 "Hanwha Defence"
+#N Korea
+ PRK_sungri_motor_plant_organization:0 "Sungri Motor Plant"
+ PRK_nogeneralplant_organization:0 "No.26 General Plant"
+ PRK_jangjaganmachinery_organization:0 "Jangjagang Machine Tool Factory"
+ PRK_pyongyan_tank_arsenal_organization:0 "Pyongyang Tank Arsenal"
+#Pakistan
+ PAK_Taxila_organization:0 "Heavy Industries Taxila"
+ PAK_karachi_shipyard_organization:0 "KS&EW Ltd"
+ PAK_pakistan_aeronautical_organization:0 "Pakistan Aeronautical Complex"
+ PAK_pakistan_ordinance_organization:0 "Pakistan Ordnance Factories"
+#Russia
+ SOV_rosoboronexport_organization:0 "Rosoboronexport"
+ SOV_uralvagonzavod_organization:0 "Uralvagonzavod"
+ SOV_sukhoi_organization:0 "Sukhoi"
+ SOV_mig_organization:0 "MIG"
+ SOV_myasishchev_organization:0 "Myasishchev"
+ SOV_kamaz_organization:0 "Kamaz"
+ SOV_kalashnikov_organization:0 "Kalashnikov"
+#Singapore
+ SIG_ST_Engineering_organization:0 "ST Engineering"
+#Sweden
+ SWE_SAAB_organization:0 "SAAB"
+ SWE_Bofors_organization:0 "Saab Bofors Dynamics"
+#Swiss
+ SWI_mowag_organization:0 "Mowag"
+#Thaiwan
+ CHI_AVDC_organization:0 "Armoured Vehicle Development Center"
+ CHI_209th_organization:0 "209th Arsenal"
+ CHI_205th_organization:0 "205th Arsenal"
+ CHI_ncsist_organization:0 "NCSIST"
+ CHI_AIDC_organization:0 "AIDC"
+#UK
+ ENG_BAE_land_organization:0 "BAE Systems"
+ ENG_rolls_royce_organization:0 "Rolls Royce"
+ ENG_cobham_organization:0 "Cobham"
+#UKR
+ UKR_KMDB_organization:0 "KMDB"
+# USA
+ USA_general_dynamics_land_organization:0 "General Dynamics"
+ USA_northrop_grumman_naval_organization:0 "Northrop Grumman"
+ USA_HII_organization:0 "HII"
+ USA_Lockheed_martin_organization:0 "Lockheed Martin"
+ USA_northrop_grumman_organization:0 "Northrop Grumman"
+ USA_raytheon_organization:0 "Raytheon"
+ USA_boeing_organization:0 "Boeing"
+ USA_colt_organization:0 "Colt"
+ USA_am_general_organization:0 "AM General"

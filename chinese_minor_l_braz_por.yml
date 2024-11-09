@@ -1,0 +1,161 @@
+﻿l_braz_por:
+
+ ######################
+ ###
+ ### Focus
+ ###
+ ######################
+ 
+chinese_minor_chinese_nightmare:0 "Pesadelo Chinês"
+chinese_minor_chinese_nightmare_desc:0 "À medida que o governo chinês perdeu o controle de [ROOT.GetName], nos encontramos em um caos econômico."
+
+chinese_minor_economic_reconstruction:0 "Reconstrução Econômica"
+chinese_minor_economic_reconstruction_desc:0 "Primeiro, precisamos restaurar nossa economia."
+
+chinese_minor_accepting_foreign_investors:0 "Aceitando Investidores Estrangeiros"
+chinese_minor_accepting_foreign_investors_desc:0 "O apoio de investidores estrangeiros nos ajudará."
+
+chinese_minor_monetary_reform:0 "Reforma Monetária"
+chinese_minor_monetary_reform_desc:0 "O yuan não será mais utilizado em nosso território. Precisamos recuperar o antigo dinheiro chinês e criar uma nova moeda."
+
+chinese_minor_industrialization_must_continue:0 "A Industrialização Deve Continuar"
+chinese_minor_industrialization_must_continue_desc:0 "Mesmo sob o novo governo, nossa industrialização continuará."
+
+chinese_minor_heavy_industry:0 "Indústrias Pesadas Primeiro"
+chinese_minor_heavy_industry_desc:0 "As indústrias pesadas vêm em primeiro lugar."
+
+chinese_minor_arm_the_nation:0 "Armar a Nação"
+chinese_minor_arm_the_nation_desc:0 "Mais armas, defesa mais forte."
+
+chinese_minor_new_chinese_fleet:0 "Nova Frota de [ROOT.GetNameDef]"
+chinese_minor_new_chinese_fleet_desc:0 "Marinha mais poderosa!"
+
+chinese_minor_agriculture:0 "Agricultura Primeiro"
+chinese_minor_agriculture_desc:0 "A indústria também é uma tarefa que precisa ser desenvolvida, mas o bem-estar dos agricultores vem primeiro."
+
+chinese_minor_infrastructure_construction:0 "Construção de Infraestrutura em [Root.Capital.GetName]"
+chinese_minor_infrastructure_construction_desc:0 "Vamos desenvolver a infraestrutura ao redor da capital."
+
+chinese_minor_i_don_t_like_mantou:0 "Eu Não Gosto de Mantou..."
+chinese_minor_i_don_t_like_mantou_desc:0 "Para os trabalhadores pobres, mais políticas de bem-estar são necessárias."
+
+chinese_minor_welfare_for_farmers:0 "Bem-Estar para Agricultores"
+chinese_minor_welfare_for_farmers_desc:0 "Uma nova política de bem-estar para apoiar a agricultura dos agricultores."
+
+chinese_minor_new_education:0 "Nova Educação"
+chinese_minor_new_education_desc:0 "Nova educação para um novo país."
+
+chinese_minor_non_mandarin_language:0 "Língua Não-Mandarim"
+chinese_minor_non_mandarin_language_desc:0 "Vamos ensinar nossa língua, não a língua de Pequim."
+
+chinese_minor_our_history_education:0 "Nossa História"
+chinese_minor_our_history_education_desc:0 "Devido à política de 'Uma Só China', não conseguimos ensinar adequadamente nossa história ao povo até agora. Mas não mais."
+
+chinese_minor_unchain_our_education:0 "Libere Nossa Educação"
+chinese_minor_unchain_our_education_desc:0 "Uma educação excelente levará nosso país."
+
+#sik, men, tib
+
+chinese_minor_problem_of_chinese_residents:0 "Problema dos Residentes Chineses"
+chinese_minor_problem_of_chinese_residents_desc:0 "À medida que nosso país se torna independente, devemos resolver o problema dos residentes chineses que vivem em nosso território."
+
+chinese_minor_ban_on_racial_violence:0 "Proibição da Violência Racial"
+chinese_minor_ban_on_racial_violence_desc:0 "À medida que nosso país se torna independente, continuam a ocorrer incidentes de linchamento de residentes chineses. Precisamos manter a segurança do país."
+
+chinese_minor_problem_of_chinese_immigrants:0 "Chineses Deixando Nosso País"
+chinese_minor_problem_of_chinese_immigrants_desc:0 "Os residentes chineses estão deixando nosso território. A saída maciça da população pode afetar negativamente nossa economia nacional."
+
+chinese_minor_punishment_pro_china:0 "Punição aos Pro-Chineses"
+chinese_minor_punishment_pro_china_desc:0 "Aqueles que foram leais ao governo chinês durante o período em que a China controlou nosso território serão punidos."
+
+chinese_minor_forgiveness_pro_china:0 "Perdão aos Pro-Chineses"
+chinese_minor_forgiveness_pro_china_desc:0 "Muitos de nossos cidadãos foram leais ao antigo governo chinês. Mas temos que comprometer-nos com a realidade. Não podemos punir todos."
+
+#army
+
+chinese_minor_in_the_air:0 "Força Aérea de [ROOT.GetNameDef]"
+chinese_minor_in_the_air_desc:0 "Precisamos de uma força aérea para nos proteger."
+
+chinese_minor_air_force_doctrine:0 "Centro de Treinamento da Força Aérea"
+chinese_minor_air_force_doctrine_desc:0 "Precisamos de bons pilotos."
+
+chinese_minor_air_force_project:0 "Aeroporto de [ROOT.Capital.GetName]"
+chinese_minor_air_force_project_desc:0 "Precisamos de uma força aérea para nos proteger."
+
+chinese_minor_chinese_technology:0 "Tecnologia Chinesa"
+chinese_minor_chinese_technology_desc:0 "Podemos usar a tecnologia que a China deixou para trás para fabricar tanques melhores."
+
+chinese_minor_foreign_technology:0 "Tecnologia Estrangeira"
+chinese_minor_foreign_technology_desc:0 "Nosso governo é fortemente influenciado por países estrangeiros e pode ser ajudado por suas tecnologias."
+
+chinese_minor_war_economy:0 "Economia de Guerra"
+chinese_minor_war_economy_desc:0 "O orçamento de defesa deve ser aumentado em preparação para a guerra."
+
+chinese_minor_army:0 "Exército de [ROOT.GetNameDef]"
+chinese_minor_army_desc:0 "Precisamos de um exército para nos proteger."
+
+chinese_minor_a_domestic_motor_company:0 "Empresa Automobilística Nacional"
+chinese_minor_a_domestic_motor_company_desc:0 "Investiremos em novas empresas nacionais."
+
+chinese_minor_complete_the_armament:0 "Completar o Armamento"
+chinese_minor_complete_the_armament_desc:0 "A segurança de nosso país está mais perfeita do que nunca."
+
+chinese_minor_inauguration_of_the_governor_general:0 "Inauguração do Governador-Geral"
+chinese_minor_inauguration_of_the_governor_general_desc:0 "Foco apenas para IA - jogadores provavelmente não lerão este texto."
+ 
+chinese_minor_suppression_of_separatists:0 "Supressão de Separatistas"
+chinese_minor_suppression_of_separatists_desc:0 "Foco apenas para IA - jogadores provavelmente não lerão este texto."
+
+chinese_minor_china_s_front_line:0 "Linha de Frente da China"
+chinese_minor_china_s_front_line_desc:0 "Foco apenas para IA - jogadores provavelmente não lerão este texto."
+
+chinese_minor_tolerance_of_indigenous_religions:0 "Tolerância às Religiões Indígenas"
+chinese_minor_tolerance_of_indigenous_religions_desc:0 "Foco apenas para IA - jogadores provavelmente não lerão este texto."
+
+chinese_minor_agricultural_sponsorship:0 "Patrocínio Agrícola"
+chinese_minor_agricultural_sponsorship_desc:0 "Foco apenas para IA - jogadores provavelmente não lerão este texto."
+
+chinese_minor_educational_program:0 "Programa Educacional"
+chinese_minor_educational_program_desc:0 "Foco apenas para IA - jogadores provavelmente não lerão este texto."
+
+chinese_minor_the_most_loyal_SAR:0 "A SAR Mais Leal"
+chinese_minor_the_most_loyal_SAR_desc:0 "Foco apenas para IA - jogadores provavelmente não lerão este texto."
+
+# Ideas
+chinese_minor_reconstruction_plan:0 "Plano de Reconstrução"
+
+chinese_minor_international_investment:0 "Investimento Internacional"
+
+chinese_minor_economic_chaos:0 "Caos Econômico"
+chinese_minor_economic_chaos_desc:0 "Com a retirada do governo central chinês, que tem sido o centro de nossa economia até agora, ocorreu uma crise econômica."
+
+chinese_minor_ethnic_conflict:0 "Conflito Étnico"
+chinese_minor_ethnic_conflict_desc:0 "O governo chinês deixou nosso território, mas os chineses permanecem. O conflito entre os nativos e os chineses em nosso país continua por todo o território."
+
+chinese_minor_agricultural_investment:0 "Investimento Agrícola"
+
+chinese_minor_education:0 "Educação em [Root.GetAdjective]"
+
+chinese_minor_nationalism:0 "Nacionalismo [Root.GetAdjective]"
+
+chinese_minor_chinese_educated_generals:0 "Generais Educados na China"
+chinese_minor_chinese_educated_generals_desc:0 "A maioria de nossos oficiais serviu no antigo exército chinês. Sua experiência será de grande ajuda para nosso exército."
+
+chinese_minor_proud_country:0 "País Orgulhoso"
+chinese_minor_proud_country_desc:0 "O povo se orgulha da punição de nosso governo a cidadãos leais à China."
+
+TIB_dalai_lama_idea:0 "14º Dalai Lama"
+TIB_dalai_lama_idea_desc:0 "O Dalai Lama tem continuado a ter forte influência política sobre os tibetanos desde a dissolução do governo tibetano. Ele estabeleceu um novo parlamento tibetano em 1960, renunciando a todo o poder político no governo no exílio e apoiando a monarquia constitucional, mas ainda é muito apoiado pelos tibetanos."
+
+the_most_loyal_SAR_idea:0 "A SAR Mais Leal"
+
+china_s_front_line_idea:0 "Linha de Frente da China"
+china_s_front_line_idea_desc:0 "A SAR lutará contra o inimigo que tenta invadir a China continental na linha de frente."
+
+TIB_PRC_autonomy_autonomous_prefecture:0 "SAR de Xizang"
+TIB_PRC_autonomy_one_country_two_systems:0 "SAR de Xizang"
+TIB_PRC_autonomy_tributary_state:0 "Xizang"
+
+SIK_PRC_autonomy_autonomous_prefecture:0 "SAR de Xinjiang"
+SIK_PRC_autonomy_one_country_two_systems:0 "SAR de Xinjiang"
+SIK_PRC_autonomy_tributary_state:0 "Xinjiang"

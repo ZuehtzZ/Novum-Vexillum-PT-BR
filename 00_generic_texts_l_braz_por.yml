@@ -1,0 +1,484 @@
+﻿l_braz_por:
+
+  TRIGGER_HAS_POWER_BALANCE:0 "$POWER_BALANCE|Y$ está ativo em [root.GetName]"
+  TRIGGER_HAS_NOT_POWER_BALANCE:0 "$POWER_BALANCE|Y$ não está ativo em [root.GetName]"
+  TRIGGER_HAS_ANY_POWER_BALANCE:1 "Possui um §HEquilíbrio de Poder§! ativo"
+  TRIGGER_HAS_NOT_ANY_POWER_BALANCE:1 "Não possui um §HEquilíbrio de Poder§! ativo"
+  TRIGGER_POWER_BALANCE_VALUE_MORE_THAN:2 "O $POWER_BALANCE|Y$ é mais que $PERCENT|%1Y$ no lado $SIDE|Y$"
+  TRIGGER_POWER_BALANCE_VALUE_LESS_THAN:2 "O $POWER_BALANCE|Y$ é menos que $PERCENT|%1Y$ no lado $SIDE|Y$"
+  TRIGGER_POWER_BALANCE_DAILY_MORE_THAN:1 "A mudança diária do $POWER_BALANCE|Y$ é mais que $PERCENT|%1Y$ para o lado $SIDE|Y$"
+  TRIGGER_POWER_BALANCE_DAILY_LESS_THAN:1 "A mudança diária do $POWER_BALANCE|Y$ é menos que $PERCENT|%1Y$ para o lado $SIDE|Y$"
+  TRIGGER_POWER_BALANCE_WEEKLY_MORE_THAN:1 "A mudança semanal do $POWER_BALANCE|Y$ é mais que $PERCENT|%1Y$ para o lado $SIDE|Y$"
+  TRIGGER_POWER_BALANCE_WEEKLY_LESS_THAN:1 "A mudança semanal do $POWER_BALANCE|Y$ é menos que $PERCENT|%1Y$ para o lado $SIDE|Y$"
+
+  TRIGGER_POWER_BALANCE_IN_RANGE:1 "$POWER_BALANCE|Y$ está na faixa de $RANGE|Y$"
+  TRIGGER_POWER_BALANCE_NOT_IN_RANGE:1 "$POWER_BALANCE|Y$ não está na faixa de $RANGE|Y$"
+  TRIGGER_POWER_BALANCE_BELOW_RANGE:1 "$POWER_BALANCE|Y$ está à £GFX_BoP_left_texticon£§Yesquerda§! da faixa de $RANGE|Y$"
+  TRIGGER_POWER_BALANCE_NOT_BELOW_RANGE:1 "$POWER_BALANCE|Y$ está na faixa de $RANGE|Y$ ou mais à £GFX_BoP_right_texticon£§Ydireita§!"
+  TRIGGER_POWER_BALANCE_ABOVE_RANGE:1 "$POWER_BALANCE|Y$ está à £GFX_BoP_right_texticon£§Ydireita§! da faixa de $RANGE|Y$"
+  TRIGGER_POWER_BALANCE_NOT_ABOVE_RANGE:1 "$POWER_BALANCE|Y$ está na faixa de $RANGE|Y$ ou mais à £GFX_BoP_left_texticon£§Yesquerda§!"
+
+  TRIGGER_POWER_BALANCE_SIDE_ACTIVE:2 "$SIDE|Y$ é um lado ativo em $POWER_BALANCE|Y$"
+  TRIGGER_POWER_BALANCE_SIDE_NOT_ACTIVE:2 "$SIDE|Y$ não é um lado ativo em $POWER_BALANCE|Y$"
+  TRIGGER_HAS_POWER_BALANCE_MODIFIER:1 "$POWER_BALANCE|Y$ possui o modificador $MODIFIER|Y$"
+  TRIGGER_HAS_NOT_POWER_BALANCE_MODIFIER:1 "$POWER_BALANCE|Y$ não possui o modificador $MODIFIER|Y$"
+
+  tooltip_white_line: "   \n"
+
+  CP_5: "£command_power §H5§!"
+  CP_5_blocked: "£command_power §R5§!"
+  CP_5_tooltip: "Custa $CP_5_blocked$ para tomar a decisão"
+
+  CP_10: "£command_power §H10§!"
+  CP_10_blocked: "£command_power §R10§!"
+  CP_10_tooltip: "Custa $CP_10_blocked$ para tomar a decisão"
+
+  CP_15: "£command_power §H15§!"
+  CP_15_blocked: "£command_power §R15§!"
+  CP_15_tooltip: "Custa $CP_15_blocked$ para tomar a decisão"
+
+  CP_20: "£command_power §H20§!"
+  CP_20_blocked: "£command_power §R20§!"
+  CP_20_tooltip: "Custa $CP_20_blocked$ para tomar a decisão"
+
+  CP_25: "£command_power §H25§!"
+  CP_25_blocked: "£command_power §R25§!"
+  CP_25_tooltip: "Custa $CP_25_blocked$ para tomar a decisão"
+
+  CP_30: "£command_power §H30§!"
+  CP_30_blocked: "£command_power §R30§!"
+  CP_30_tooltip: "Custa $CP_30_blocked$ para tomar a decisão"
+
+  CP_35: "£command_power §H35§!"
+  CP_35_blocked: "£command_power §R35§!"
+  CP_35_tooltip: "Custa $CP_35_blocked$ para tomar a decisão"
+
+  CP_40: "£command_power §H40§!"
+  CP_40_blocked: "£command_power §R40§!"
+  CP_40_tooltip: "Custa $CP_40_blocked$ para tomar a decisão"
+
+  CP_45: "£command_power §H45§!"
+  CP_45_blocked: "£command_power §R45§!"
+  CP_45_tooltip: "Custa $CP_45_blocked$ para tomar a decisão"
+
+  CP_50: "£command_power §H50§!"
+  CP_50_blocked: "£command_power §R50§!"
+  CP_50_tooltip: "Custa $CP_50_blocked$ para tomar a decisão"
+
+  CP_55: "£command_power §H55§!"
+  CP_55_blocked: "£command_power §R55§!"
+  CP_55_tooltip: "Custa $CP_55_blocked$ para tomar a decisão"
+
+  CP_60: "£command_power §H60§!"
+  CP_60_blocked: "£command_power §R60§!"
+  CP_60_tooltip: "Custa $CP_60_blocked$ para tomar a decisão"
+
+  CP_65: "£command_power §H65§!"
+  CP_65_blocked: "£command_power §R65§!"
+  CP_65_tooltip: "Custa $CP_65_blocked$ para tomar a decisão"
+
+  CP_70: "£command_power §H70§!"
+  CP_70_blocked: "£command_power §R70§!"
+  CP_70_tooltip: "Custa $CP_70_blocked$ para tomar a decisão"
+
+  CP_75: "£command_power §H75§!"
+  CP_75_blocked: "£command_power §R75§!"
+  CP_75_tooltip: "Custa $CP_75_blocked$ para tomar a decisão"
+
+  CP_80: "£command_power §H80§!"
+  CP_80_blocked: "£command_power §R80§!"
+  CP_80_tooltip: "Custa $CP_80_blocked$ para tomar a decisão"
+
+  CP_85: "£command_power §H85§!"
+  CP_85_blocked: "£command_power §R85§!"
+  CP_85_tooltip: "Custa $CP_85_blocked$ para tomar a decisão"
+
+  CP_90: "£command_power §H90§!"
+  CP_90_blocked: "£command_power §R90§!"
+  CP_90_tooltip: "Custa $CP_90_blocked$ para tomar a decisão"
+
+  CP_95: "£command_power §H95§!"
+  CP_95_blocked: "£command_power §R95§!"
+  CP_95_tooltip: "Custa $CP_95_blocked$ para tomar a decisão"
+
+  CP_100: "£command_power §H100§!"
+  CP_100_blocked: "£command_power §R100§!"
+  CP_100_tooltip: "Custa $CP_100_blocked$ para tomar a decisão"
+
+  army_xp_5: "£army_experience §H5§!"
+  army_xp_5_blocked: "£army_experience §R5§!"
+  army_xp_5_tooltip: "Custa $army_xp_5_blocked$ para tomar a decisão"
+
+  army_xp_10: "£army_experience §H10§!"
+  army_xp_10_blocked: "£army_experience §R10§!"
+  army_xp_10_tooltip: "Custa $army_xp_10_blocked$ para tomar a decisão"
+
+  army_xp_15: "£army_experience §H15§!"
+  army_xp_15_blocked: "£army_experience §R15§!"
+  army_xp_15_tooltip: "Custa $army_xp_15_blocked$ para tomar a decisão"
+
+  army_xp_20: "£army_experience §H20§!"
+  army_xp_20_blocked: "£army_experience §R20§!"
+  army_xp_20_tooltip: "Custa $army_xp_20_blocked$ para tomar a decisão"
+
+  army_xp_25: "£army_experience §H25§!"
+  army_xp_25_blocked: "£army_experience §R25§!"
+  army_xp_25_tooltip: "Custa $army_xp_25_blocked$ para tomar a decisão"
+
+  army_xp_30: "£army_experience §H30§!"
+  army_xp_30_blocked: "£army_experience §R30§!"
+  army_xp_30_tooltip: "Custa $army_xp_30_blocked$ para tomar a decisão"
+
+  army_xp_35: "£army_experience §H35§!"
+  army_xp_35_blocked: "£army_experience §R35§!"
+  army_xp_35_tooltip: "Custa $army_xp_35_blocked$ para tomar a decisão"
+
+  army_xp_40: "£army_experience §H40§!"
+  army_xp_40_blocked: "£army_experience §R40§!"
+  army_xp_40_tooltip: "Custa $army_xp_40_blocked$ para tomar a decisão"
+
+  army_xp_45: "£army_experience §H45§!"
+  army_xp_45_blocked: "£army_experience §R45§!"
+  army_xp_45_tooltip: "Custa $army_xp_45_blocked$ para tomar a decisão"
+
+  army_xp_50: "£army_experience §H50§!"
+  army_xp_50_blocked: "£army_experience §R50§!"
+  army_xp_50_tooltip: "Custa $army_xp_50_blocked$ para tomar a decisão"
+
+  army_xp_55: "£army_experience §H55§!"
+  army_xp_55_blocked: "£army_experience §R55§!"
+  army_xp_55_tooltip: "Custa $army_xp_55_blocked$ para tomar a decisão"
+
+  army_xp_60: "£army_experience §H60§!"
+  army_xp_60_blocked: "£army_experience §R60§!"
+  army_xp_60_tooltip: "Custa $army_xp_60_blocked$ para tomar a decisão"
+
+  army_xp_65: "£army_experience §H65§!"
+  army_xp_65_blocked: "£army_experience §R65§!"
+  army_xp_65_tooltip: "Custa $army_xp_65_blocked$ para tomar a decisão"
+
+  army_xp_70: "£army_experience §H70§!"
+  army_xp_70_blocked: "£army_experience §R70§!"
+  army_xp_70_tooltip: "Custa $army_xp_70_blocked$ para tomar a decisão"
+
+  army_xp_75: "£army_experience §H75§!"
+  army_xp_75_blocked: "£army_experience §R75§!"
+  army_xp_75_tooltip: "Custa $army_xp_75_blocked$ para tomar a decisão"
+
+  army_xp_80: "£army_experience §H80§!"
+  army_xp_80_blocked: "£army_experience §R80§!"
+  army_xp_80_tooltip: "Custa $army_xp_80_blocked$ para tomar a decisão"
+
+  army_xp_85: "£army_experience §H85§!"
+  army_xp_85_blocked: "£army_experience §R85§!"
+  army_xp_85_tooltip: "Custa $army_xp_85_blocked$ para tomar a decisão"
+
+  army_xp_90: "£army_experience §H90§!"
+  army_xp_90_blocked: "£army_experience §R90§!"
+  army_xp_90_tooltip: "Custa $army_xp_90_blocked$ para tomar a decisão"
+
+  army_xp_95: "£army_experience §H95§!"
+  army_xp_95_blocked: "£army_experience §R95§!"
+  army_xp_95_tooltip: "Custa $army_xp_95_blocked$ para tomar a decisão"
+
+  army_xp_100: "£army_experience §H100§!"
+  army_xp_100_blocked: "£army_experience §R100§!"
+  army_xp_100_tooltip: "Custa $army_xp_100_blocked$ para tomar a decisão"
+
+  army_xp_125: "£army_experience §H125§!"
+  army_xp_125_blocked: "£army_experience §R125§!"
+  army_xp_125_tooltip: "Custa $army_xp_125_blocked$ para tomar a decisão"
+
+  army_xp_150: "£army_experience §H150§!"
+  army_xp_150_blocked: "£army_experience §R150§!"
+  army_xp_150_tooltip: "Custa $army_xp_150_blocked$ para tomar a decisão"
+
+  army_xp_175: "£army_experience §H175§!"
+  army_xp_175_blocked: "£army_experience §R175§!"
+  army_xp_175_tooltip: "Custa $army_xp_175_blocked$ para tomar a decisão"
+
+  army_xp_200: "£army_experience §H200§!"
+  army_xp_200_blocked: "£army_experience §R200§!"
+  army_xp_200_tooltip: "Custa $army_xp_200_blocked$ para tomar a decisão"
+
+  navy_xp_5: "£navy_experience §H5§!"
+  navy_xp_5_blocked: "£navy_experience §R5§!"
+  navy_xp_5_tooltip: "Custa $navy_xp_5_blocked$ para tomar a decisão"
+
+  navy_xp_10: "£navy_experience §H10§!"
+  navy_xp_10_blocked: "£navy_experience §R10§!"
+  navy_xp_10_tooltip: "Custa $navy_xp_10_blocked$ para tomar a decisão"
+
+  navy_xp_15: "£navy_experience §H15§!"
+  navy_xp_15_blocked: "£navy_experience §R15§!"
+  navy_xp_15_tooltip: "Custa $navy_xp_15_blocked$ para tomar a decisão"
+
+  navy_xp_20: "£navy_experience §H20§!"
+  navy_xp_20_blocked: "£navy_experience §R20§!"
+  navy_xp_20_tooltip: "Custa $navy_xp_20_blocked$ para tomar a decisão"
+
+  navy_xp_25: "£navy_experience §H25§!"
+  navy_xp_25_blocked: "£navy_experience §R25§!"
+  navy_xp_25_tooltip: "Custa $navy_xp_25_blocked$ para tomar a decisão"
+
+  navy_xp_30: "£navy_experience §H30§!"
+  navy_xp_30_blocked: "£navy_experience §R30§!"
+  navy_xp_30_tooltip: "Custa $navy_xp_30_blocked$ para tomar a decisão"
+
+  navy_xp_35: "£navy_experience §H35§!"
+  navy_xp_35_blocked: "£navy_experience §R35§!"
+  navy_xp_35_tooltip: "Custa $navy_xp_35_blocked$ para tomar a decisão"
+
+  navy_xp_40: "£navy_experience §H40§!"
+  navy_xp_40_blocked: "£navy_experience §R40§!"
+  navy_xp_40_tooltip: "Custa $navy_xp_40_blocked$ para tomar a decisão"
+
+  navy_xp_45: "£navy_experience §H45§!"
+  navy_xp_45_blocked: "£navy_experience §R45§!"
+  navy_xp_45_tooltip: "Custa $navy_xp_45_blocked$ para tomar a decisão"
+
+  navy_xp_50: "£navy_experience §H50§!"
+  navy_xp_50_blocked: "£navy_experience §R50§!"
+  navy_xp_50_tooltip: "Custa $navy_xp_50_blocked$ para tomar a decisão"
+
+  navy_xp_55: "£navy_experience §H55§!"
+  navy_xp_55_blocked: "£navy_experience §R55§!"
+  navy_xp_55_tooltip: "Custa $navy_xp_55_blocked$ para tomar a decisão"
+
+  navy_xp_60: "£navy_experience §H60§!"
+  navy_xp_60_blocked: "£navy_experience §R60§!"
+  navy_xp_60_tooltip: "Custa $navy_xp_60_blocked$ para tomar a decisão"
+
+  navy_xp_65: "£navy_experience §H65§!"
+  navy_xp_65_blocked: "£navy_experience §R65§!"
+  navy_xp_65_tooltip: "Custa $navy_xp_65_blocked$ para tomar a decisão"
+
+  navy_xp_70: "£navy_experience §H70§!"
+  navy_xp_70_blocked: "£navy_experience §R70§!"
+  navy_xp_70_tooltip: "Custa $navy_xp_70_blocked$ para tomar a decisão"
+
+  navy_xp_75: "£navy_experience §H75§!"
+  navy_xp_75_blocked: "£navy_experience §R75§!"
+  navy_xp_75_tooltip: "Custa $navy_xp_75_blocked$ para tomar a decisão"
+
+  navy_xp_80: "£navy_experience §H80§!"
+  navy_xp_80_blocked: "£navy_experience §R80§!"
+  navy_xp_80_tooltip: "Custa $navy_xp_80_blocked$ para tomar a decisão"
+
+  navy_xp_85: "£navy_experience §H85§!"
+  navy_xp_85_blocked: "£navy_experience §R85§!"
+  navy_xp_85_tooltip: "Custa $navy_xp_85_blocked$ para tomar a decisão"
+
+  navy_xp_90: "£navy_experience §H90§!"
+  navy_xp_90_blocked: "£navy_experience §R90§!"
+  navy_xp_90_tooltip: "Custa $navy_xp_90_blocked$ para tomar a decisão"
+
+  navy_xp_95: "£navy_experience §H95§!"
+  navy_xp_95_blocked: "£navy_experience §R95§!"
+  navy_xp_95_tooltip: "Custa $navy_xp_95_blocked$ para tomar a decisão"
+
+  navy_xp_100: "£navy_experience §H100§!"
+  navy_xp_100_blocked: "£navy_experience §R100§!"
+  navy_xp_100_tooltip: "Custa $navy_xp_100_blocked$ para tomar a decisão"
+
+  navy_xp_125: "£navy_experience §H125§!"
+  navy_xp_125_blocked: "£navy_experience §R125§!"
+  navy_xp_125_tooltip: "Custa $navy_xp_125_blocked$ para tomar a decisão"
+
+  navy_xp_150: "£navy_experience §H150§!"
+  navy_xp_150_blocked: "£navy_experience §R150§!"
+  navy_xp_150_tooltip: "Custa $navy_xp_150_blocked$ para tomar a decisão"
+
+  navy_xp_175: "£navy_experience §H175§!"
+  navy_xp_175_blocked: "£navy_experience §R175§!"
+  navy_xp_175_tooltip: "Custa $navy_xp_175_blocked$ para tomar a decisão"
+
+  navy_xp_200: "£navy_experience §H200§!"
+  navy_xp_200_blocked: "£navy_experience §R200§!"
+  navy_xp_200_tooltip: "Custa $navy_xp_200_blocked$ para tomar a decisão"
+
+  air_xp_5: "£air_experience §H5§!"
+  air_xp_5_blocked: "£air_experience §R5§!"
+  air_xp_5_tooltip: "Custa $air_xp_5_blocked$ para tomar a decisão"
+
+  air_xp_10: "£air_experience §H10§!"
+  air_xp_10_blocked: "£air_experience §R10§!"
+  air_xp_10_tooltip: "Custa $air_xp_10_blocked$ para tomar a decisão"
+
+  air_xp_15: "£air_experience §H15§!"
+  air_xp_15_blocked: "£air_experience §R15§!"
+  air_xp_15_tooltip: "Custa $air_xp_15_blocked$ para tomar a decisão"
+
+  air_xp_20: "£air_experience §H20§!"
+  air_xp_20_blocked: "£air_experience §R20§!"
+  air_xp_20_tooltip: "Custa $air_xp_20_blocked$ para tomar a decisão"
+
+  air_xp_25: "£air_experience §H25§!"
+  air_xp_25_blocked: "£air_experience §R25§!"
+  air_xp_25_tooltip: "Custa $air_xp_25_blocked$ para tomar a decisão"
+
+  air_xp_30: "£air_experience §H30§!"
+  air_xp_30_blocked: "£air_experience §R30§!"
+  air_xp_30_tooltip: "Custa $air_xp_30_blocked$ para tomar a decisão"
+
+ air_xp_35: "£air_experience §H35§!"
+ air_xp_35_blocked: "£air_experience §R35§!"
+ air_xp_35_tooltip: "Custa $air_xp_35_blocked$ para tomar a decisão"
+
+ air_xp_40: "£air_experience §H40§!"
+ air_xp_40_blocked: "£air_experience §R40§!"
+ air_xp_40_tooltip: "Custa $air_xp_40_blocked$ para tomar a decisão"
+
+ air_xp_45: "£air_experience §H45§!"
+ air_xp_45_blocked: "£air_experience §R45§!"
+ air_xp_45_tooltip: "Custa $air_xp_45_blocked$ para tomar a decisão"
+
+ air_xp_50: "£air_experience §H50§!"
+ air_xp_50_blocked: "£air_experience §R50§!"
+ air_xp_50_tooltip: "Custa $air_xp_50_blocked$ para tomar a decisão"
+
+ air_xp_55: "£air_experience §H55§!"
+ air_xp_55_blocked: "£air_experience §R55§!"
+ air_xp_55_tooltip: "Custa $air_xp_55_blocked$ para tomar a decisão"
+
+ air_xp_60: "£air_experience §H60§!"
+ air_xp_60_blocked: "£air_experience §R60§!"
+ air_xp_60_tooltip: "Custa $air_xp_60_blocked$ para tomar a decisão"
+
+ air_xp_65: "£air_experience §H65§!"
+ air_xp_65_blocked: "£air_experience §R65§!"
+ air_xp_65_tooltip: "Custa $air_xp_65_blocked$ para tomar a decisão"
+
+ air_xp_70: "£air_experience §H70§!"
+ air_xp_70_blocked: "£air_experience §R70§!"
+ air_xp_70_tooltip: "Custa $air_xp_70_blocked$ para tomar a decisão"
+
+ air_xp_75: "£air_experience §H75§!"
+ air_xp_75_blocked: "£air_experience §R75§!"
+ air_xp_75_tooltip: "Custa $air_xp_75_blocked$ para tomar a decisão"
+
+ air_xp_80: "£air_experience §H80§!"
+ air_xp_80_blocked: "£air_experience §R80§!"
+ air_xp_80_tooltip: "Custa $air_xp_80_blocked$ para tomar a decisão"
+
+ air_xp_85: "£air_experience §H85§!"
+ air_xp_85_blocked: "£air_experience §R85§!"
+ air_xp_85_tooltip: "Custa $air_xp_85_blocked$ para tomar a decisão"
+
+ air_xp_90: "£air_experience §H90§!"
+ air_xp_90_blocked: "£air_experience §R90§!"
+ air_xp_90_tooltip: "Custa $air_xp_90_blocked$ para tomar a decisão"
+
+ air_xp_95: "£air_experience §H95§!"
+ air_xp_95_blocked: "£air_experience §R95§!"
+ air_xp_95_tooltip: "Custa $air_xp_95_blocked$ para tomar a decisão"
+
+ air_xp_100: "£air_experience §H100§!"
+ air_xp_100_blocked: "£air_experience §R100§!"
+ air_xp_100_tooltip: "Custa $air_xp_100_blocked$ para tomar a decisão"
+
+ air_xp_125: "£air_experience §H125§!"
+ air_xp_125_blocked: "£air_experience §R125§!"
+ air_xp_125_tooltip: "Custa $air_xp_125_blocked$ para tomar a decisão"
+
+ air_xp_150: "£air_experience §H150§!"
+ air_xp_150_blocked: "£air_experience §R150§!"
+ air_xp_150_tooltip: "Custa $air_xp_150_blocked$ para tomar a decisão"
+
+ air_xp_175: "£air_experience §H175§!"
+ air_xp_175_blocked: "£air_experience §R175§!"
+ air_xp_175_tooltip: "Custa $air_xp_175_blocked$ para tomar a decisão"
+
+ air_xp_200: "£air_experience §H200§!"
+ air_xp_200_blocked: "£air_experience §R200§!"
+ air_xp_200_tooltip: "Custa $air_xp_200_blocked$ para tomar a decisão"
+
+ economic_health_1: "£GFX_scarab_texticon §H1§!"
+ economic_health_1_blocked: "£GFX_scarab_texticon §R1§!"
+ economic_health_1_tooltip: "Custa $economic_health_1_blocked$ para tomar a decisão"
+ 
+ economic_health_2: "£GFX_scarab_texticon §H2§!"
+ economic_health_2_blocked: "£GFX_scarab_texticon §R2§!"
+ economic_health_2_tooltip: "Custa $economic_health_2_blocked$ para tomar a decisão"
+ 
+ economic_health_3: "£GFX_scarab_texticon §H3§!"
+ economic_health_3_blocked: "£GFX_scarab_texticon §R3§!"
+ economic_health_3_tooltip: "Custa $economic_health_3_blocked$ para tomar a decisão"
+ 
+ economic_health_4: "£GFX_scarab_texticon §H4§!"
+ economic_health_4_blocked: "£GFX_scarab_texticon §R4§!"
+ economic_health_4_tooltip: "Custa $economic_health_4_blocked$ para tomar a decisão"
+ 
+ economic_health_5: "£GFX_scarab_texticon §H5§!"
+ economic_health_5_blocked: "£GFX_scarab_texticon §R5§!"
+ economic_health_5_tooltip: "Custa $economic_health_5_blocked$ para tomar a decisão"
+
+ minous_economic_health_1: "£GFX_scarab_texticon -§R1§! Saúde Econômica"
+ minous_economic_health_2: "£GFX_scarab_texticon -§R2§! Saúde Econômica"
+ minous_economic_health_3: "£GFX_scarab_texticon -§R3§! Saúde Econômica"
+ minous_economic_health_4: "£GFX_scarab_texticon -§R4§! Saúde Econômica"
+ minous_economic_health_5: "£GFX_scarab_texticon -§R5§! Saúde Econômica"
+ minous_economic_health_6: "£GFX_scarab_texticon -§R6§! Saúde Econômica"
+ minous_economic_health_7: "£GFX_scarab_texticon -§R7§! Saúde Econômica"
+ minous_economic_health_8: "£GFX_scarab_texticon -§R8§! Saúde Econômica"
+ minous_economic_health_9: "£GFX_scarab_texticon -§R9§! Saúde Econômica"
+ minous_economic_health_10: "£GFX_scarab_texticon -§R10§! Saúde Econômica"
+
+ additional_economic_health_1: "£GFX_scarab_texticon +§G1§! Saúde Econômica"
+ additional_economic_health_2: "£GFX_scarab_texticon +§G2§! Saúde Econômica"
+ additional_economic_health_3: "£GFX_scarab_texticon +§G3§! Saúde Econômica"
+ additional_economic_health_4: "£GFX_scarab_texticon +§G4§! Saúde Econômica"
+ additional_economic_health_5: "£GFX_scarab_texticon +§G5§! Saúde Econômica"
+ additional_economic_health_6: "£GFX_scarab_texticon +§G6§! Saúde Econômica"
+ additional_economic_health_7: "£GFX_scarab_texticon +§G7§! Saúde Econômica"
+ additional_economic_health_8: "£GFX_scarab_texticon +§G8§! Saúde Econômica"
+ additional_economic_health_9: "£GFX_scarab_texticon +§G9§! Saúde Econômica"
+ additional_economic_health_10: "£GFX_scarab_texticon +§G10§! Saúde Econômica"
+ 
+  GC_is_on:0 "Atualmente executando o mod §YGlobal Conflict§!"
+  GAME_OVER_TT:0 "§RO jogo terminará para você.§!"
+  minority_autonomous_region:0 "Governo Autônomo de Minoria"
+  NVX_recycling_category:0 "Categoria de Reciclagem"
+  pb_tech:0 "Tecnologia de Barco de Patrulha"
+  naval_torpedo:0 "Torpedos"
+  naval_main_arm:0 "Armamentos Principais"
+  naval_vls:0 "Módulos VLS"
+  naval_patrol_heli:0 "Helicópteros de Patrulha"
+
+#Decision Re-Enables made by RoTG, all props to them!
+NVX_mission_returns_days_0: "\nMissão reativa £repeating_decision_icon §Yimediatamente§!"
+NVX_decision_returns_days_0: "\nDecisão reabilita £repeating_decision_icon §Yimediatamente§!"
+NVX_decision_returns_days_1: "\nDecisão reabilita após £repeating_decision_icon §Y1§! dias"
+
+NVX_decision_returns_days_3: "\nDecisão reabilita após £repeating_decision_icon §Y3§! dias"
+NVX_decision_returns_days_5: "\nDecisão reabilita após £repeating_decision_icon §Y5§! dias"
+NVX_decision_returns_days_14: "\nDecisão reabilita após £repeating_decision_icon §Y14§! dias"
+NVX_decision_returns_days_15: "\nDecisão reabilita após £repeating_decision_icon §Y15§! dias"
+NVX_decision_returns_days_20: "\nDecisão reabilita após £repeating_decision_icon §Y20§! dias"
+NVX_decision_returns_days_21: "\nDecisão reabilita após £repeating_decision_icon §Y21§! dias"
+NVX_decision_returns_days_25: "\nDecisão reabilita após £repeating_decision_icon §Y25§! dias"
+NVX_decision_returns_days_28: "\nDecisão reabilita após £repeating_decision_icon §Y28§! dias"
+NVX_decision_returns_days_30: "\nDecisão reabilita após £repeating_decision_icon §Y30§! dias"
+NVX_decision_returns_days_35: "\nDecisão reabilita após £repeating_decision_icon §Y35§! dias"
+NVX_decision_returns_days_40: "\nDecisão reabilita após £repeating_decision_icon §Y40§! dias"
+NVX_decision_returns_days_50: "\nDecisão reabilita após £repeating_decision_icon §Y50§! dias"
+NVX_decision_returns_days_60: "\nDecisão reabilita após £repeating_decision_icon §Y60§! dias"
+NVX_decision_returns_days_70: "\nDecisão reabilita após £repeating_decision_icon §Y70§! dias"
+NVX_decision_returns_days_80: "\nDecisão reabilita após £repeating_decision_icon §Y80§! dias"
+NVX_decision_returns_days_90: "\nDecisão reabilita após £repeating_decision_icon §Y90§! dias"
+NVX_decision_returns_days_100: "\nDecisão reabilita após £repeating_decision_icon §Y100§! dias"
+NVX_decision_returns_days_110: "\nDecisão reabilita após £repeating_decision_icon §Y110§! dias"
+NVX_decision_returns_days_120: "\nDecisão reabilita após £repeating_decision_icon §Y120§! dias"
+NVX_decision_returns_days_130: "\nDecisão reabilita após £repeating_decision_icon §Y130§! dias"
+NVX_decision_returns_days_140: "\nDecisão reabilita após £repeating_decision_icon §Y140§! dias"
+NVX_decision_returns_days_150: "\nDecisão reabilita após £repeating_decision_icon §Y150§! dias"
+NVX_decision_returns_days_180: "\nDecisão reabilita após £repeating_decision_icon §Y180§! dias"
+NVX_decision_returns_days_200: "\nDecisão reabilita após £repeating_decision_icon §Y200§! dias"
+NVX_decision_returns_days_240: "\nDecisão reabilita após £repeating_decision_icon §Y240§! dias"
+NVX_decision_returns_days_300: "\nDecisão reabilita após £repeating_decision_icon §Y300§! dias"
+NVX_decision_returns_days_360: "\nDecisão reabilita após £repeating_decision_icon §Y360§! dias"
+NVX_decision_returns_days_365: "\nDecisão reabilita após £repeating_decision_icon §Y365§! dias"
+NVX_decision_returns_days_540: "\nDecisão reabilita após £repeating_decision_icon §Y540§! dias"
+NVX_decision_returns_days_730: "\nDecisão reabilita após £repeating_decision_icon §Y730§! dias"
+NVX_decision_returns_days_1820: "\nDecisão reabilita após £repeating_decision_icon §Y1820§! dias"
+NVX_decision_returns_days_1825: "\nDecisão reabilita após £repeating_decision_icon §Y1825§! dias"
