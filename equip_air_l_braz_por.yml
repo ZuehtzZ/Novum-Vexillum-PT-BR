@@ -1,335 +1,341 @@
 ﻿l_braz_por:
  ## Written and edited by E. Wolfe ##
- ### GENERIC AIRCRAFT ###
- light_airframe:0 "Light Airframe"
- light_airframe_desc:0 "Light Airframe based planes"
- medium_airframe:0 "Medium Airframe"
- medium_airframe_desc:0 "Medium Airframe based planes"
- heavy_airframe:0 "Heavy Airframe"
- heavy_airframe_desc:0 "Heavy Airframe based planes"
- jet_engines:0 "Jet Engines"
- JET_ENGINES_SPECIAL:0 "The development of Jet Engines is an essential prerequisite for the development of jet powered aircraft. This must be researched before you can research advanced aircraft"
- jet_engines_desc:0 "A breakthrough in propulsion technology, the Jet Engine will enable the development of an entirely new generation of aircraft."
- strat_bomber_equipment_equipment:0 "Strat Bomber"
- tac_bomber_equipment_equipment:0 "UCAV"
- ## CATEGORIES ##
- cas:1 "CAS"
- cv_cas:2 "Naval CAS"
- fighter:0 "Fighter"
- cv_fighter:0 "Naval Fighter"
+ ### AERONAVES GENÉRICAS ###
+ light_airframe:0 "Estrutura Leve"
+ light_airframe_desc:0 "Aeronaves baseadas em Estrutura Leve"
+ medium_airframe:0 "Estrutura Média"
+ medium_airframe_desc:0 "Aeronaves baseadas em Estrutura Média"
+ heavy_airframe:0 "Estrutura Pesada"
+ heavy_airframe_desc:0 "Aeronaves baseadas em Estrutura Pesada"
+ jet_engines:0 "Motores a Jato"
+ JET_ENGINES_SPECIAL:0 "O desenvolvimento de Motores a Jato é um pré-requisito essencial para o desenvolvimento de aeronaves movidas a jato. Isso deve ser pesquisado antes de você poder pesquisar aeronaves avançadas"
+ jet_engines_desc:0 "Um avanço na tecnologia de propulsão, o Motor a Jato permitirá o desenvolvimento de uma nova geração de aeronaves."
+ strat_bomber_equipment_equipment:0 "Bombardeiro Estratégico"
+ tac_bomber_equipment_equipment:0 "VANT"
+ ## CATEGORIAS ##
+ cas:1 "APC"
+ cv_cas:2 "APC Naval"
+ fighter:0 "Caça"
+ cv_fighter:0 "Caça Naval"
  nav_bomber:0 "MPA"
- cv_nav_bomber:1 "Naval Attack"
- strat_bomber:0 "Strategic Bomber"
- tac_bomber:0 "UCAV"
- scout_plane:0 "Scout Plane"
- transport_plane:0 "Transport"
- guided_missile:0 "Rocket"
+ cv_nav_bomber:1 "Ataque Naval"
+ strat_bomber:0 "Bombardeiro Estratégico"
+ tac_bomber:0 "VANT"
+ scout_plane:0 "Avião de Reconhecimento"
+ transport_plane:0 "Transporte"
+ guided_missile:0 "Foguete"
  ## Heli ##
- heli_equipment_1:0 "Cold-War Helicopter"
+ heli_equipment_1:0 "Helicóptero da Guerra Fria"
  heli_equipment_1_desc:0 ""
- heli_equipment_2:0 "Modern Helicopter"
+ heli_equipment_2:0 "Helicóptero Moderno"
  heli_equipment_2_desc:0 ""
- transport_heli_equipment_1:0 "Cold War Transport Helicopter"
+ transport_heli_equipment_1:0 "Helicóptero de Transporte da Guerra Fria"
  transport_heli_equipment_1_desc:0 ""
- transport_heli_equipment_2:0 "Modern Transport Helicopter"
+ transport_heli_equipment_2:0 "Helicóptero de Transporte Moderno"
  transport_heli_equipment_2_desc:0 ""
- transport_heli_equipment_3:0 "Near Future Transport Helicopter"
+ transport_heli_equipment_3:0 "Helicóptero de Transporte de Futuro Próximo"
  transport_heli_equipment_3_desc:0 ""
- transport_heli_equipment_4:0 "Future Transport Helicopter"
+ transport_heli_equipment_4:0 "Helicóptero de Transporte do Futuro"
  transport_heli_equipment_4_desc:0 ""
 
- ## CAS ##
- CAS_equipment:0 "Attack Aircraft"
- CAS_equipment_short:0 "Attack Aircraft"
- CAS_equipment_desc:0 "An attack aircraft, strike aircraft, or attack bomber, is a tactical military aircraft that has a primary role of carrying out airstrikes with greater precision than bombers, and is prepared to encounter strong low-level air defenses while pressing the attack."
- CAS_equipment_1:0 "Gen 2 Attack"
- CAS_equipment_1_short:0 "Gen 2 Attack"
- CAS_equipment_1_desc:0 "Gen 2 Attack"
- CAS_equipment_2:0 "Gen 3 Attack"
- CAS_equipment_2_short:0 "Gen 3 Attack"
- CAS_equipment_2_desc:0 "Gen 3 Attack"
- CAS_equipment_3:0 "Gen 4 Attack"
- CAS_equipment_3_short:0 "Gen 4 Attack"
- CAS_equipment_3_desc:0 "Gen 4 Attack"
- ## CV CAS ##
- cv_CAS_equipment:0 "Attack (CV)"
- cv_CAS_equipment_short:0 "Attack (CV)"
- cv_CAS_equipment_desc:0 "Attack (CV)"
- cv_CAS_equipment_1:0 "Gen 2 Attack (CV)"
- cv_CAS_equipment_1_short:0 "Gen 2 Attack (CV)"
- cv_CAS_equipment_1_desc:0 "Gen 2 Attack (CV)"
- cv_CAS_equipment_2:0 "Gen 3 Attack (CV)"
- cv_CAS_equipment_2_short:0 "Gen 3 Attack (CV)"
- cv_CAS_equipment_2_desc:0 "Gen 3 Attack (CV)"
- cv_CAS_equipment_3:0 "Gen 4 Attack (CV)"
- cv_CAS_equipment_3_short:0 "Gen 4 Attack (CV)"
- cv_CAS_equipment_3_desc:0 "Gen 4 Attack (CV)"
- ## FIGHTERS ##
- fighter_equipment:0 "Multirole Fighter"
- fighter_equipment_short:0 "Multirole"
- fighter_equipment_desc:0 "This category contains both Air Superiority Fighters and Multirole fighters.\n\nA multirole fighter is a multirole combat aircraft which is, at the same time, also a fighter aircraft; in other words, an aircraft whose various roles include, among others, the role of air-to-air combat.\n\nAn air superiority fighter is designed for entering and seizing control of enemy airspace as a means of establishing complete dominance over the enemy's air force."
- fighter_equipment_1:0 "Gen 2 Multirole"
- fighter_equipment_1_short:0 "Gen 2 Multirole"
- fighter_equipment_1_desc:0 "Gen 2 Multirole"
- fighter_equipment_2:0 "Gen 3 Multirole"
- fighter_equipment_2_short:0 "Gen 3 Multirole"
- fighter_equipment_2_desc:0 "Gen 3 Multirole"
- fighter_equipment_3:0 "Gen 4 Multirole"
- fighter_equipment_3_short:0 "Gen 4 Multirole"
- fighter_equipment_3_desc:0 "Gen 4 Multirole"
- fighter_equipment_4:0 "Gen 4.5 Multirole"
- fighter_equipment_4_short:0 "Gen 4.5 Multirole"
- fighter_equipment_4_desc:0 "Gen 4.5 Multirole"
- fighter_equipment_5:0 "Gen 5 Multirole"
- fighter_equipment_5_short:0 "Gen 5 Multirole"
- fighter_equipment_5_desc:0 "Gen 5 Multirole"
- fighter_equipment_6:0 "Modern Gen 5 Multirole"
- fighter_equipment_6_short:0 "M. Gen 5 Multirole"
- fighter_equipment_6_desc:0 "Modern Gen 5 Multirole"
- fighter_equipment_7:0 "Future Gen 5 Multirole"
- fighter_equipment_7_short:0 "F. Gen 5 Multirole"
- fighter_equipment_7_desc:0 "Future Gen 5 Multirole"
- fighter_equipment_8:0 "Gen 6 Multirole"
- fighter_equipment_8_short:0 "Gen 6 Multirole"
- fighter_equipment_8_desc:0 "Gen 6 Multirole"
- ## CV FIGHTERS ##
- cv_fighter_equipment:0 "Multirole (CV)"
- cv_fighter_equipment_short:0 "Multirole (CV)"
- cv_fighter_equipment_desc:0 "Carrier-based Fighter"
- cv_fighter_equipment_1:0 "Gen 2 Multirole (CV)"
- cv_fighter_equipment_1_short:0 "Gen 2 Multirole (CV)"
- cv_fighter_equipment_1_desc:0 "Gen 2 Multirole (CV)"
- cv_fighter_equipment_2:0 "Gen 3 Multirole (CV)"
- cv_fighter_equipment_2_short:0 "Gen 3 Multirole (CV)"
- cv_fighter_equipment_2_desc:0 "Gen 3 Multirole (CV)"
- cv_fighter_equipment_3:0 "Gen 4 Multirole (CV)"
- cv_fighter_equipment_3_short:0 "Gen 4 Multirole (CV)"
- cv_fighter_equipment_3_desc:0 "Gen 4 Multirole (CV)"
- cv_fighter_equipment_4:0 "Gen 4.5 Multirole (CV)"
- cv_fighter_equipment_4_short:0 "Gen 4.5 Multirole (CV)"
- cv_fighter_equipment_4_desc:0 "Gen 4.5 Multirole (CV)"
- cv_fighter_equipment_5:0 "Gen 5 Multirole (CV)"
- cv_fighter_equipment_5_short:0 "Gen 5 Multirole (CV)"
- cv_fighter_equipment_5_desc:0 "Gen 5 Multirole (CV)"
- cv_fighter_equipment_6:0 "Modern Gen 5 Multirole (CV)"
- cv_fighter_equipment_6_short:0 "M. Gen 5 Multirole (CV)"
- cv_fighter_equipment_6_desc:0 "Modern Gen 5 Multirole (CV)"
- cv_fighter_equipment_7:0 "Future Gen 5 Multirole (CV)"
- cv_fighter_equipment_7_short:0 "F. Gen 5 Multirole (CV)"
- cv_fighter_equipment_7_desc:0 "Future Gen 5 Multirole (CV)"
- cv_fighter_equipment_8:0 "Gen 6 Multirole (CV)"
- cv_fighter_equipment_8_short:0 "Gen 6 Multirole (CV)"
- cv_fighter_equipment_8_desc:0 "Gen 6 Multirole (CV)"
- ## NAVAL BOMBERS ##
- nav_bomber_equipment:0 "Maritime Patrol Aircraft"
+ ## APC ##
+ CAS_equipment:0 "Aeronave de Ataque"
+ CAS_equipment_short:0 "Aeronave de Ataque"
+ CAS_equipment_desc:0 "Uma aeronave de ataque, aeronave de ataque ou bombardeiro de ataque, é uma aeronave militar tática que tem o papel principal de realizar ataques aéreos com maior precisão do que bombardeiros, e está preparada para enfrentar defesas aéreas de baixo nível enquanto pressiona o ataque."
+ CAS_equipment_1:0 "Ataque Gen 2"
+ CAS_equipment_1_short:0 "Ataque Gen 2"
+ CAS_equipment_1_desc:0 "Ataque Gen 2"
+ CAS_equipment_2:0 "Ataque Gen 3"
+ CAS_equipment_2_short:0 "Ataque Gen 3"
+ CAS_equipment_2_desc:0 "Ataque Gen 3"
+ CAS_equipment_3:0 "Ataque Gen 4"
+ CAS_equipment_3_short:0 "Ataque Gen 4"
+ CAS_equipment_3_desc:0 "Ataque Gen 4"
+ ## APC NAVAL ##
+ cv_CAS_equipment:0 "Ataque (CV)"
+ cv_CAS_equipment_short:0 "Ataque (CV)"
+ cv_CAS_equipment_desc:0 "Ataque (CV)"
+ cv_CAS_equipment_1:0 "Ataque Gen 2 (CV)"
+ cv_CAS_equipment_1_short:0 "Ataque Gen 2 (CV)"
+ cv_CAS_equipment_1_desc:0 "Ataque Gen 2 (CV)"
+ cv_CAS_equipment_2:0 "Ataque Gen 3 (CV)"
+ cv_CAS_equipment_2_short:0 "Ataque Gen 3 (CV)"
+ cv_CAS_equipment_2_desc:0 "Ataque Gen 3 (CV)"
+ cv_CAS_equipment_3:0 "Ataque Gen 4 (CV)"
+ cv_CAS_equipment_3_short:0 "Ataque Gen 4 (CV)"
+ cv_CAS_equipment_3_desc:0 "Ataque Gen 4 (CV)"
+ ## CAÇAS ##
+ fighter_equipment:0 "Caça Multifunção"
+ fighter_equipment_short:0 "Multifunção"
+ fighter_equipment_desc:0 "Esta categoria contém tanto Caças de Superioridade Aérea quanto Caças Multifunção.\n\nUm caça Multifunção é uma aeronave de combate Multifunção que, ao mesmo tempo, também é uma aeronave de combate aérea; em outras palavras, uma aeronave cujos vários papéis incluem, entre outros, o combate aéreo.\n\nUm caça de superioridade aérea é projetado para entrar e tomar o controle do espaço aéreo inimigo como meio de estabelecer total domínio sobre a força aérea inimiga."
+ fighter_equipment_1:0 "Multifunção Gen 2"
+ fighter_equipment_1_short:0 "Multifunção Gen 2"
+ fighter_equipment_1_desc:0 "Multifunção Gen 2"
+ fighter_equipment_2:0 "Multifunção Gen 3"
+ fighter_equipment_2_short:0 "Multifunção Gen 3"
+ fighter_equipment_2_desc:0 "Multifunção Gen 3"
+ fighter_equipment_3:0 "Multifunção Gen 4"
+ fighter_equipment_3_short:0 "Multifunção Gen 4"
+ fighter_equipment_3_desc:0 "Multifunção Gen 4"
+ fighter_equipment_4:0 "Multifunção Gen 4.5"
+ fighter_equipment_4_short:0 "Multifunção Gen 4.5"
+ fighter_equipment_4_desc:0 "Multifunção Gen 4.5"
+ fighter_equipment_5:0 "Multifunção Gen 5"
+ fighter_equipment_5_short:0 "Multifunção Gen 5"
+ fighter_equipment_5_desc:0 "Multifunção Gen 5"
+ fighter_equipment_6:0 "Multifunção Gen 5 Moderno"
+ fighter_equipment_6_short:0 "M. Multifunção Gen 5"
+ fighter_equipment_6_desc:0 "Multifunção Gen 5 Moderno"
+ fighter_equipment_7:0 "Multifunção Gen 5 Futuro"
+ fighter_equipment_7_short:0 "F. Multifunção Gen 5"
+ fighter_equipment_7_desc:0 "Multifunção Gen 5 Futuro"
+ fighter_equipment_8:0 "Multifunção Gen 6"
+ fighter_equipment_8_short:0 "Multifunção Gen 6"
+ fighter_equipment_8_desc:0 "Multifunção Gen 6"
+ ## CAÇAS NAVAIS ##
+ cv_fighter_equipment:0 "Caça Multifunção (CV)"
+ cv_fighter_equipment_short:0 "Multifunção (CV)"
+ cv_fighter_equipment_desc:0 "Caça Baseado em Porta-Aviões"
+ cv_fighter_equipment_1:0 "Multifunção Gen 2 (CV)"
+ cv_fighter_equipment_1_short:0 "Multifunção Gen 2 (CV)"
+ cv_fighter_equipment_1_desc:0 "Multifunção Gen 2 (CV)"
+ cv_fighter_equipment_2:0 "Multifunção Gen 3 (CV)"
+ cv_fighter_equipment_2_short:0 "Multifunção Gen 3 (CV)"
+ cv_fighter_equipment_2_desc:0 "Multifunção Gen 3 (CV)"
+ cv_fighter_equipment_3:0 "Multifunção Gen 4 (CV)"
+ cv_fighter_equipment_3_short:0 "Multifunção Gen 4 (CV)"
+ cv_fighter_equipment_3_desc:0 "Multifunção Gen 4 (CV)"
+ cv_fighter_equipment_4:0 "Multifunção Gen 4.5 (CV)"
+ cv_fighter_equipment_4_short:0 "Multifunção Gen 4.5 (CV)"
+ cv_fighter_equipment_4_desc:0 "Multifunção Gen 4.5 (CV)"
+ cv_fighter_equipment_5:0 "Multifunção Gen 5 (CV)"
+ cv_fighter_equipment_5_short:0 "Multifunção Gen 5 (CV)"
+ cv_fighter_equipment_5_desc:0 "Multifunção Gen 5 (CV)"
+ cv_fighter_equipment_6:0 "Multifunção Gen 5 Moderno (CV)"
+ cv_fighter_equipment_6_short:0 "M. Multifunção Gen 5 (CV)"
+ cv_fighter_equipment_6_desc:0 "Multifunção Gen 5 Moderno (CV)"
+ cv_fighter_equipment_7:0 "Multifunção Gen 5 Futuro (CV)"
+ cv_fighter_equipment_7_short:0 "F. Multifunção Gen 5 (CV)"
+ cv_fighter_equipment_7_desc:0 "Multifunção Gen 5 Futuro (CV)"
+ cv_fighter_equipment_8:0 "Multifunção Gen 6 (CV)"
+ cv_fighter_equipment_8_short:0 "Multifunção Gen 6 (CV)"
+ cv_fighter_equipment_8_desc:0 "Multifunção Gen 6 (CV)"
+ ## BOMBARDEIROS NAVAIS ##
+ nav_bomber_equipment:0 "Aeronave de Patrulha Marítima"
  nav_bomber_equipment_short:0 "MPA"
- nav_bomber_equipment_desc:0 "A maritime patrol aircraft (MPA) is a fixed-wing aircraft designed to operate for long durations over water in maritime patrol roles — in particular anti-submarine warfare (ASW), anti-surface warfare (ASUW), and search and rescue (SAR)."
- nav_bomber_equipment_1:0 "Gen 2 MPA"
- nav_bomber_equipment_1_short:0 "Gen 2 MPA"
- nav_bomber_equipment_1_desc:0 "Gen 2 MPA"
- nav_bomber_equipment_2:0 "Gen 3 MPA"
- nav_bomber_equipment_2_short:0 "Gen 3 MPA"
- nav_bomber_equipment_2_desc:0 "Gen 3 MPA"
- nav_bomber_equipment_3:0 "Gen 4 MPA"
- nav_bomber_equipment_3_short:0 "Gen 4 MPA"
- nav_bomber_equipment_3_desc:0 "Gen 4 MPA"
- nav_bomber_equipment_4:0 "Gen 5 MPA"
- nav_bomber_equipment_4_short:0 "Gen 5 MPA"
- nav_bomber_equipment_4_desc:0 "Gen 5 MPA"
- nav_bomber_equipment_5:0 "Modern Gen 5 MPA"
- nav_bomber_equipment_5_short:0 "Modern Gen 5 MPA"
- nav_bomber_equipment_5_desc:0 "Modern Gen 5 MPA"
- nav_bomber_equipment_6:0 "Gen 6 MPA"
- nav_bomber_equipment_6_short:0 "Gen 6 MPA"
- nav_bomber_equipment_6_desc:0 "Gen 6 MPA"
- ## CV NAVAL BOMBERS ##
- cv_nav_bomber_equipment:0 "ASUW (CV)"
- cv_nav_bomber_equipment_short:0 "Attack (CV/ASUW)"
- cv_nav_bomber_equipment_desc:0 "Anti-Surface Warfare Aircraft"
- cv_nav_bomber_equipment_1:0 "Gen 2 ASUW (CV)"
- cv_nav_bomber_equipment_1_short:0 "Gen 2 Attack (CV/ASUW)"
- cv_nav_bomber_equipment_1_desc:0 "Anti-Surface Warfare Aircraft"
- cv_nav_bomber_equipment_2:0 "Gen 3 ASUW (CV)"
- cv_nav_bomber_equipment_2_short:0 "Gen 3 Attack (CV/ASUW)"
- cv_nav_bomber_equipment_2_desc:0 "Anti-Surface Warfare Aircraft"
- cv_nav_bomber_equipment_3:0 "Gen 4 ASUW (CV)"
- cv_nav_bomber_equipment_3_short:0 "Gen 4 Attack (CV/ASUW)"
- cv_nav_bomber_equipment_3_desc:0 "Anti-Surface Warfare Aircraft"
- cv_nav_bomber_equipment_4:0 "Gen 5 ASUW (CV)"
- cv_nav_bomber_equipment_4_short:0 "Gen 5 Attack (CV/ASUW)"
- cv_nav_bomber_equipment_4_desc:0 "Anti-Surface Warfare Aircraft"
- cv_nav_bomber_equipment_5:0 "Modern Gen 5 ASUW (CV)"
- cv_nav_bomber_equipment_5_short:0 "Modern Gen 5 Attack (CV/ASUW)"
- cv_nav_bomber_equipment_5_desc:0 "Anti-Surface Warfare Aircraft"
- cv_nav_bomber_equipment_6:0 "Gen 6 ASUW (CV)"
- cv_nav_bomber_equipment_6_short:0 "Gen 6 Attack (CV/ASUW)"
- cv_nav_bomber_equipment_6_desc:0 "Anti-Surface Warfare Aircraft"
- ## STRATEGIC BOMBERS ##
- strat_bomber_equipment:0 "Strategic Bomber"
- strat_bomber_equipment_short:0 "Bomber"
- strat_bomber_equipment_desc:0 "A strategic bomber is a medium to long range penetration bomber aircraft designed to drop large amounts of air-to-ground weaponry onto a distant target for the purposes of debilitating the enemy's capacity to wage war."
- strat_bomber_equipment_1:0 "Gen 3 Bomber"
- strat_bomber_equipment_1_short:0 "Gen 3 Bomber"
- strat_bomber_equipment_1_desc:0 "Gen 3 Bomber"
- strat_bomber_equipment_2:0 "Modern Gen 3 Bomber"
- strat_bomber_equipment_2_short:0 "M. Gen 3 Bomber"
- strat_bomber_equipment_2_desc:0 "Modern Gen 3 Bomber"
- strat_bomber_equipment_3:0 "Gen 4 Bomber"
- strat_bomber_equipment_3_short:0 "Gen 4 Bomber"
- strat_bomber_equipment_3_desc:0 "Gen 4 Bomber"
- strat_bomber_equipment_4:0 "Gen 5 Bomber"
- strat_bomber_equipment_4_short:0 "Gen 5 Bomber"
- strat_bomber_equipment_4_desc:0 "Gen 5 Bomber"
- strat_bomber_equipment_5:0 "Gen 6 Bomber"
- strat_bomber_equipment_5_short:0 "Gen 6 Bomber"
- strat_bomber_equipment_5_desc:0 "Gen 6 Bomber"
- ## TACTICAL BOMBERS ##
- tac_bomber_equipment:0 "Unmanned Combat Aerial Vehicle"
- tac_bomber_equipment_short:0 "UCAV"
- tac_bomber_equipment_desc:0 "An unmanned combat aerial vehicle (UCAV), also known as a combat drone or simply a drone, is an unmanned aerial vehicle (UAV) that usually carries aircraft ordnance such as missiles and is used for drone strikes."
- tac_bomber_equipment_1:0 "Gen 1 UCAV"
- tac_bomber_equipment_1_short:0 "Gen 1 UCAV"
- tac_bomber_equipment_1_desc:0 "Gen 1 UCAV"
- tac_bomber_equipment_2:0 "Gen 2 UCAV"
- tac_bomber_equipment_2_short:0 "Gen 2 UCAV"
- tac_bomber_equipment_2_desc:0 "Gen 2 UCAV"
- tac_bomber_equipment_3:0 "Gen 3 UCAV"
- tac_bomber_equipment_3_short:0 "Gen 3 UCAV"
- tac_bomber_equipment_3_desc:0 "Gen 3 UCAV"
- tac_bomber_equipment_4:0 "Gen 3.5 UCAV"
- tac_bomber_equipment_4_short:0 "Gen 3.5 UCAV"
- tac_bomber_equipment_4_desc:0 "Gen 3.5 UCAV"
- tac_bomber_equipment_5:0 "Gen 4 UCAV"
- tac_bomber_equipment_5_short:0 "Gen 4 UCAV"
- tac_bomber_equipment_5_desc:0 "Gen 4 UCAV"
- ## SCOUT PLANES ##
- scout_plane_equipment:0 "Airborne Early Warning and Control"
- scout_plane_equipment_short:0 "AEW&C"
- scout_plane_equipment_desc:0 "An airborne early warning and control (AEW&C) system is an airborne radar picket system designed to detect aircraft, ships and vehicles at long ranges and perform command and control of the battlespace in an air engagement by directing fighter and attack aircraft strikes. AEW&C units are also used to carry out surveillance, including over ground targets and frequently perform C2BM functions similar to an Air Traffic Controller given military command over other forces."
- scout_plane_equipment_1:0 "AEW&C Aircraft I"
- scout_plane_equipment_1_short:0 "AEW&C Aircraft I"
- scout_plane_equipment_1_desc:0 "Basic Airborne Early Warning and Control aircraft"
- scout_plane_equipment_2:0 "AEW&C Aircraft II"
- scout_plane_equipment_2_short:0 "AEW&C Aircraft II"
- scout_plane_equipment_2_desc:0 "Advanced Airborne Early Warning and Control aircraft"
- ## TRANSPORT AIRCRAFT ##
- transport_plane_equipment:0 "Transport Plane"
- transport_plane_equipment_short:0 "Transport Plane"
- transport_plane_equipment_desc:0 "Military transport aircraft or military cargo aircraft are used to airlift troops, weapons and other military equipment to support military operations. Transport aircraft can be used for both strategic and tactical missions, and are often diverted to civil emergency relief missions."
- transport_plane_equipment_1:0 "Gen 1 Transport Aircraft"
- transport_plane_equipment_1_short:0 "Transport Aircraft I"
- transport_plane_equipment_1_desc:0 "Small Transport Aircraft"
- transport_plane_equipment_2:0 "Gen 2 Transport Aircraft"
- transport_plane_equipment_2_short:0 "Transport Aircraft II"
- transport_plane_equipment_2_desc:0 "Medium Transport Aircraft"
- ## GUIDED MISSILES ##
- guided_missile_equipment:0 "Intercontinental Ballistic Missile"
- guided_missile_equipment_1:0 "Basic ICBM"
- guided_missile_equipment_1_short:0 "ICBM I"
- guided_missile_equipment_1_desc:0 ""
- guided_missile_equipment_2:0 "Improved ICBM"
- guided_missile_equipment_2_short:0 "ICBM II"
- guided_missile_equipment_2_desc:0 ""
- guided_missile_equipment_3:0 "Advanced ICBM"
- guided_missile_equipment_3_short:0 "ICBM III"
- guided_missile_equipment_3_desc:0 ""
- ## TOP SECRET ##
- heavy_fighter_equipment:0 "CLASSIFIED"
+ nav_bomber_equipment_desc:0 "Uma aeronave de patrulha marítima (MPA) é uma aeronave de asa fixa projetada para operar por longos períodos sobre a água em funções de patrulha marítima — em particular guerra anti-submarina (ASW), guerra anti-superfície (ASUW) e busca e salvamento (SAR)."
+ nav_bomber_equipment_1:0 "MPA Gen 2"
+ nav_bomber_equipment_1_short:0 "MPA Gen 2"
+ nav_bomber_equipment_1_desc:0 "MPA Gen 2"
+ nav_bomber_equipment_2:0 "MPA Gen 3"
+ nav_bomber_equipment_2_short:0 "MPA Gen 3"
+ nav_bomber_equipment_2_desc:0 "MPA Gen 3"
+ nav_bomber_equipment_3:0 "MPA Gen 4"
+ nav_bomber_equipment_3_short:0 "MPA Gen 4"
+ nav_bomber_equipment_3_desc:0 "MPA Gen 4"
+ nav_bomber_equipment_4:0 "MPA Gen 5"
+ nav_bomber_equipment_4_short:0 "MPA Gen 5"
+ nav_bomber_equipment_4_desc:0 "MPA Gen 5"
+ nav_bomber_equipment_5:0 "MPA Gen 5 Moderno"
+ nav_bomber_equipment_5_short:0 "MPA Gen 5 Moderno"
+ nav_bomber_equipment_5_desc:0 "MPA Gen 5 Moderno"
+ nav_bomber_equipment_6:0 "MPA Gen 6"
+ nav_bomber_equipment_6_short:0 "MPA Gen 6"
+ nav_bomber_equipment_6_desc:0 "MPA Gen 6"
+
+## CV NAVAL BOMBERS ##
+cv_nav_bomber_equipment:0 "ASUW (CV)"
+cv_nav_bomber_equipment_short:0 "Ataque (CV/ASUW)"
+cv_nav_bomber_equipment_desc:0 "Avião de Guerra Anti-Superfície"
+cv_nav_bomber_equipment_1:0 "Gen 2 ASUW (CV)"
+cv_nav_bomber_equipment_1_short:0 "Gen 2 Ataque (CV/ASUW)"
+cv_nav_bomber_equipment_1_desc:0 "Avião de Guerra Anti-Superfície"
+cv_nav_bomber_equipment_2:0 "Gen 3 ASUW (CV)"
+cv_nav_bomber_equipment_2_short:0 "Gen 3 Ataque (CV/ASUW)"
+cv_nav_bomber_equipment_2_desc:0 "Avião de Guerra Anti-Superfície"
+cv_nav_bomber_equipment_3:0 "Gen 4 ASUW (CV)"
+cv_nav_bomber_equipment_3_short:0 "Gen 4 Ataque (CV/ASUW)"
+cv_nav_bomber_equipment_3_desc:0 "Avião de Guerra Anti-Superfície"
+cv_nav_bomber_equipment_4:0 "Gen 5 ASUW (CV)"
+cv_nav_bomber_equipment_4_short:0 "Gen 5 Ataque (CV/ASUW)"
+cv_nav_bomber_equipment_4_desc:0 "Avião de Guerra Anti-Superfície"
+cv_nav_bomber_equipment_5:0 "Gen 5 Moderno ASUW (CV)"
+cv_nav_bomber_equipment_5_short:0 "Gen 5 Moderno Ataque (CV/ASUW)"
+cv_nav_bomber_equipment_5_desc:0 "Avião de Guerra Anti-Superfície"
+cv_nav_bomber_equipment_6:0 "Gen 6 ASUW (CV)"
+cv_nav_bomber_equipment_6_short:0 "Gen 6 Ataque (CV/ASUW)"
+cv_nav_bomber_equipment_6_desc:0 "Avião de Guerra Anti-Superfície"
+
+## STRATEGIC BOMBERS ##
+strat_bomber_equipment:0 "Bombardeiro Estratégico"
+strat_bomber_equipment_short:0 "Bombardeiro"
+strat_bomber_equipment_desc:0 "Um bombardeiro estratégico é um avião bombardeiro de médio a longo alcance, projetado para lançar grandes quantidades de armamento ar-solo em um alvo distante, com o objetivo de debilitar a capacidade do inimigo de travar guerra."
+strat_bomber_equipment_1:0 "Gen 3 Bombardeiro"
+strat_bomber_equipment_1_short:0 "Gen 3 Bombardeiro"
+strat_bomber_equipment_1_desc:0 "Gen 3 Bombardeiro"
+strat_bomber_equipment_2:0 "Bombardeiro Gen 3 Moderno"
+strat_bomber_equipment_2_short:0 "Bombardeiro Gen 3 Moderno"
+strat_bomber_equipment_2_desc:0 "Bombardeiro Gen 3 Moderno"
+strat_bomber_equipment_3:0 "Gen 4 Bombardeiro"
+strat_bomber_equipment_3_short:0 "Gen 4 Bombardeiro"
+strat_bomber_equipment_3_desc:0 "Gen 4 Bombardeiro"
+strat_bomber_equipment_4:0 "Gen 5 Bombardeiro"
+strat_bomber_equipment_4_short:0 "Gen 5 Bombardeiro"
+strat_bomber_equipment_4_desc:0 "Gen 5 Bombardeiro"
+strat_bomber_equipment_5:0 "Gen 6 Bombardeiro"
+strat_bomber_equipment_5_short:0 "Gen 6 Bombardeiro"
+strat_bomber_equipment_5_desc:0 "Gen 6 Bombardeiro"
+
+## TACTICAL BOMBERS ##
+tac_bomber_equipment:0 "Veículo Aéreo de Combate Não Tripulado"
+tac_bomber_equipment_short:0 "UCAV"
+tac_bomber_equipment_desc:0 "Um veículo aéreo de combate não tripulado (UCAV), também conhecido como drone de combate ou simplesmente drone, é uma aeronave não tripulada (UAV) que geralmente transporta armamento aéreo, como mísseis, e é usado para ataques com drones."
+tac_bomber_equipment_1:0 "Gen 1 UCAV"
+tac_bomber_equipment_1_short:0 "Gen 1 UCAV"
+tac_bomber_equipment_1_desc:0 "Gen 1 UCAV"
+tac_bomber_equipment_2:0 "Gen 2 UCAV"
+tac_bomber_equipment_2_short:0 "Gen 2 UCAV"
+tac_bomber_equipment_2_desc:0 "Gen 2 UCAV"
+tac_bomber_equipment_3:0 "Gen 3 UCAV"
+tac_bomber_equipment_3_short:0 "Gen 3 UCAV"
+tac_bomber_equipment_3_desc:0 "Gen 3 UCAV"
+tac_bomber_equipment_4:0 "Gen 3.5 UCAV"
+tac_bomber_equipment_4_short:0 "Gen 3.5 UCAV"
+tac_bomber_equipment_4_desc:0 "Gen 3.5 UCAV"
+tac_bomber_equipment_5:0 "Gen 4 UCAV"
+tac_bomber_equipment_5_short:0 "Gen 4 UCAV"
+tac_bomber_equipment_5_desc:0 "Gen 4 UCAV"
+
+## SCOUT PLANES ##
+scout_plane_equipment:0 "Aviso Antecipado e Controle Aéreo"
+scout_plane_equipment_short:0 "AEW&C"
+scout_plane_equipment_desc:0 "Um sistema de aviso antecipado e controle aéreo (AEW&C) é um sistema de radar aéreo projetado para detectar aeronaves, navios e veículos a longas distâncias e realizar o comando e controle do campo de batalha em um engajamento aéreo, dirigindo ataques de aeronaves de caça e ataque. As unidades AEW&C também são usadas para realizar vigilância, incluindo sobre alvos terrestres, e frequentemente realizam funções de C2BM semelhantes a um controlador de tráfego aéreo com comando militar sobre outras forças."
+scout_plane_equipment_1:0 "Aeronave AEW&C I"
+scout_plane_equipment_1_short:0 "Aeronave AEW&C I"
+scout_plane_equipment_1_desc:0 "Aeronave Básica de Aviso Antecipado e Controle Aéreo"
+scout_plane_equipment_2:0 "Aeronave AEW&C II"
+scout_plane_equipment_2_short:0 "Aeronave AEW&C II"
+scout_plane_equipment_2_desc:0 "Aeronave Avançada de Aviso Antecipado e Controle Aéreo"
+
+## TRANSPORT AIRCRAFT ##
+transport_plane_equipment:0 "Avião de Transporte"
+transport_plane_equipment_short:0 "Avião de Transporte"
+transport_plane_equipment_desc:0 "Aviões de transporte militar ou aeronaves de carga militar são usados para transportar tropas, armas e outros equipamentos militares para apoiar operações militares. Aviões de transporte podem ser usados para missões tanto estratégicas quanto táticas, e muitas vezes são desviados para missões civis de socorro em emergências."
+transport_plane_equipment_1:0 "Gen 1 Aeronave de Transporte"
+transport_plane_equipment_1_short:0 "Aeronave de Transporte I"
+transport_plane_equipment_1_desc:0 "Aeronave de Transporte Pequena"
+transport_plane_equipment_2:0 "Gen 2 Aeronave de Transporte"
+transport_plane_equipment_2_short:0 "Aeronave de Transporte II"
+transport_plane_equipment_2_desc:0 "Aeronave de Transporte Média"
+
+## GUIDED MISSILES ##
+guided_missile_equipment:0 "Míssil Balístico Intercontinental"
+guided_missile_equipment_1:0 "ICBM Básico"
+guided_missile_equipment_1_short:0 "ICBM I"
+guided_missile_equipment_1_desc:0 ""
+guided_missile_equipment_2:0 "ICBM Melhorado"
+guided_missile_equipment_2_short:0 "ICBM II"
+guided_missile_equipment_2_desc:0 ""
+guided_missile_equipment_3:0 "ICBM Avançado"
+guided_missile_equipment_3_short:0 "ICBM III"
+guided_missile_equipment_3_desc:0 ""
+
+## TOP SECRET ##
+heavy_fighter_equipment:0 "CLASSIFICADO"
+
  
- ## TAG ###
- # CAS #
- # CV CAS #
- # FIGHTERS #
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- 
- ### UNIQUES ###
- ## AUSTRALIA ##
- # CAS #
- AST_CAS_equipment_1:0 "Gloster Meteor F.8"
- AST_CAS_equipment_1_short:0 "Meteor F.8"
- AST_CAS_equipment_1_desc:0 "The Gloster Meteor is an all metal, twin jet engine, retractable gear aircraft. The RAAF initially received F.4 variants but the majority operated were F.8s. Meteors flown by RAAF personnel fought in "MiG Alley" in Korea, however proved inferior to the Soviet MiG-15s. The Meteor served in the RAAF from 1946 until being officially retired in 1963."
- AST_CAS_equipment_2:0 "McDonnell Douglas F-4E Phantom II"
- AST_CAS_equipment_2_short:0 "F-4E"
- AST_CAS_equipment_2_desc:0 "The F-4C was among the aircraft evaluated by the RAAF in 1963 as part of the project to replace its English Electric Canberra. The F-111 was selected, but deliveries were delayed due to technical faults. The Australian and US Governments negotiated an agreement in 1970 for a lease of 24 F-4Es. The F-4Es entered service in 1970, and were returned in 1973 following deliveries of the F-111C."
- AST_CAS_equipment_3:0 "Boeing EA-18G Growler"
- AST_CAS_equipment_3_short:0 "EA-18G"
- AST_CAS_equipment_3_desc:0 "The Boeing EA-18G Growler is an electronic warfare aircraft, a specialized version of the two-seat F/A-18F Super Hornet. Australia took delivery of the first of 12 Growlers on 29 July 2015, with delivery of the remaining jets expected by 2017. Uniquely, Australian Growlers will be equipped with the ASQ-228 ATFLIR targeting pod and will also have additional air-to-air weapons in the form of the AIM-9X missile."
- # CV CAS #
- # FIGHTERS #
- AST_fighter_equipment_1:0 "CAC CA-27 Sabre"
- AST_fighter_equipment_1_short:0 "CA-27"
- AST_fighter_equipment_1_desc:0 "The Commonwealth Aircraft Corporation (CAC) Avon Sabre was based on the design of the North American F86 Sabre, modified to meet local conditions and requirements. The CA-27 included the Rolls-Royce Avon R.A.7 engine and twin 30mm ADEN cannons. It first flew on 3rd of August 1953 and was retired in 1971."
- AST_fighter_equipment_2:0 "McDonnell Douglas F-4 Phantom II"
- AST_fighter_equipment_2_short:0 "F-4"
- AST_fighter_equipment_2_desc:0 "The McDonnell Douglas A-4G Skyhawk is a variant of the Douglas A-4 Skyhawk attack aircraft developed for the Royal Australian Navy. The model was based on the A-4F variant of the Skyhawk, and was fitted with slightly different avionics as well as the capacity to operate AIM-9 Sidewinder air-to-air missiles. The RAN received ten A-4Gs in 1967 and another ten in 1971, and operated until 1984."
- AST_fighter_equipment_3:0 "McDonnell Douglas F/A-18A Hornet"
- AST_fighter_equipment_3_short:0 "F/A-18A"
- AST_fighter_equipment_3_desc:0 " The Royal Australian Air Force F/A-18A and F/A-18B Hornets are multi-role fighter aircraft, capable of air-to-air and air-to-ground missions.   Both the single seat F/A-18A and twin seat F/A-18B can undertake air interception, air combat, close air support of ground troops, and interdiction of enemy supply lines including shipping."
- AST_fighter_equipment_4:0 "Boeing F/A-18F Super Hornet"
- AST_fighter_equipment_4_short:0 "F/A-18F"
- AST_fighter_equipment_4_desc:0 " The Royal Australian Air Force F/A-18F Super Hornet fleet gives Australia an upgraded air combat capability for both air-to-air and air-to-ground mission until the full introduction into service of the F-35 Lightning II  The twin seat F/A-18F Super Hornet can undertake air interception, air combat, close air support of ground troops and interdiction of enemy supply lines including shipping."
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- AST_nav_bomber_equipment_1:0 "Lockheed SP-2H Neptune"
- AST_nav_bomber_equipment_1_short:0 "SP-2H"
- AST_nav_bomber_equipment_1_desc:0 "Two P2V-4 and ten P2V-5 Neptunes were ordered for the RAAF in February 1951 to replace the ageing Avro Lincolns. A further twleve P2V-7s were ordered in 1960, and renamed in 1962 to the SP-2H Neptune. Seeing action in Vietnam escorting USAF B-52s, SP-2Hs operated until retirement in 1977."
- AST_nav_bomber_equipment_2:0 "Grumman S-2G Tracker"
- AST_nav_bomber_equipment_2_short:0 "S-2G"
- AST_nav_bomber_equipment_2_desc:0 "Operated by the Royal Australian Navy from 1967 until 1984, the Tracker proved an excellent ASW aircraft. It had a long range and extensive equipment to detect and engage submarines. Initially operating the S-2E variant, an arson attack claimed most of them while in hangar, and replacements from the USN were S-2Gs, an improvement they prolonged the life of the Tracker in RAN service."
- AST_nav_bomber_equipment_3:0 "Lockheed P-3C Orion"
- AST_nav_bomber_equipment_3_short:0 "P-3C"
- AST_nav_bomber_equipment_3_desc:0 "The Lockheed P-3 Orion is a four-engine turboprop anti-submarine and maritime surveillance aircraft. The Orion aircraft first entered RAAF military service in 1968 as the P-3B  model, with the P-3C variant first introduced in 1978."
- AST_nav_bomber_equipment_4:0 "Lockheed AP-3C Orion"
- AST_nav_bomber_equipment_4_short:0 "AP-3C"
- AST_nav_bomber_equipment_4_desc:0 "The AP-3C is a RAAF upgrade of the P-3C/W which includes L-3 Communications with new mission systems, including an Elta SAR/ISAR radar and a GD-Canada acoustic processor system. AP-3C Orions were upgraded from P-3Cs between 1997 and 2005. AP-3Cs have seen service as part of Australian Defence Force operations in Australia, South East Asia and the Middle East."
- AST_nav_bomber_equipment_5:0 "Boeing P-8A Poseidon"
- AST_nav_bomber_equipment_5_short:0 "P-8A"
- AST_nav_bomber_equipment_5_desc:0 "In 2014 Australia, in agreement with the USN, began negotiating with Boeing to tailor the P-8A to Australian needs, including making accomodations for the AGM-84 Harpoon anti-shipping missile. Production of RAAF Poseidons began in 2015 and are scheduled to be delivered in 2016. The P-8A is designed to work in conjuction with the MQ-4C Maritime Surveillance UAV."
- AST_nav_bomber_equipment_6:0 "Boeing AP-8E Neptune"
- AST_nav_bomber_equipment_6_short:0 "AP-8E"
- AST_nav_bomber_equipment_6_desc:0 "A series of incremental upgrades finally culminated in an overhaul of the RAAF P-8A Poseidon fleet into the AP-8E Neptune standard. This upgrade package included a new control suite for the latest emerging UAV Maritime Patrol Drones, new provisions for more anti-shipping missiles as well as an upgraded detection system for submarines. The entire P-8A fleet is expected to be upgraded to the AP-8E standard by 2025.)"
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- AST_strat_bomber_equipment_1:0 "Government Aircraft Factories Canberra"
- AST_strat_bomber_equipment_1_short:0 "Canberra"
- AST_strat_bomber_equipment_1_desc:0 "During the late 1940s, the RAAF decided to acquire the Canberra as a replacement for, or complement to, the Avro Lincoln. The Australian government decided that the Canberras would be constructed domestically by the Government Aircraft Factories rather than built in the UK. Serving for 29 years, from 1963 until 1982, the Canberra saw action in the Malayan Emergency and Vietnam."
- AST_strat_bomber_equipment_2:0 "General Dynamics F-111C"
- AST_strat_bomber_equipment_2_short:0 "F-111C"
- AST_strat_bomber_equipment_2_desc:0 "F-111C (nicknamed "Pig") is a variant of the F-111 Aardvark medium-range interdictor and tactical strike aircraft, developed by General Dynamics to meet Australian requirements. The design was based on the F-111A model but included longer wings and strengthened undercarriage. The Australian government ordered 24 F-111Cs to equip the RAAF in 1963, but the aircraft were not delivered until 1973 because of long-running technical problems."
- AST_strat_bomber_equipment_3:0 "General Dynamics F-111G"
- AST_strat_bomber_equipment_3_short:0 "F-111G"
- AST_strat_bomber_equipment_3_desc:0 "The FB-111 was a USAF variant of the F-111 with strengthened wings, stronger landing gear, larger fuel capacity and increased bomb load with the intent of making it a strategic bomber. With the introduction of the B-1B Lancer, the USAF had no need for the FB-111, and it was reconfigured back into a tactical role and renamed the F-111G. In 1993 the RAAF purchased 15 of these aircraft to supplement their F-111Cs."
- AST_strat_bomber_equipment_4:0 "Northrop Grumman B-2 Spirit"
- AST_strat_bomber_equipment_4_short:0 "B-2 Spirit"
- AST_strat_bomber_equipment_4_desc:0 "The Northrop Grumman B-2 Spirit is an American heavy penetration strategic bomber, featuring low observable stealth technology designed for penetrating dense anti-aircraft defenses; it is a flying wing design with a crew of two. With the introduction of the B-21 in the US arsenal, Australia was able to procure older B-2s to fill the long-held gap of strategic bombers. While RAAF doctrine has had little use for strategic-level attacks, the allure of an aircraft with still-viable stealth technology was too valuable to pass up."
- AST_strat_bomber_equipment_5:0 "Northrop Grumman B-21"
- AST_strat_bomber_equipment_5_short:0 "B-21"
- AST_strat_bomber_equipment_5_desc:0 "The B-21 is a long-range, air-refuelable, highly survivable aircraft with significant nuclear and conventional stand-off and direct-attack weapons payload. The LRS-B provides operational flexibility across a wide range of military operations. Acquired in the 2030s after intense negoatiations, this upgrade over the previous B-2 design is a very big leap in strategic-level destruction."
- # TACTICAL BOMBERS #
- AST_tac_bomber_equipment_1:0 "Boeing Insitu ScanEagle"
- AST_tac_bomber_equipment_1_short:0 "ScanEagle"
- AST_tac_bomber_equipment_1_desc:0 "The Boeing Insitu ScanEagle is a small, long-endurance unmanned aerial vehicle (UAV) built by Insitu, a subsidiary of Boeing. The ScanEagle was designed by Insitu based on the Insitu SeaScan, a commercial UAV that was intended for fish-spotting."
- AST_tac_bomber_equipment_2:0 "Heron Remotely Piloted Unmanned Aircraft System"
- AST_tac_bomber_equipment_2_short:0 "Heron"
- AST_tac_bomber_equipment_2_desc:0 "The Heron can conduct single missions in excess of 24 hours, with a maximum speed of more than 100 knots (180 km/h) at altitudes of up to 10,000 metres. Unlike small unmanned aerial vehicles, the 1.1 tonne Heron is operated from an airfield runway in conjunction with other manned aircraft."
- AST_tac_bomber_equipment_3:0 "AAI RQ-7 Shadow"
- AST_tac_bomber_equipment_3_short:0 "RQ-7 Shadow"
- AST_tac_bomber_equipment_3_desc:0 "The RQ-7 Shadow is perfect for reconnaissance, surveillance, target acquisition and battle damage assessment. Launched from a trailer-mounted pneumatic catapult, it is recovered with the aid of arresting gear similar to jets on an aircraft carrier. Its gimbal-mounted, digitally stabilized, liquid nitrogen-cooled electro-optical/infrared (EO/IR) camera relays video in real time via a C-band line-of-sight data link to the ground control station (GCS)."
- AST_tac_bomber_equipment_4:0 "MQ-4C Triton"
- AST_tac_bomber_equipment_4_short:0 "MQ-4C Triton"
- AST_tac_bomber_equipment_4_desc:0 "The Triton Unmanned Aircraft System (UAS), is a high altitude, long endurance (HALE) aircraft that will be used for maritime patrol and other surveillance roles. Supporting missions up to 24 hours, the Triton is equipped with a sensor suite that provides a 360-degree view of its surroundings, for over 2,000 nautical miles. The seven Tritons will be based at RAAF Base Edinburgh and will operate alongside the P-8A Poseidon to replace the AP-3C Orion capability."
- AST_tac_bomber_equipment_5:0 "Northrop Grumman RQ-4 Global Hawk"
- AST_tac_bomber_equipment_5_short:0 "RQ-4 Global Hawk"
- AST_tac_bomber_equipment_5_desc:0 "Related to the MQ-4C, the RQ-4 provides a broad overview and systematic surveillance using high-resolution synthetic aperture radar (SAR) and long-range electro-optical/infrared (EO/IR) sensors with long loiter times over target areas. It can survey as much as 40,000 square miles (100,000 km2) of terrain a day. The superior surveillance capabilities of the aircraft allow more precise weapons targeting and better protection of friendly forces."
- # TRANSPORTS #
- AST_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
- AST_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
- AST_transport_plane_equipment_2_desc:0 "The Boeing C-17 Globemaster III is a large military transport aircraft. It was developed for the United States Air Force (USAF) from the 1980s to the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II."
+## TAG ###
+# CAS #
+# CV CAS #
+# FIGHTERS #
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+
+### UNIQUES ###
+## AUSTRALIA ##
+# CAS #
+AST_CAS_equipment_1:0 "Gloster Meteor F.8"
+AST_CAS_equipment_1_short:0 "Meteor F.8"
+AST_CAS_equipment_1_desc:0 "O Gloster Meteor é uma aeronave de metal completo, com dois motores a jato e trem de pouso retrátil. A RAAF inicialmente recebeu as variantes F.4, mas a maioria das aeronaves operadas foram F.8. Meteores pilotados por pessoal da RAAF combateram na "MiG Alley" na Coreia, porém se mostraram inferiores aos MiG-15 soviéticos. O Meteor serviu na RAAF de 1946 até ser aposentado oficialmente em 1963."
+AST_CAS_equipment_2:0 "McDonnell Douglas F-4E Phantom II"
+AST_CAS_equipment_2_short:0 "F-4E"
+AST_CAS_equipment_2_desc:0 "O F-4C foi uma das aeronaves avaliadas pela RAAF em 1963 como parte do projeto para substituir o English Electric Canberra. O F-111 foi selecionado, mas as entregas foram atrasadas devido a falhas técnicas. O governo australiano e o governo dos EUA negociaram um acordo em 1970 para o aluguel de 24 F-4Es. Os F-4Es entraram em serviço em 1970 e foram devolvidos em 1973, após as entregas dos F-111C."
+AST_CAS_equipment_3:0 "Boeing EA-18G Growler"
+AST_CAS_equipment_3_short:0 "EA-18G"
+AST_CAS_equipment_3_desc:0 "O Boeing EA-18G Growler é uma aeronave de guerra eletrônica, uma versão especializada do F/A-18F Super Hornet de dois assentos. A Austrália recebeu a primeira de 12 Growlers em 29 de julho de 2015, com a entrega dos jatos restantes prevista para 2017. De forma única, os Growlers australianos serão equipados com o pod de mira ASQ-228 ATFLIR e também terão armamentos adicionais ar-ar na forma de mísseis AIM-9X."
+# CV CAS #
+# FIGHTERS #
+AST_fighter_equipment_1:0 "CAC CA-27 Sabre"
+AST_fighter_equipment_1_short:0 "CA-27"
+AST_fighter_equipment_1_desc:0 "O Commonwealth Aircraft Corporation (CAC) Avon Sabre foi baseado no design do North American F86 Sabre, modificado para atender às condições e requisitos locais. O CA-27 incluía o motor Rolls-Royce Avon R.A.7 e dois canhões ADEN de 30mm. Fez o primeiro voo em 3 de agosto de 1953 e foi aposentado em 1971."
+AST_fighter_equipment_2:0 "McDonnell Douglas F-4 Phantom II"
+AST_fighter_equipment_2_short:0 "F-4"
+AST_fighter_equipment_2_desc:0 "O McDonnell Douglas A-4G Skyhawk é uma variante do ataque Douglas A-4 Skyhawk, desenvolvido para a Marinha Real Australiana. O modelo foi baseado na variante A-4F do Skyhawk e foi equipado com aviação ligeiramente diferente, além da capacidade de operar mísseis ar-ar AIM-9 Sidewinder. A RAN recebeu dez A-4Gs em 1967 e mais dez em 1971, operando até 1984."
+AST_fighter_equipment_3:0 "McDonnell Douglas F/A-18A Hornet"
+AST_fighter_equipment_3_short:0 "F/A-18A"
+AST_fighter_equipment_3_desc:0 "O F/A-18A e o F/A-18B Hornet da Força Aérea Real Australiana são aeronaves de combate multiuso, capazes de missões ar-ar e ar-solo. Tanto o F/A-18A de um assento quanto o F/A-18B de dois assentos podem realizar interceptação aérea, combate aéreo, apoio aéreo próximo para tropas terrestres e interdição das linhas de suprimento inimigas, incluindo navegação."
+AST_fighter_equipment_4:0 "Boeing F/A-18F Super Hornet"
+AST_fighter_equipment_4_short:0 "F/A-18F"
+AST_fighter_equipment_4_desc:0 "A frota de F/A-18F Super Hornet da Força Aérea Real Australiana oferece ao país uma capacidade aprimorada de combate aéreo para missões tanto ar-ar quanto ar-solo até a introdução completa do F-35 Lightning II. O F/A-18F de dois assentos pode realizar interceptação aérea, combate aéreo, apoio aéreo próximo para tropas terrestres e interdição das linhas de suprimento inimigas, incluindo navegação."
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+AST_nav_bomber_equipment_1:0 "Lockheed SP-2H Neptune"
+AST_nav_bomber_equipment_1_short:0 "SP-2H"
+AST_nav_bomber_equipment_1_desc:0 "Dois P2V-4 e dez P2V-5 Neptunes foram encomendados para a RAAF em fevereiro de 1951 para substituir os envelhecidos Avro Lincolns. Mais doze P2V-7s foram encomendados em 1960 e renomeados em 1962 para SP-2H Neptune. Atuando no Vietnã escoltando B-52s da USAF, os SP-2Hs operaram até sua aposentadoria em 1977."
+AST_nav_bomber_equipment_2:0 "Grumman S-2G Tracker"
+AST_nav_bomber_equipment_2_short:0 "S-2G"
+AST_nav_bomber_equipment_2_desc:0 "Operado pela Marinha Real Australiana de 1967 até 1984, o Tracker provou ser uma excelente aeronave ASW. Tinha grande alcance e equipamento extenso para detectar e engajar submarinos. Inicialmente operando a variante S-2E, um ataque incendiário destruiu a maioria delas enquanto estavam no hangar, e os substitutos da USN foram os S-2Gs, uma melhoria que prolongou a vida do Tracker no serviço da RAN."
+AST_nav_bomber_equipment_3:0 "Lockheed P-3C Orion"
+AST_nav_bomber_equipment_3_short:0 "P-3C"
+AST_nav_bomber_equipment_3_desc:0 "O Lockheed P-3 Orion é uma aeronave anti-submarina e de vigilância marítima com quatro motores turbopropulsores. O Orion entrou em serviço militar na RAAF em 1968 como modelo P-3B, com a variante P-3C sendo introduzida em 1978."
+AST_nav_bomber_equipment_4:0 "Lockheed AP-3C Orion"
+AST_nav_bomber_equipment_4_short:0 "AP-3C"
+AST_nav_bomber_equipment_4_desc:0 "O AP-3C é uma atualização da RAAF do P-3C/W que inclui sistemas de missão L-3 Communications, incluindo um radar SAR/ISAR Elta e um sistema processador acústico GD-Canada. Os AP-3Cs foram atualizados a partir dos P-3Cs entre 1997 e 2005. Os AP-3Cs têm sido usados em operações das Forças Armadas Australianas na Austrália, no Sudeste Asiático e no Oriente Médio."
+AST_nav_bomber_equipment_5:0 "Boeing P-8A Poseidon"
+AST_nav_bomber_equipment_5_short:0 "P-8A"
+AST_nav_bomber_equipment_5_desc:0 "Em 2014, a Austrália, em acordo com a USN, iniciou negociações com a Boeing para adaptar o P-8A às necessidades australianas, incluindo adaptações para o míssil anti-navio AGM-84 Harpoon. A produção dos Poseidons da RAAF começou em 2015 e está prevista para ser entregue em 2016. O P-8A foi projetado para trabalhar em conjunto com o UAV de vigilância marítima MQ-4C."
+AST_nav_bomber_equipment_6:0 "Boeing AP-8E Neptune"
+AST_nav_bomber_equipment_6_short:0 "AP-8E"
+AST_nav_bomber_equipment_6_desc:0 "Uma série de melhorias incrementais culminou em uma reformulação da frota de P-8A Poseidon da RAAF para o padrão AP-8E Neptune. Este pacote de atualização inclui um novo conjunto de controle para os mais recentes Drones de Patrulha Marítima UAV, novas provisões para mais mísseis anti-navio, bem como um sistema de detecção aprimorado para submarinos. Espera-se que toda a frota de P-8A seja atualizada para o padrão AP-8E até 2025."
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+AST_strat_bomber_equipment_1:0 "Fábrica de Aeronaves do Governo Canberra"
+AST_strat_bomber_equipment_1_short:0 "Canberra"
+AST_strat_bomber_equipment_1_desc:0 "Durante o final da década de 1940, a RAAF decidiu adquirir o Canberra como um substituto ou complemento ao Avro Lincoln. O governo australiano decidiu que os Canberras seriam construídos localmente pela Fábrica de Aeronaves do Governo, em vez de serem construídos no Reino Unido. Servindo por 29 anos, de 1963 até 1982, o Canberra viu ação na Emergência Malaia e no Vietnã."
+AST_strat_bomber_equipment_2:0 "General Dynamics F-111C"
+AST_strat_bomber_equipment_2_short:0 "F-111C"
+AST_strat_bomber_equipment_2_desc:0 "O F-111C (apelidado de 'Porco') é uma variante do F-111 Aardvark, um interceptor de médio alcance e aeronave de ataque tático, desenvolvido pela General Dynamics para atender às necessidades australianas. O design foi baseado no modelo F-111A, mas incluía asas mais longas e trem de pouso reforçado. O governo australiano pediu 24 F-111Cs para equipar a RAAF em 1963, mas as aeronaves não foram entregues até 1973 devido a problemas técnicos persistentes."
+AST_strat_bomber_equipment_3:0 "General Dynamics F-111G"
+AST_strat_bomber_equipment_3_short:0 "F-111G"
+AST_strat_bomber_equipment_3_desc:0 "O FB-111 era uma variante do F-111 da USAF com asas reforçadas, trem de pouso mais forte, maior capacidade de combustível e carga útil aumentada, com a intenção de transformá-lo em um bombardeiro estratégico. Com a introdução do B-1B Lancer, a USAF não teve mais necessidade do FB-111, e ele foi reconfigurado para uma função tática e renomeado como F-111G. Em 1993, a RAAF comprou 15 dessas aeronaves para complementar seus F-111Cs."
+AST_strat_bomber_equipment_4:0 "Northrop Grumman B-2 Spirit"
+AST_strat_bomber_equipment_4_short:0 "B-2 Spirit"
+AST_strat_bomber_equipment_4_desc:0 "O Northrop Grumman B-2 Spirit é um bombardeiro estratégico de penetração pesado americano, com tecnologia de baixa observabilidade (stealth) projetada para penetrar defesas densas de defesa aérea; é um design de asa voadora com uma tripulação de dois. Com a introdução do B-21 no arsenal dos EUA, a Austrália foi capaz de adquirir B-2s mais antigos para preencher a lacuna de bombardeiros estratégicos. Embora a doutrina da RAAF tenha pouca necessidade de ataques de nível estratégico, o valor de uma aeronave com tecnologia stealth ainda viável era muito grande para ser ignorado."
+AST_strat_bomber_equipment_5:0 "Northrop Grumman B-21"
+AST_strat_bomber_equipment_5_short:0 "B-21"
+AST_strat_bomber_equipment_5_desc:0 "O B-21 é uma aeronave de longo alcance, reabastecível em voo e altamente sobrevivente, com capacidade significativa de armas nucleares e convencionais, tanto para ataques a distância quanto diretos. O LRS-B oferece flexibilidade operacional em uma ampla gama de operações militares. Adquirido na década de 2030 após intensas negociações, essa atualização sobre o design anterior do B-2 representa um grande avanço na destruição de nível estratégico."
+AST_tac_bomber_equipment_1:0 "Boeing Insitu ScanEagle"
+AST_tac_bomber_equipment_1_short:0 "ScanEagle"
+AST_tac_bomber_equipment_1_desc:0 "O Boeing Insitu ScanEagle é um pequeno veículo aéreo não tripulado (VANT) de longa duração, construído pela Insitu, uma subsidiária da Boeing. O ScanEagle foi projetado pela Insitu com base no Insitu SeaScan, um VANT comercial destinado à localização de peixes."
+AST_tac_bomber_equipment_2:0 "Sistema de Aeronave Não Tripulada Heron"
+AST_tac_bomber_equipment_2_short:0 "Heron"
+AST_tac_bomber_equipment_2_desc:0 "O Heron pode realizar missões individuais por mais de 24 horas, com uma velocidade máxima superior a 100 nós (180 km/h) em altitudes de até 10.000 metros. Ao contrário de pequenos veículos aéreos não tripulados, o Heron de 1,1 tonelada é operado a partir de uma pista de aeroporto em conjunto com outras aeronaves tripuladas."
+AST_tac_bomber_equipment_3:0 "AAI RQ-7 Shadow"
+AST_tac_bomber_equipment_3_short:0 "RQ-7 Shadow"
+AST_tac_bomber_equipment_3_desc:0 "O RQ-7 Shadow é perfeito para reconhecimento, vigilância, aquisição de alvos e avaliação de danos de batalha. Lançado de uma catapulta pneumática montada em trailer, é recuperado com o auxílio de um sistema de retenção semelhante ao usado por aviões em um porta-aviões. Sua câmera eletro-óptica/infravermelha (EO/IR) estabilizada digitalmente e resfriada a nitrogênio líquido transmite vídeo em tempo real via link de dados C-band de linha de visão para a estação de controle no solo (GCS)."
+AST_tac_bomber_equipment_4:0 "MQ-4C Triton"
+AST_tac_bomber_equipment_4_short:0 "MQ-4C Triton"
+AST_tac_bomber_equipment_4_desc:0 "O Sistema de Aeronave Não Tripulada Triton (UAS) é uma aeronave de alta altitude e longa duração (HALE) que será usada para patrulha marítima e outras funções de vigilância. Com missões de até 24 horas, o Triton é equipado com um conjunto de sensores que oferece uma visão de 360 graus ao seu redor, para mais de 2.000 milhas náuticas. Os sete Tritons serão baseados na Base RAAF de Edinburgh e operarão ao lado do P-8A Poseidon para substituir a capacidade do AP-3C Orion."
+AST_tac_bomber_equipment_5:0 "Northrop Grumman RQ-4 Global Hawk"
+AST_tac_bomber_equipment_5_short:0 "RQ-4 Global Hawk"
+AST_tac_bomber_equipment_5_desc:0 "Relacionado ao MQ-4C, o RQ-4 oferece uma visão ampla e vigilância sistemática usando radar de abertura sintética (SAR) de alta resolução e sensores eletro-ópticos/infravermelhos (EO/IR) de longo alcance com longos tempos de permanência sobre áreas-alvo. Ele pode fazer a varredura de até 40.000 milhas quadradas (100.000 km²) de terreno por dia. As capacidades superiores de vigilância da aeronave permitem uma maior precisão no direcionamento de armas e melhor proteção das forças amigas."
+AST_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
+AST_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
+AST_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave de transporte militar. Foi desenvolvida para a Força Aérea dos Estados Unidos (USAF) desde a década de 1980 até o início da década de 1990 pela McDonnell Douglas. O C-17 dá continuidade ao nome de duas aeronaves de carga militar com motores a pistão anteriores, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
  
  
  ## BELGIUM ##
@@ -342,586 +348,576 @@
  # STRATEGIC BOMBERS #
  # TACTICAL BOMBERS #
  # TRANSPORTS #
- BEL_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- BEL_transport_plane_equipment_2_short:0 "A400M Atlas"
- BEL_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
- 
- ## BRAZIL ##
- # CAS #
- # CV CAS #
- # FIGHTERS #
- BRA_fighter_equipment_1:0 "Meteor"
- BRA_fighter_equipment_1_short:0 "Meteor"
- BRA_fighter_equipment_1_desc:0 "Meteor"
- BRA_fighter_equipment_2:0 "F-5E"
- BRA_fighter_equipment_2_short:0 "F-5E"
- BRA_fighter_equipment_2_desc:0 "F-5E"
- BRA_fighter_equipment_3:0 "F-5F"
- BRA_fighter_equipment_3_short:0 "F-5F"
- BRA_fighter_equipment_3_desc:0 "F-5F"
- BRA_fighter_equipment_4:0 "F-5EM"
- BRA_fighter_equipment_4_short:0 "F-5EM"
- BRA_fighter_equipment_4_desc:0 "F-5EM"
- BRA_fighter_equipment_5:0 "F-5FM"
- BRA_fighter_equipment_5_short:0 "F-5FM"
- BRA_fighter_equipment_5_desc:0 "F-5FM"
- BRA_fighter_equipment_6:0 "F-39"
- BRA_fighter_equipment_6_short:0 "F-39"
- BRA_fighter_equipment_6_desc:0 "F-39"
- BRA_fighter_equipment_7:0 "F-39B"
- BRA_fighter_equipment_7_short:0 "F-39B"
- BRA_fighter_equipment_7_desc:0 "F-39B"
- BRA_fighter_equipment_8:0 "IMBEL F-30"
- BRA_fighter_equipment_8_short:0 "IMBEL F-30"
- BRA_fighter_equipment_8_desc:0 "IMBEL F-30"
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- 
- 
- ## CANADA ##
- # CAS #
- # CV CAS #
- # FIGHTERS #
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- CAN_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
- CAN_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
- CAN_transport_plane_equipment_2_desc:0 "The Boeing C-17 Globemaster III is a large military transport aircraft. It was developed for the United States Air Force (USAF) from the 1980s to the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II."
- 
- 
- ## UNITED KINGDOM ##
- # CAS #
- ENG_CAS_equipment_1:0 "de Havilland DH 112 Venom"
- ENG_CAS_equipment_1_short:0 "Venom"
- ENG_CAS_equipment_2:0 "SEPECAT Jaguar"
- ENG_CAS_equipment_2_short:0 "Jaguar"
- ENG_CAS_equipment_3:0 "Hawker Siddeley Harrier T.6"
- ENG_CAS_equipment_3_short:0 "Harrier T.6"
- ENG_CAS_equipment_3_desc:0 "Harrier T.6"
- # CV CAS #
- # FIGHTERS #
- ENG_fighter_equipment_1:0 "Gloster Meteor"
- ENG_fighter_equipment_1_short:0 "Meteor"
- ENG_fighter_equipment_1_desc:0 "Meteor"
- ENG_fighter_equipment_2:0 "Hawker Siddeley Harrier GR.3"
- ENG_fighter_equipment_2_short:0 "Harrier GR.3"
- ENG_fighter_equipment_2_desc:0 "Harrier GR.3"
- ENG_fighter_equipment_3:0 "Tornado GR1"
- ENG_fighter_equipment_3_short:0 "Tornado GR1"
- ENG_fighter_equipment_3_desc:0 "Tornado GR1"
- ENG_fighter_equipment_4:0 "Tornado GR4"
- ENG_fighter_equipment_4_short:0 "Tornado GR4"
- ENG_fighter_equipment_4_desc:0 "Tornado GR4"
- ENG_fighter_equipment_5:0 "Eurofighter Typhoon"
- ENG_fighter_equipment_5_short:0 "Eurofighter Typhoon"
- ENG_fighter_equipment_5_desc:0 "Eurofighter Typhoon"
- ENG_fighter_equipment_6:0 "F-35B Lightning II"
- ENG_fighter_equipment_6_short:0 "F-35B Lightning II"
- ENG_fighter_equipment_6_desc:0 "F-35B Lightning II"
- ENG_fighter_equipment_7:0 "Eurofighter Cyclone"
- ENG_fighter_equipment_7_short:0 "Eurofighter Cyclone"
- ENG_fighter_equipment_7_desc:0 "Eurofighter Cyclone"
- ENG_fighter_equipment_8:0 "Eurofighter Tempest"
- ENG_fighter_equipment_8_short:0 "Eurofighter Tempest"
- ENG_fighter_equipment_8_desc:0 "Eurofighter Tempest"
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- ENG_strat_bomber_equipment_1:0 "Avro Vulcan"
- ENG_strat_bomber_equipment_1_short:0 "Vulcan"
- ENG_strat_bomber_equipment_1_desc:0 "Avro Vulcan"
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- ENG_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- ENG_transport_plane_equipment_2_short:0 "A400M Atlas"
- ENG_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
- 
- 
- ## FRANCE ##
- # CAS #
- # CV CAS #
- # FIGHTERS #
- FRA_fighter_equipment_1:0 "Mirage III"
- FRA_fighter_equipment_1_short:0 "Mirage III"
- FRA_fighter_equipment_1_desc:0 "Mirage III"
- FRA_fighter_equipment_2:0 "Mirage F1"
- FRA_fighter_equipment_2_short:0 "Mirage F1"
- FRA_fighter_equipment_2_desc:0 "Mirage F1"
- FRA_fighter_equipment_3:0 "Mirage 2000 B"
- FRA_fighter_equipment_3_short:0 "Mirage 2000 B"
- FRA_fighter_equipment_3_desc:0 "Mirage 2000 B"
- FRA_fighter_equipment_4:0 "Mirage 2000-5"
- FRA_fighter_equipment_4_short:0 "Mirage 2000-5"
- FRA_fighter_equipment_4_desc:0 "Mirage 2000-5"
- FRA_fighter_equipment_5:0 "Rafale"
- FRA_fighter_equipment_5_short:0 "Rafale"
- FRA_fighter_equipment_5_desc:0 "Rafale"
- FRA_fighter_equipment_6:0 "Modern Rafale"
- FRA_fighter_equipment_6_short:0 "Modern Rafale"
- FRA_fighter_equipment_6_desc:0 "Modern Rafale"
- FRA_fighter_equipment_7:0 "Mirage 4000"
- FRA_fighter_equipment_7_short:0 "Mirage 4000"
- FRA_fighter_equipment_7_desc:0 "Mirage 4000"
- FRA_fighter_equipment_8:0 "Mirage 4000-5"
- FRA_fighter_equipment_8_short:0 "Mirage 4000-5"
- FRA_fighter_equipment_8_desc:0 "Mirage 4000-5"
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- FRA_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- FRA_transport_plane_equipment_2_short:0 "A400M Atlas"
- FRA_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
- # Helicopter #
- FRA_heli_equipment_1:0 "Gazelle"
- FRA_heli_equipment_1_desc:0 ""
- #FRA_heli_equipment_2:0 "Modern Helicopter"
- #FRA_heli_equipment_2_desc:0 ""
- 
- 
- ## GERMANY ##
- # CAS #
- # CV CAS #
- # FIGHTERS #
- GER_fighter_equipment_1:0 "Canadair CL-13 Sabre"
- GER_fighter_equipment_1_short:0 "CL-13"
- GER_fighter_equipment_1_desc:0 "CL-13"
- GER_fighter_equipment_2:0 "McDonnell Douglas F-4 Phantom II"
- GER_fighter_equipment_2_short:0 "F-4"
- GER_fighter_equipment_2_desc:0 "F-4"
- GER_fighter_equipment_3:0 "Tornado GR1"
- GER_fighter_equipment_3_short:0 "Tornado GR1"
- GER_fighter_equipment_3_desc:0 "Tornado GR1"
- GER_fighter_equipment_4:0 "Tornado GR4"
- GER_fighter_equipment_4_short:0 "Tornado GR4"
- GER_fighter_equipment_4_desc:0 "Tornado GR4"
- GER_fighter_equipment_5:0 "Eurofighter Typhoon"
- GER_fighter_equipment_5_short:0 "Eurofighter Typhoon"
- GER_fighter_equipment_5_desc:0 "Eurofighter Typhoon"
- GER_fighter_equipment_6:0 "Tornado ASSTA 3.1"
- GER_fighter_equipment_6_short:0 "Tornado ASSTA 3.1"
- GER_fighter_equipment_6_desc:0 "Tornado ASSTA 3.1"
- GER_fighter_equipment_7:0 "Eurofighter Cyclone"
- GER_fighter_equipment_7_short:0 "Eurofighter Cyclone"
- GER_fighter_equipment_7_desc:0 "Eurofighter Cyclone"
- GER_fighter_equipment_8:0 "Eurofighter Tempest"
- GER_fighter_equipment_8_short:0 "Eurofighter Tempest"
- GER_fighter_equipment_8_desc:0 "Eurofighter Tempest"
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- GER_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- GER_transport_plane_equipment_2_short:0 "A400M Atlas"
- GER_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
- 
- ## GUATEMALA ##
- GUA_CAS_equipment_1:0 "A-37 Dragonfly"
- GUA_CAS_equipment_1_short:0 "A-37"
- GUA_transport_plane_equipment_1:0 "Fokker F27 Friendship"
- GUA_transport_plane_equipment_1_short:0 "F27 Friendship"
+BEL_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+BEL_transport_plane_equipment_2_short:0 "A400M Atlas"
+BEL_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia com quatro motores a turbopropulsão. Foi projetada pela Airbus Military (atualmente Airbus Defence and Space) como um transportador tático com capacidades estratégicas para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
 
- # The Netherlands #
- HOL_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
- HOL_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
- HOL_transport_plane_equipment_2_desc:0 "The Boeing C-17 Globemaster III is a large military transport aircraft. It was developed for the United States Air Force (USAF) from the 1980s to the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II."
- 
- ## Hungary ##
- # Fighter #
- HUN_fighter_equipment_2:0 "Mikoyan MiG-29"
- HUN_fighter_equipment_2_short:0 "MiG-29"
- HUN_fighter_equipment_2_desc:0 "The Mikoyan MiG-29 is a twin-engine jet fighter aircraft designed in the Soviet Union. Developed by the Mikoyan design bureau as an air superiority fighter during the 1970s, the MiG-29, along with the larger Sukhoi Su-27, was developed to counter new U.S. fighters such as the McDonnell Douglas F-15 Eagle and the General Dynamics F-16 Fighting Falcon. The MiG-29 entered service with the Hungarian Air Forces in 1993."
- HUN_fighter_equipment_3:0 "Saab 39 Gripen"
- HUN_fighter_equipment_3_short:0 "Saab 39 Gripen"
+## BRAZIL ##
+# CAS #
+# CV CAS #
+# FIGHTERS #
+BRA_fighter_equipment_1:0 "Meteor"
+BRA_fighter_equipment_1_short:0 "Meteor"
+BRA_fighter_equipment_1_desc:0 "Meteor"
+BRA_fighter_equipment_2:0 "F-5E"
+BRA_fighter_equipment_2_short:0 "F-5E"
+BRA_fighter_equipment_2_desc:0 "F-5E"
+BRA_fighter_equipment_3:0 "F-5F"
+BRA_fighter_equipment_3_short:0 "F-5F"
+BRA_fighter_equipment_3_desc:0 "F-5F"
+BRA_fighter_equipment_4:0 "F-5EM"
+BRA_fighter_equipment_4_short:0 "F-5EM"
+BRA_fighter_equipment_4_desc:0 "F-5EM"
+BRA_fighter_equipment_5:0 "F-5FM"
+BRA_fighter_equipment_5_short:0 "F-5FM"
+BRA_fighter_equipment_5_desc:0 "F-5FM"
+BRA_fighter_equipment_6:0 "F-39"
+BRA_fighter_equipment_6_short:0 "F-39"
+BRA_fighter_equipment_6_desc:0 "F-39"
+BRA_fighter_equipment_7:0 "F-39B"
+BRA_fighter_equipment_7_short:0 "F-39B"
+BRA_fighter_equipment_7_desc:0 "F-39B"
+BRA_fighter_equipment_8:0 "IMBEL F-30"
+BRA_fighter_equipment_8_short:0 "IMBEL F-30"
+BRA_fighter_equipment_8_desc:0 "IMBEL F-30"
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+# TRANSPORTS #
 
- # TRANSPORTS #
- HUN_transport_plane_equipment_1:0 "Antonov An-26"
- HUN_transport_plane_equipment_1_short:0 "An-26"
- 
- ## ISRAEL ##
- # CAS #
- ISR_CAS_equipment_1:0 "Dassault M.D.450 Ouragan"
- ISR_CAS_equipment_1_short:0 "M.D.450"
- ISR_CAS_equipment_2:0 "Douglas A-4E Skyhawk"
- ISR_CAS_equipment_2_short:0 "A-4E"
- ISR_CAS_equipment_3:0 "McDonnell Douglas F-16E/F Block 60"
- ISR_CAS_equipment_3_short:0 "F-16E/F Block 60"
- ISR_CAS_equipment_3_desc:0 "F-16E/F Block 60"
- # CV CAS #
- # FIGHTERS #
- ISR_fighter_equipment:0 "Multirole Fighter"
- ISR_fighter_equipment_short:0 "Multirole"
- ISR_fighter_equipment_desc:0 "Multirole Fighter"
- ISR_fighter_equipment_1:0 "Gloster Meteor"
- ISR_fighter_equipment_1_short:0 "Meteor"
- ISR_fighter_equipment_2:0 "IAI Nesher"
- ISR_fighter_equipment_2_short:0 "Nesher"
- ISR_fighter_equipment_3:0 "McDonnell Douglas F-4 Phantom II Kurnass"
- ISR_fighter_equipment_3_short:0 "F-4 Kurnass"
- ISR_fighter_equipment_4:0 "General Dynamics F-16I Sufa"
- ISR_fighter_equipment_4_short:0 "F-16I Sufa"
- ISR_fighter_equipment_5:0 "McDonnell Douglas F-15A Eagle"
- ISR_fighter_equipment_5_short:0 "F-15A"
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- ISR_strat_bomber_equipment_1:0 "Sud Aviation Vautour"
- ISR_strat_bomber_equipment_1_short:0 "Vantour"
- ISR_strat_bomber_equipment_1_desc:0 "Sud Aviation Vautour"
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- 
- 
- ## JAPAN ##
- # CAS #
- JAP_CAS_equipment_2:0 "F-4EJ Kai"
- JAP_CAS_equipment_2_short:0 "F-4EJ Kai"
- JAP_CAS_equipment_2_desc:0 "96 F-4EJs have since been modified to the F-4EJ Kai (modified) standard."
- JAP_CAS_equipment_3:0 "Mitsubishi F-15E Strike Eagle"
- JAP_CAS_equipment_3_short:0 "Mitsubishi F-15E"
- JAP_CAS_equipment_3_desc:0 "Mitsubishi F-15E"
- # CV CAS #
- # FIGHTERS #
- JAP_fighter_equipment_1:0 "F-86F Kyokko"
- JAP_fighter_equipment_1_short:0 "F-86F Kyokko"
- JAP_fighter_equipment_1_desc:0 "Mitsubishi built 300 F-86Fs (also known as Kyrokko or 'Sunrise') under license between 1956 and 1961"
- JAP_fighter_equipment_2:0 "Mitsubishi F-1"
- JAP_fighter_equipment_2_short:0 "Mitsubishi F-1"
- JAP_fighter_equipment_2_desc:0 "The Mitsubishi F-1 is Japan's first post-World War II domestically developed and built supersonic military jet to enter production in Japan since the end of World War II"
- JAP_fighter_equipment_3:0 "Mitsubishi F-15J"
- JAP_fighter_equipment_3_short:0 "Mitsubishi F-15J"
- JAP_fighter_equipment_3_desc:0 "The Mitsubishi F-15J/DJ Eagle is a twin-engine, all-weather air superiority fighter based on the McDonnell Douglas F-15 Eagle in use by the Japan Air Self-Defense Force (JASDF)"
- JAP_fighter_equipment_4:0 "Mitsubishi F-2"
- JAP_fighter_equipment_4_short:0 "Mitsubishi F-2"
- JAP_fighter_equipment_4_desc:0 "The Mitsubishi F-2 is a multirole fighter derived from the General Dynamics F-16 Fighting Falcon, and manufactured by Mitsubishi Heavy Industries and Lockheed Martin for the Japan Air Self-Defense Force"
- JAP_fighter_equipment_5:0 "Mitsubishi F-2A"
- JAP_fighter_equipment_5_short:0 "Mitsubishi F-2A"
- JAP_fighter_equipment_5_desc:0 "Mitsubishi F-2A"
- JAP_fighter_equipment_6:0 "F-35"
- JAP_fighter_equipment_6_short:0 "F-35"
- JAP_fighter_equipment_6_desc:0 "F-35"
- JAP_fighter_equipment_7:0 "F-61"
- JAP_fighter_equipment_7_short:0 "F-61"
- JAP_fighter_equipment_7_desc:0 "F-61"
- JAP_fighter_equipment_8:0 "F-99"
- JAP_fighter_equipment_8_short:0 "F-99"
- JAP_fighter_equipment_8_desc:0 "F-99"
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- # TRANSPORTS #
+## CANADA ##
+# CAS #
+# CV CAS #
+# FIGHTERS #
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+CAN_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
+CAN_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
+CAN_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave de transporte militar. Foi desenvolvido para a Força Aérea dos Estados Unidos (USAF) durante as décadas de 1980 a 1990 pela McDonnell Douglas. O C-17 leva o nome de duas aeronaves militares de carga anteriores com motores a pistão, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
 
- ## NICARAGUA ##
- # TRANSPORTS #
- NIC_transport_plane_equipment:0 "Antonov An-26"
- NIC_transport_plane_equipment_short:0 "An-26"
+## UNITED KINGDOM ##
+# CAS #
+ENG_CAS_equipment_1:0 "de Havilland DH 112 Venom"
+ENG_CAS_equipment_1_short:0 "Venom"
+ENG_CAS_equipment_2:0 "SEPECAT Jaguar"
+ENG_CAS_equipment_2_short:0 "Jaguar"
+ENG_CAS_equipment_3:0 "Hawker Siddeley Harrier T.6"
+ENG_CAS_equipment_3_short:0 "Harrier T.6"
+ENG_CAS_equipment_3_desc:0 "Harrier T.6"
+# CV CAS #
+# FIGHTERS #
+ENG_fighter_equipment_1:0 "Gloster Meteor"
+ENG_fighter_equipment_1_short:0 "Meteor"
+ENG_fighter_equipment_1_desc:0 "Meteor"
+ENG_fighter_equipment_2:0 "Hawker Siddeley Harrier GR.3"
+ENG_fighter_equipment_2_short:0 "Harrier GR.3"
+ENG_fighter_equipment_2_desc:0 "Harrier GR.3"
+ENG_fighter_equipment_3:0 "Tornado GR1"
+ENG_fighter_equipment_3_short:0 "Tornado GR1"
+ENG_fighter_equipment_3_desc:0 "Tornado GR1"
+ENG_fighter_equipment_4:0 "Tornado GR4"
+ENG_fighter_equipment_4_short:0 "Tornado GR4"
+ENG_fighter_equipment_4_desc:0 "Tornado GR4"
+ENG_fighter_equipment_5:0 "Eurofighter Typhoon"
+ENG_fighter_equipment_5_short:0 "Eurofighter Typhoon"
+ENG_fighter_equipment_5_desc:0 "Eurofighter Typhoon"
+ENG_fighter_equipment_6:0 "F-35B Lightning II"
+ENG_fighter_equipment_6_short:0 "F-35B Lightning II"
+ENG_fighter_equipment_6_desc:0 "F-35B Lightning II"
+ENG_fighter_equipment_7:0 "Eurofighter Cyclone"
+ENG_fighter_equipment_7_short:0 "Eurofighter Cyclone"
+ENG_fighter_equipment_7_desc:0 "Eurofighter Cyclone"
+ENG_fighter_equipment_8:0 "Eurofighter Tempest"
+ENG_fighter_equipment_8_short:0 "Eurofighter Tempest"
+ENG_fighter_equipment_8_desc:0 "Eurofighter Tempest"
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+ENG_strat_bomber_equipment_1:0 "Avro Vulcan"
+ENG_strat_bomber_equipment_1_short:0 "Vulcan"
+ENG_strat_bomber_equipment_1_desc:0 "Avro Vulcan"
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+ENG_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+ENG_transport_plane_equipment_2_short:0 "A400M Atlas"
+ENG_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia com quatro motores a turbopropulsão. Foi projetada pela Airbus Military (atualmente Airbus Defence and Space) como um transportador tático com capacidades estratégicas para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
  
+ 
+## FRANCE ##
+# CAS #
+# CV CAS #
+# FIGHTERS #
+FRA_fighter_equipment_1:0 "Mirage III"
+FRA_fighter_equipment_1_short:0 "Mirage III"
+FRA_fighter_equipment_1_desc:0 "Mirage III"
+FRA_fighter_equipment_2:0 "Mirage F1"
+FRA_fighter_equipment_2_short:0 "Mirage F1"
+FRA_fighter_equipment_2_desc:0 "Mirage F1"
+FRA_fighter_equipment_3:0 "Mirage 2000 B"
+FRA_fighter_equipment_3_short:0 "Mirage 2000 B"
+FRA_fighter_equipment_3_desc:0 "Mirage 2000 B"
+FRA_fighter_equipment_4:0 "Mirage 2000-5"
+FRA_fighter_equipment_4_short:0 "Mirage 2000-5"
+FRA_fighter_equipment_4_desc:0 "Mirage 2000-5"
+FRA_fighter_equipment_5:0 "Rafale"
+FRA_fighter_equipment_5_short:0 "Rafale"
+FRA_fighter_equipment_5_desc:0 "Rafale"
+FRA_fighter_equipment_6:0 "Modern Rafale"
+FRA_fighter_equipment_6_short:0 "Modern Rafale"
+FRA_fighter_equipment_6_desc:0 "Modern Rafale"
+FRA_fighter_equipment_7:0 "Mirage 4000"
+FRA_fighter_equipment_7_short:0 "Mirage 4000"
+FRA_fighter_equipment_7_desc:0 "Mirage 4000"
+FRA_fighter_equipment_8:0 "Mirage 4000-5"
+FRA_fighter_equipment_8_short:0 "Mirage 4000-5"
+FRA_fighter_equipment_8_desc:0 "Mirage 4000-5"
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+FRA_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+FRA_transport_plane_equipment_2_short:0 "A400M Atlas"
+FRA_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia com quatro motores turboélice. Foi projetado pela Airbus Military (agora Airbus Defence and Space) como um transportador tático com capacidades estratégicas para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
+# Helicopter #
+FRA_heli_equipment_1:0 "Gazelle"
+FRA_heli_equipment_1_desc:0 ""
+#FRA_heli_equipment_2:0 "Helicóptero Moderno"
+#FRA_heli_equipment_2_desc:0 ""
 
- ## IRAN ##
- # CAS #
- PER_CAS_equipment_1:0 "F-84 Thunderjet"
- PER_CAS_equipment_1_short:0 "F-84"
- PER_CAS_equipment_1_desc:0 "The Republic F-84 Thunderjet was an American turbojet fighter-bomber aircraft. Originating as a 1944 United States Army Air Forces (USAAF) proposal for a "day fighter", the F-84 first flew in 1946. Although it entered service in 1947, the Thunderjet was plagued by so many structural and engine problems that a 1948 U.S. Air Force review declared it unable to execute any aspect of its intended mission and considered canceling the program. The aircraft was not considered fully operational until the 1949."
- PER_CAS_equipment_2:0 "MiG-27"
- PER_CAS_equipment_2_short:0 "MiG-27"
- PER_CAS_equipment_2_desc:0 "The Mikoyan MiG-27 is a variable-geometry ground-attack aircraft, originally built by the Mikoyan design bureau in the Soviet Union. It is based on the Mikoyan-Gurevich MiG-23 fighter aircraft, but optimized for air-to-ground attack."
- PER_CAS_equipment_3:0 "Sukhoi Su-25"
- PER_CAS_equipment_3_short:0 "Su-25"
- PER_CAS_equipment_3_desc:0 "The Sukhoi Su-25 Grach is a single-seat, twin-engine jet aircraft developed in the Soviet Union by the Sukhoi Design Bureau. It was designed to provide close air support for the Soviet Ground Forces. The first prototype made its maiden flight on 22 February 1975. After testing, the aircraft went into series production in 1978 at Tbilisi in the Soviet Republic of Georgia."
- # CV CAS #
- # FIGHTERS #
- PER_fighter_equipment_1:0 "North American F-86 Sabre"
- PER_fighter_equipment_1_short:0 "F-86"
- PER_fighter_equipment_1_desc:0 "F-86"
- PER_fighter_equipment_2:0 "F-4 Phantom"
- PER_fighter_equipment_2_short:0 "F-4 Phantom"
- PER_fighter_equipment_2_desc:0 "The McDonnell Douglas F-4 Phantom II is a tandem two-seat, twin-engine, all-weather, long-range supersonic jet interceptor and fighter-bomber originally developed for the United States Navy by McDonnell Aircraft. It first entered service in 1960 with the U.S. Navy. Proving highly adaptable, it was also adopted by the U.S. Marine Corps and the U.S. Air Force, and by the mid-1960s had become a major part of their respective air wings."
- PER_fighter_equipment_3:0 "F-14 Tomcat"
- PER_fighter_equipment_3_short:0 "F-14 Tomcat"
- PER_fighter_equipment_3_desc:0 "he Grumman F-14 Tomcat is an American supersonic, twin-engine, two-seat, variable-sweep wing fighter aircraft. The Tomcat was developed for the United States Navy's Naval Fighter Experimental (VFX) program after the collapse of the F-111B project. The F-14 was the first of the American teen-series fighters, which were designed incorporating air combat experience against MiG fighters during the Vietnam War."
- PER_fighter_equipment_4:0 "MiG-29"
- PER_fighter_equipment_4_short:0 "MiG-29"
- PER_fighter_equipment_4_desc:0 "The Mikoyan MiG-29 is a twin-engine jet fighter aircraft designed in the Soviet Union. Developed by the Mikoyan design bureau as an air superiority fighter during the 1970s, the MiG-29, along with the larger Sukhoi Su-27, was developed to counter new American fighters such as the McDonnell Douglas F-15 Eagle, and the General Dynamics F-16 Fighting Falcon. The MiG-29 entered service with the Soviet Air Force in 1982."
- PER_fighter_equipment_5:0 "HESA Azarakhsh"
- PER_fighter_equipment_5_short:0 "Azarakhsh"
- PER_fighter_equipment_5_desc:0 "The HESA Azarakhsh "lightning" is a jet fighter aircraft manufactured by the Iran Aircraft Manufacturing Industrial Company (HESA). It is widely regarded as a reverse engineered variant of the American Northrop F-5 Freedom Fighter/Tiger II. It is Iran's first domestically manufactured combat jet fighter. The Azarakhsh was developed in Isfahan by the Iranian army, the Iranian Defense Ministry, and aircraft-manufacturing company HESA."
- PER_fighter_equipment_6:0 "HESA Saeqeh"
- PER_fighter_equipment_6_short:0 "Saeqeh"
- PER_fighter_equipment_6_desc:0 "The HESA Saeqeh "thunderbolt" is an Iranian built single-seat jet fighter, derived from the American Northrop F-5. A joint product of the Islamic Republic of Iran Air Force and the Iranian Ministry of Defence, it is the second generation of the Iranian Azarakhsh fighter. Saeqeh aircraft were tested successfully in Iran 20 September 2007."
- PER_fighter_equipment_7:0 "HESA Shafaq"
- PER_fighter_equipment_7_short:0 "Shafaq"
- PER_fighter_equipment_7_desc:0 "The HESA Shafaq "Twilight" or "Aurora" is an Iranian subsonic stealth aircraft project being developed by the Iran Aircraft Manufacturing Industrial Company (HESA)."
- PER_fighter_equipment_8:0 "IAIO Qaher F-313"
- PER_fighter_equipment_8_short:0 "Qaher-313"
- PER_fighter_equipment_8_desc:0 "The IAIO Qaher-313 'conqueror' is a planned Iranian single-seat stealth fighter aircraft that was publicly announced on 1 February 2013. A press presentation about the project was made by President Mahmoud Ahmadinejad and Defense Minister Ahmad Vahidi on 2 February 2013, as part of the Ten-Day Dawn ceremonies. Independent experts have expressed significant doubts about the viability of the aircraft."
- # TACTICAL BOMBERS #
- PER_tac_bomber_equipment_1:0 "Ghods Mohajer"
- PER_tac_bomber_equipment_1_short:0 "Mohajer"
- PER_tac_bomber_equipment_1_desc:0 "Mohajer "Migrant" or Mersad series of unmanned aerial vehicles is built by Iran. The Mohajer is primarily used for reconnaissance. It may also be capable of guiding laser-guided munitions to their targets."
- PER_tac_bomber_equipment_2:0 "Ghods Ababil"
- PER_tac_bomber_equipment_2_short:0 "Ababil"
- PER_tac_bomber_equipment_2_desc:0 "The Ababil "swallow" is an Iranian-made UAV. Iran has developed a number of variants, including the tactical Ababil-5 for medium-range reconnaissance and surveillance, the Ababil-T for short/medium-range attack, and also the Ababil-B and -S."
- PER_tac_bomber_equipment_3:0 "HESA Dorna"
- PER_tac_bomber_equipment_3_short:0 "Dorna"
- PER_tac_bomber_equipment_3_desc:0 "Dorna "Crane" is a jet-powered Iranian training aircraft. The aircraft was first publicised in 1999 when Iranian air force General Habibollah Baghal claimed that a locally designed Dorna trainer aircraft had entered production."
- PER_tac_bomber_equipment_4:0 "IAIO Karrar UCAV"
- PER_tac_bomber_equipment_4_short:0 "Karrar UCAV"
- PER_tac_bomber_equipment_4_desc:0 "Karrar "striker" is an unmanned combat air vehicle produced for the military of Iran. According to reports, the UCAV can bomb targets at high speed. It is the first long-range unmanned aerial drone manufactured in Iran."
- PER_tac_bomber_equipment_5:0 "IAIO Fotros"
- PER_tac_bomber_equipment_5_short:0 "Fotros"
- PER_tac_bomber_equipment_5_desc:0 "Fotros "Fallen Angel" is an Iranian reconnaissance, surveillance, and combat drone built by IAIO and unveiled in November 2013. It is considered the largest in Iran's arsenal of unmanned aerial vehicles."
- 
- 
- ## KUWAIT ##
- # TRANSPORTS #
- KUW_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
- KUW_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
- KUW_transport_plane_equipment_2_desc:0 "The Boeing C-17 Globemaster III is a large military transport aircraft. It was developed for the United States Air Force (USAF) from the 1980s to the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II."
- 
- 
- ## LUXEMBURG ##
- # TRANSPORTS #
- LUX_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- LUX_transport_plane_equipment_2_short:0 "A400M Atlas"
- LUX_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
- 
- 
- ## MALAYSIA ##
- # TRANSPORTS #
- MAL_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- MAL_transport_plane_equipment_2_short:0 "A400M Atlas"
- MAL_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
- 
- ## MADAGASCAR ##
- # TRANSPORTS #
- MAD_transport_plane_equipment_1:0 "Boeing 737"
- MAD_transport_plane_equipment_1_short:0 "Boeing 737"
- MAD_transport_plane_equipment_1_desc:0 "The Boeing 737 is a narrow-body aircraft produced by Boeing at its Everett and Renton factories in Washington. Developed to supplement the Boeing 727 on short and thin routes, the twinjet retained the 707 fuselage width and six abreast seating but with two underwing turbofans instead of four."
+## GERMANY ##
+# CAS #
+# CV CAS #
+# FIGHTERS #
+GER_fighter_equipment_1:0 "Canadair CL-13 Sabre"
+GER_fighter_equipment_1_short:0 "CL-13"
+GER_fighter_equipment_1_desc:0 "CL-13"
+GER_fighter_equipment_2:0 "McDonnell Douglas F-4 Phantom II"
+GER_fighter_equipment_2_short:0 "F-4"
+GER_fighter_equipment_2_desc:0 "F-4"
+GER_fighter_equipment_3:0 "Tornado GR1"
+GER_fighter_equipment_3_short:0 "Tornado GR1"
+GER_fighter_equipment_3_desc:0 "Tornado GR1"
+GER_fighter_equipment_4:0 "Tornado GR4"
+GER_fighter_equipment_4_short:0 "Tornado GR4"
+GER_fighter_equipment_4_desc:0 "Tornado GR4"
+GER_fighter_equipment_5:0 "Eurofighter Typhoon"
+GER_fighter_equipment_5_short:0 "Eurofighter Typhoon"
+GER_fighter_equipment_5_desc:0 "Eurofighter Typhoon"
+GER_fighter_equipment_6:0 "Tornado ASSTA 3.1"
+GER_fighter_equipment_6_short:0 "Tornado ASSTA 3.1"
+GER_fighter_equipment_6_desc:0 "Tornado ASSTA 3.1"
+GER_fighter_equipment_7:0 "Eurofighter Cyclone"
+GER_fighter_equipment_7_short:0 "Eurofighter Cyclone"
+GER_fighter_equipment_7_desc:0 "Eurofighter Cyclone"
+GER_fighter_equipment_8:0 "Eurofighter Tempest"
+GER_fighter_equipment_8_short:0 "Eurofighter Tempest"
+GER_fighter_equipment_8_desc:0 "Eurofighter Tempest"
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+GER_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+GER_transport_plane_equipment_2_short:0 "A400M Atlas"
+GER_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia com quatro motores turboélice. Foi projetado pela Airbus Military (agora Airbus Defence and Space) como um transportador tático com capacidades estratégicas para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
 
+## GUATEMALA ##
+GUA_CAS_equipment_1:0 "A-37 Dragonfly"
+GUA_CAS_equipment_1_short:0 "A-37"
+GUA_transport_plane_equipment_1:0 "Fokker F27 Friendship"
+GUA_transport_plane_equipment_1_short:0 "F27 Friendship"
+
+# The Netherlands #
+HOL_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
+HOL_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
+HOL_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave de transporte militar. Foi desenvolvido para a Força Aérea dos Estados Unidos (USAF) das décadas de 1980 até o início dos anos 1990 pela McDonnell Douglas. O C-17 leva adiante o nome de duas aeronaves de carga militares com motores a pistão, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
+
+## Hungary ##
+# Fighter #
+HUN_fighter_equipment_2:0 "Mikoyan MiG-29"
+HUN_fighter_equipment_2_short:0 "MiG-29"
+HUN_fighter_equipment_2_desc:0 "O Mikoyan MiG-29 é um caça a jato de dois motores projetado na União Soviética. Desenvolvido pelo escritório de design Mikoyan como um caça de superioridade aérea durante os anos 1970, o MiG-29, junto com o maior Sukhoi Su-27, foi desenvolvido para enfrentar os novos caças dos EUA, como o McDonnell Douglas F-15 Eagle e o General Dynamics F-16 Fighting Falcon. O MiG-29 entrou em serviço com as Forças Aéreas Húngaras em 1993."
+HUN_fighter_equipment_3:0 "Saab 39 Gripen"
+HUN_fighter_equipment_3_short:0 "Saab 39 Gripen"
+
+# TRANSPORTS #
+HUN_transport_plane_equipment_1:0 "Antonov An-26"
+HUN_transport_plane_equipment_1_short:0 "An-26"
+
+## ISRAEL ##
+# CAS #
+ISR_CAS_equipment_1:0 "Dassault M.D.450 Ouragan"
+ISR_CAS_equipment_1_short:0 "M.D.450"
+ISR_CAS_equipment_2:0 "Douglas A-4E Skyhawk"
+ISR_CAS_equipment_2_short:0 "A-4E"
+ISR_CAS_equipment_3:0 "McDonnell Douglas F-16E/F Block 60"
+ISR_CAS_equipment_3_short:0 "F-16E/F Block 60"
+ISR_CAS_equipment_3_desc:0 "F-16E/F Block 60"
+# CV CAS #
+# FIGHTERS #
+ISR_fighter_equipment:0 "Caça Multifuncional"
+ISR_fighter_equipment_short:0 "Multifunção"
+ISR_fighter_equipment_desc:0 "Caça Multifuncional"
+ISR_fighter_equipment_1:0 "Gloster Meteor"
+ISR_fighter_equipment_1_short:0 "Meteor"
+ISR_fighter_equipment_2:0 "IAI Nesher"
+ISR_fighter_equipment_2_short:0 "Nesher"
+ISR_fighter_equipment_3:0 "McDonnell Douglas F-4 Phantom II Kurnass"
+ISR_fighter_equipment_3_short:0 "F-4 Kurnass"
+ISR_fighter_equipment_4:0 "General Dynamics F-16I Sufa"
+ISR_fighter_equipment_4_short:0 "F-16I Sufa"
+ISR_fighter_equipment_5:0 "McDonnell Douglas F-15A Eagle"
+ISR_fighter_equipment_5_short:0 "F-15A"
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+ISR_strat_bomber_equipment_1:0 "Sud Aviation Vautour"
+ISR_strat_bomber_equipment_1_short:0 "Vautour"
+ISR_strat_bomber_equipment_1_desc:0 "Sud Aviation Vautour"
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+
+## JAPAN ##
+# CAS #
+JAP_CAS_equipment_2:0 "F-4EJ Kai"
+JAP_CAS_equipment_2_short:0 "F-4EJ Kai"
+JAP_CAS_equipment_2_desc:0 "96 F-4EJs foram modificados para o padrão F-4EJ Kai (modificado)."
+JAP_CAS_equipment_3:0 "Mitsubishi F-15E Strike Eagle"
+JAP_CAS_equipment_3_short:0 "Mitsubishi F-15E"
+JAP_CAS_equipment_3_desc:0 "Mitsubishi F-15E"
+
+# CV CAS #
+# FIGHTERS #
+JAP_fighter_equipment_1:0 "F-86F Kyokko"
+JAP_fighter_equipment_1_short:0 "F-86F Kyokko"
+JAP_fighter_equipment_1_desc:0 "A Mitsubishi construiu 300 F-86Fs (também conhecidos como Kyrokko ou 'Sunrise') sob licença entre 1956 e 1961"
+JAP_fighter_equipment_2:0 "Mitsubishi F-1"
+JAP_fighter_equipment_2_short:0 "Mitsubishi F-1"
+JAP_fighter_equipment_2_desc:0 "O Mitsubishi F-1 é o primeiro jato militar supersônico desenvolvido e fabricado no Japão após a Segunda Guerra Mundial a entrar em produção no Japão desde o fim da Segunda Guerra Mundial"
+JAP_fighter_equipment_3:0 "Mitsubishi F-15J"
+JAP_fighter_equipment_3_short:0 "Mitsubishi F-15J"
+JAP_fighter_equipment_3_desc:0 "O Mitsubishi F-15J/DJ Eagle é um caça de superioridade aérea de dois motores e para todas as condições meteorológicas baseado no McDonnell Douglas F-15 Eagle em uso pela Força Aérea de Autodefesa do Japão (JASDF)"
+JAP_fighter_equipment_4:0 "Mitsubishi F-2"
+JAP_fighter_equipment_4_short:0 "Mitsubishi F-2"
+JAP_fighter_equipment_4_desc:0 "O Mitsubishi F-2 é um caça multifuncional derivado do General Dynamics F-16 Fighting Falcon, fabricado pela Mitsubishi Heavy Industries e Lockheed Martin para a Força Aérea de Autodefesa do Japão"
+JAP_fighter_equipment_5:0 "Mitsubishi F-2A"
+JAP_fighter_equipment_5_short:0 "Mitsubishi F-2A"
+JAP_fighter_equipment_5_desc:0 "Mitsubishi F-2A"
+JAP_fighter_equipment_6:0 "F-35"
+JAP_fighter_equipment_6_short:0 "F-35"
+JAP_fighter_equipment_6_desc:0 "F-35"
+JAP_fighter_equipment_7:0 "F-61"
+JAP_fighter_equipment_7_short:0 "F-61"
+JAP_fighter_equipment_7_desc:0 "F-61"
+JAP_fighter_equipment_8:0 "F-99"
+JAP_fighter_equipment_8_short:0 "F-99"
+JAP_fighter_equipment_8_desc:0 "F-99"
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+
+## NICARAGUA ##
+# TRANSPORTS #
+NIC_transport_plane_equipment:0 "Antonov An-26"
+NIC_transport_plane_equipment_short:0 "An-26"
+
+## IRAN ##
+# CAS #
+PER_CAS_equipment_1:0 "F-84 Thunderjet"
+PER_CAS_equipment_1_short:0 "F-84"
+PER_CAS_equipment_1_desc:0 "O Republic F-84 Thunderjet foi um avião caça-bombardeiro a jato americano. Originado como uma proposta das Forças Aéreas do Exército dos Estados Unidos (USAAF) em 1944 para um 'caça diurno', o F-84 voou pela primeira vez em 1946. Embora tenha entrado em serviço em 1947, o Thunderjet foi afetado por tantos problemas estruturais e de motor que uma revisão da Força Aérea dos EUA em 1948 declarou que ele não poderia executar nenhuma parte de sua missão proposta, considerando até o cancelamento do programa. O avião não foi considerado operacional até 1949."
+PER_CAS_equipment_2:0 "MiG-27"
+PER_CAS_equipment_2_short:0 "MiG-27"
+PER_CAS_equipment_2_desc:0 "O Mikoyan MiG-27 é um avião de ataque terrestre de geometria variável, originalmente construído pelo escritório de design Mikoyan na União Soviética. Ele é baseado no avião de caça Mikoyan-Gurevich MiG-23, mas otimizado para ataque ar-solo."
+PER_CAS_equipment_3:0 "Sukhoi Su-25"
+PER_CAS_equipment_3_short:0 "Su-25"
+PER_CAS_equipment_3_desc:0 "O Sukhoi Su-25 Grach é um avião a jato monomotor, de assento único e desenvolvido na União Soviética pelo Sukhoi Design Bureau. Foi projetado para fornecer apoio aéreo próximo para as Forças Terrestres Soviéticas. O primeiro protótipo fez seu voo inaugural em 22 de fevereiro de 1975. Após os testes, o avião entrou em produção em série em 1978 em Tbilisi, na República Soviética da Geórgia."
+# CV CAS #
+# FIGHTERS #
+PER_fighter_equipment_1:0 "North American F-86 Sabre"
+PER_fighter_equipment_1_short:0 "F-86"
+PER_fighter_equipment_1_desc:0 "F-86"
+PER_fighter_equipment_2:0 "F-4 Phantom"
+PER_fighter_equipment_2_short:0 "F-4 Phantom"
+PER_fighter_equipment_2_desc:0 "O McDonnell Douglas F-4 Phantom II é um caça-bombardeiro e interceptador a jato, de dois assentos, de alcance longo e para todas as condições meteorológicas, desenvolvido originalmente para a Marinha dos Estados Unidos pela McDonnell Aircraft. Entrou em serviço pela primeira vez em 1960 na Marinha dos EUA. Provando-se altamente adaptável, também foi adotado pelo Corpo de Fuzileiros Navais dos EUA e pela Força Aérea dos EUA, tornando-se, na metade dos anos 1960, uma parte importante das alas aéreas respectivas."
+PER_fighter_equipment_3:0 "F-14 Tomcat"
+PER_fighter_equipment_3_short:0 "F-14 Tomcat"
+PER_fighter_equipment_3_desc:0 "O Grumman F-14 Tomcat é um caça supersônico, de dois motores, dois assentos e asas de varredura variável. O Tomcat foi desenvolvido para o programa Naval Fighter Experimental (VFX) da Marinha dos Estados Unidos após o colapso do projeto F-111B. O F-14 foi o primeiro dos caças da série 'teen', projetados incorporando a experiência de combate aéreo contra caças MiG durante a Guerra do Vietnã."
+PER_fighter_equipment_4:0 "MiG-29"
+PER_fighter_equipment_4_short:0 "MiG-29"
+PER_fighter_equipment_4_desc:0 "O Mikoyan MiG-29 é um caça a jato de dois motores, projetado na União Soviética. Desenvolvido pelo escritório de design Mikoyan como um caça de superioridade aérea durante os anos 1970, o MiG-29, juntamente com o maior Sukhoi Su-27, foi desenvolvido para enfrentar novos caças americanos como o McDonnell Douglas F-15 Eagle e o General Dynamics F-16 Fighting Falcon. O MiG-29 entrou em serviço com a Força Aérea Soviética em 1982."
+PER_fighter_equipment_5:0 "HESA Azarakhsh"
+PER_fighter_equipment_5_short:0 "Azarakhsh"
+PER_fighter_equipment_5_desc:0 "O HESA Azarakhsh 'relâmpago' é um caça a jato fabricado pela Iran Aircraft Manufacturing Industrial Company (HESA). É amplamente considerado uma variante reversa do caça americano Northrop F-5 Freedom Fighter/Tiger II. É o primeiro caça de combate fabricado nacionalmente no Irã. O Azarakhsh foi desenvolvido em Isfahan pelo exército iraniano, pelo Ministério da Defesa do Irã e pela empresa de fabricação de aeronaves HESA."
+PER_fighter_equipment_6:0 "HESA Saeqeh"
+PER_fighter_equipment_6_short:0 "Saeqeh"
+PER_fighter_equipment_6_desc:0 "O HESA Saeqeh 'raio' é um caça a jato de assento único fabricado no Irã, derivado do americano Northrop F-5. Um produto conjunto da Força Aérea da República Islâmica do Irã e do Ministério da Defesa do Irã, é a segunda geração do caça iraniano Azarakhsh. As aeronaves Saeqeh foram testadas com sucesso no Irã em 20 de setembro de 2007."
+PER_fighter_equipment_7:0 "HESA Shafaq"
+PER_fighter_equipment_7_short:0 "Shafaq"
+PER_fighter_equipment_7_desc:0 "O HESA Shafaq 'Crepúsculo' ou 'Aurora' é um projeto iraniano de aeronave stealth subsônica em desenvolvimento pela Iran Aircraft Manufacturing Industrial Company (HESA)."
+PER_fighter_equipment_8:0 "IAIO Qaher F-313"
+PER_fighter_equipment_8_short:0 "Qaher-313"
+PER_fighter_equipment_8_desc:0 "O IAIO Qaher-313 'conquistador' é um caça stealth de assento único planejado no Irã, anunciado publicamente em 1º de fevereiro de 2013. Uma apresentação do projeto foi feita pelo presidente Mahmoud Ahmadinejad e pelo ministro da Defesa Ahmad Vahidi em 2 de fevereiro de 2013, como parte das cerimônias do Dez Dias do Amanhecer. Especialistas independentes expressaram sérias dúvidas sobre a viabilidade da aeronave."
+# TACTICAL BOMBERS #
+PER_tac_bomber_equipment_1:0 "Ghods Mohajer"
+PER_tac_bomber_equipment_1_short:0 "Mohajer"
+PER_tac_bomber_equipment_1_desc:0 "O Mohajer 'Migrante' ou a série Mersad de veículos aéreos não tripulados é construída pelo Irã. O Mohajer é usado principalmente para reconhecimento. Ele também pode ser capaz de guiar munições guiadas a laser até seus alvos."
+PER_tac_bomber_equipment_2:0 "Ghods Ababil"
+PER_tac_bomber_equipment_2_short:0 "Ababil"
+PER_tac_bomber_equipment_2_desc:0 "O Ababil 'andorinha' é um UAV fabricado no Irã. O Irã desenvolveu várias variantes, incluindo o Ababil-5 tático para reconhecimento e vigilância de médio alcance, o Ababil-T para ataque de curto/médio alcance, e também o Ababil-B e -S."
+PER_tac_bomber_equipment_3:0 "HESA Dorna"
+PER_tac_bomber_equipment_3_short:0 "Dorna"
+PER_tac_bomber_equipment_3_desc:0 "O Dorna 'Cegonha' é um avião de treinamento a jato iraniano. A aeronave foi divulgada pela primeira vez em 1999, quando o general da Força Aérea iraniana Habibollah Baghal afirmou que um avião de treinamento localmente projetado Dorna havia entrado em produção."
+PER_tac_bomber_equipment_4:0 "IAIO Karrar UCAV"
+PER_tac_bomber_equipment_4_short:0 "Karrar UCAV"
+PER_tac_bomber_equipment_4_desc:0 "O Karrar 'atacante' é um veículo aéreo de combate não tripulado produzido para o exército iraniano. De acordo com relatos, o UCAV pode bombardear alvos em alta velocidade. É o primeiro drone aéreo não tripulado de longo alcance fabricado no Irã."
+PER_tac_bomber_equipment_5:0 "IAIO Fotros"
+PER_tac_bomber_equipment_5_short:0 "Fotros"
+PER_tac_bomber_equipment_5_desc:0 "O Fotros 'Anjo Caído' é um drone de reconhecimento, vigilância e combate iraniano fabricado pela IAIO e revelado em novembro de 2013. É considerado o maior na arsenal de drones aéreos não tripulados do Irã."
  
- ## PEOPLE'S REPUBLIC OF CHINA ##
- # CAS #
- PRC_CAS_equipment_1:0 "Nanchang Q-5"
- PRC_CAS_equipment_1_short:0 "Nanchang Q-5"
- PRC_CAS_equipment_1_desc:0 "The Nanchang Q-5 is a Chinese-built jet ground-attack aircraft based on the Soviet MiG-19. Its main role is close air support. The PRC was an enthusiastic user of the MiG-19, which it manufactured locally as the Shenyang J-6 from 1958. In August 1958 the People's Liberation Army requested development of a jet attack aircraft for the air support role, with the Nanchang Q-5 being the result."
- PRC_CAS_equipment_2:0 "Xian JH-7"
- PRC_CAS_equipment_2_short:0 "Xian JH-7"
- PRC_CAS_equipment_2_desc:0 "The Xian JH-7 is a tandem two-seat, twin-engine fighter-bomber in service with the People's Liberation Army Naval Air Force (PLANAF), and the People's Liberation Army Air Force (PLAAF)"
- PRC_CAS_equipment_3:0 "Guizhou JL-9B"
- PRC_CAS_equipment_3_short:0 "Guizhou JL-9B"
- PRC_CAS_equipment_3_desc:0 "The Guizhou JL-9B is a variant of the JL-9 Fighter-Trainer, specifically designed for a modern and fast ground attack/support role."
- # CV CAS #
- # FIGHTERS #
- PRC_fighter_equipment_1:0 "Shenyang J-5"
- PRC_fighter_equipment_1_short:0 "Shenyang J-5"
- PRC_fighter_equipment_1_desc:0 "The Shenyang J-5 is a Chinese-built single-seat jet interceptor and fighter aircraft derived from the Soviet Mikoyan-Gurevich MiG-17. The People's Liberation Army Air Force (PLAAF) obtained a number of Soviet-built MiG-17 fighters, and designated them J-5 in the early 1950s."
- PRC_fighter_equipment_2:0 "Shenyang J-8"
- PRC_fighter_equipment_2_short:0 "Shenyang J-8"
- PRC_fighter_equipment_2_desc:0 "The Shenyang J-8 is a high-speed, high-altitude Chinese-built single-seat interceptor fighter aircraft. Despite entering service relatively recently, it was comparable to many older Soviet fighter designs, with limited maneuverability"
- PRC_fighter_equipment_3:0 "Shenyang J-8II"
- PRC_fighter_equipment_3_short:0 "Shenyang J-8II"
- PRC_fighter_equipment_3_desc:0 "The J-8II series appear quite different from the original J-8, with a new forward fuselage, intake ramps with splitter plates and nose structure more reminiscent of the F-4 Phantom II or Sukhoi Su-15 to house a new, more powerful radar. J-8IIs are powered by Wopen-13A (WP-13A) engines"
- PRC_fighter_equipment_4:0 "Shenyang J-11"
- PRC_fighter_equipment_4_short:0 "Shenyang J-11"
- PRC_fighter_equipment_4_desc:0 "The Shenyang J-11 is a single-seat, twin-engine jet fighter, whose airframe is based on the Soviet-designed Sukhoi Su-27. The base J-11/A is a fourth-generation jet fighter which, like its Sukhoi brethren, is intended as a direct competitor to Western fourth generation fighters"
- PRC_fighter_equipment_5:0 "Chengdu J-10"
- PRC_fighter_equipment_5_short:0 "Chengdu J-10"
- PRC_fighter_equipment_5_desc:0 "The Chengdu J-10 is a lightweight multirole fighter aircraft capable of all-weather operation, configured with a delta wing and canard design, with fly-by-wire flight controls."
- PRC_fighter_equipment_6:0 "Shenyang J-16"
- PRC_fighter_equipment_6_short:0 "Shenyang J-16"
- PRC_fighter_equipment_6_desc:0 "The Shenyang J-16  is a strike fighter designed and manufactured by Shenyang Aircraft Corporation, China. It is a multi-role fighter/bomber variant based on the J-11BS with longer range and upgraded avionics, a concept similar to F-15E Strike Eagle."
- PRC_fighter_equipment_7:0 "Chengdu J-20"
- PRC_fighter_equipment_7_short:0 "Chengdu J-20"
- PRC_fighter_equipment_7_desc:0 "The Chengdu J-20  is a stealth, twinjet, fifth-generation fighter aircraft developed by China's Chengdu Aerospace Corporation for the People's Liberation Army Air Force. The J-20 has a long and wide fuselage, with the chiseled nose section and a frameless canopy resembling that of the F-22 Raptor. The aircraft also features a glass cockpit, with two main large color liquid crystal displays (LCD) situated side-by-side, three smaller auxiliary displays, and a wide-angle holographic head-up display (HUD)"
- PRC_fighter_equipment_8:0 "Shenyang J-31"
- PRC_fighter_equipment_8_short:0 "Shenyang J-31"
- PRC_fighter_equipment_8_desc:0 "The Shenyang J-31  is a twin-engine, mid-size fifth-generation jet fighter developed by Shenyang Aircraft Corporation"
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- PRC_nav_bomber_equipment_1:0 "Tu-126"
- PRC_nav_bomber_equipment_1_short:0 "Tu-126"
- PRC_nav_bomber_equipment_1_desc:0 "Tu-126"
- PRC_nav_bomber_equipment_2:0 "Xian Y-7"
- PRC_nav_bomber_equipment_2_short:0 "Xian Y-7"
- PRC_nav_bomber_equipment_2_desc:0 "Xian Y-7"
- PRC_nav_bomber_equipment_3:0 "KJ-200"
- PRC_nav_bomber_equipment_3_short:0 "KJ-200"
- PRC_nav_bomber_equipment_3_desc:0 "KJ-200"
- PRC_nav_bomber_equipment_4:0 "KJ-2000"
- PRC_nav_bomber_equipment_4_short:0 "KJ-2000"
- PRC_nav_bomber_equipment_4_desc:0 "KJ-2000"
- PRC_nav_bomber_equipment_5:0 "KJ-2000-II"
- PRC_nav_bomber_equipment_5_short:0 "KJ-2000-II"
- PRC_nav_bomber_equipment_5_desc:0 "KJ-2000-II"
- PRC_nav_bomber_equipment_6:0 "KJ-3000"
- PRC_nav_bomber_equipment_6_short:0 "KJ-3000"
- PRC_nav_bomber_equipment_6_desc:0 "KJ-3000"
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- PRC_strat_bomber_equipment_1:0 "Tu-4"
- PRC_strat_bomber_equipment_1_short:0 "Tu-4"
- PRC_strat_bomber_equipment_1_desc:0 "Tu-4"
- PRC_strat_bomber_equipment_2:0 "Xian H-6a"
- PRC_strat_bomber_equipment_2_short:0 "Xian H-6a"
- PRC_strat_bomber_equipment_2_desc:0 "The Xian H-6a is an upgraded version of the Chinese licensed, Soviet made, Tupolev Tu-16, with new avionics and a more efficient jet engines added."
- PRC_strat_bomber_equipment_3:0 "Xian H-6k"
- PRC_strat_bomber_equipment_3_short:0 "Xian H-6k"
- PRC_strat_bomber_equipment_3_desc:0 "The Xian H-6K, With a reinforced structure making use of composite materials, enlarged engine inlets for Russian Soloviev D-30 turbofan engines giving a claimed combat radius of 3,500 kilometres (2,200 mi), a glass cockpit with large size LCD multi-function display, and a reworked nose section eliminating the glazed navigator's station in favour of a more powerful radar, the H-6K is a significantly more modern aircraft than earlier versions"
- PRC_strat_bomber_equipment_4:0 "Tu-160"
- PRC_strat_bomber_equipment_4_short:0 "Tu-160"
- PRC_strat_bomber_equipment_4_desc:0 "Tu-160"
- PRC_strat_bomber_equipment_5:0 "Xian H-20"
- PRC_strat_bomber_equipment_5_short:0 "Xian H-20"
- PRC_strat_bomber_equipment_5_desc:0 "The Xian H-20  is a subsonic stealth bomber design of the People's Liberation Army Air Force. Referred to as a "strategic project" by the People's Liberation Army, the aircraft features a wing design similar to that of the Northrop Grumman B-2 Spirit."
- # TACTICAL BOMBERS #
- PRC_tac_bomber_equipment_1:0 "Aisheng ASN-209"
- PRC_tac_bomber_equipment_1_short:0 "Aisheng ASN-209"
- PRC_tac_bomber_equipment_1_desc:0 "Aisheng ASN-209"
- PRC_tac_bomber_equipment_2:0 "Chengdu Wing-Loong I"
- PRC_tac_bomber_equipment_2_short:0 "Chengdu Loong I"
- PRC_tac_bomber_equipment_2_desc:0 "Chengdu Wing-Loong I"
- PRC_tac_bomber_equipment_3:0 "Guizhou Sparrow Hawk II"
- PRC_tac_bomber_equipment_3_short:0 "Guizhou Hawk II"
- PRC_tac_bomber_equipment_3_desc:0 "Guizhou Sparrow Hawk II"
- PRC_tac_bomber_equipment_4:0 "AVIC Cloud Shadow"
- PRC_tac_bomber_equipment_4_short:0 "AVIC Cloud Shadow"
- PRC_tac_bomber_equipment_4_desc:0 "AVIC Cloud Shadow"
- PRC_tac_bomber_equipment_5:0 "Chengdu Soar Dragon"
- PRC_tac_bomber_equipment_5_short:0 "Chengdu Soar Dragon"
- PRC_tac_bomber_equipment_5_desc:0 "Chengdu Soar Dragon"
- # TRANSPORTS #
+ 
+## KUWAIT ##
+# TRANSPORTES #
+KUW_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
+KUW_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
+KUW_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave de transporte militar. Foi desenvolvido para a Força Aérea dos Estados Unidos (USAF) entre os anos 1980 e o início dos anos 1990 pela McDonnell Douglas. O C-17 dá continuidade ao nome de dois anteriores aviões cargueiros militares com motores a pistão, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
+
+## LUXEMBURGO ##
+# TRANSPORTES #
+LUX_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+LUX_transport_plane_equipment_2_short:0 "A400M Atlas"
+LUX_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia, com quatro motores a turbopropulsão. Foi projetada pela Airbus Military (atualmente Airbus Defence and Space) como um cargueiro tático com capacidades estratégicas para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
+
+## MALÁSIA ##
+# TRANSPORTES #
+MAL_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+MAL_transport_plane_equipment_2_short:0 "A400M Atlas"
+MAL_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia, com quatro motores a turbopropulsão. Foi projetada pela Airbus Military (atualmente Airbus Defence and Space) como um cargueiro tático com capacidades estratégicas para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
+
+## MADAGÁSCAR ##
+# TRANSPORTES #
+MAD_transport_plane_equipment_1:0 "Boeing 737"
+MAD_transport_plane_equipment_1_short:0 "Boeing 737"
+MAD_transport_plane_equipment_1_desc:0 "O Boeing 737 é uma aeronave de fuselagem estreita produzida pela Boeing em suas fábricas de Everett e Renton, em Washington. Desenvolvido para complementar o Boeing 727 em rotas curtas e com pouca demanda, o bimotor manteve a largura do fuselagem do 707 e assentos para seis pessoas por fileira, mas com dois turbofans sob as asas em vez de quatro."
+
+## REPÚBLICA POPULAR DA CHINA ##
+# CAS #
+PRC_CAS_equipment_1:0 "Nanchang Q-5"
+PRC_CAS_equipment_1_short:0 "Nanchang Q-5"
+PRC_CAS_equipment_1_desc:0 "O Nanchang Q-5 é uma aeronave chinesa de ataque ao solo a jato, baseada no soviético MiG-19. Seu papel principal é o apoio aéreo próximo. A RPC foi uma usuária entusiasta do MiG-19, que fabricou localmente como o Shenyang J-6 desde 1958. Em agosto de 1958, o Exército de Libertação Popular solicitou o desenvolvimento de uma aeronave de ataque a jato para o papel de apoio aéreo, sendo o Nanchang Q-5 o resultado."
+PRC_CAS_equipment_2:0 "Xian JH-7"
+PRC_CAS_equipment_2_short:0 "Xian JH-7"
+PRC_CAS_equipment_2_desc:0 "O Xian JH-7 é um avião caça-bombardeiro de dois lugares e dois motores em serviço com a Força Aérea Naval do Exército de Libertação Popular (PLANAF) e com a Força Aérea do Exército de Libertação Popular (PLAAF)."
+PRC_CAS_equipment_3:0 "Guizhou JL-9B"
+PRC_CAS_equipment_3_short:0 "Guizhou JL-9B"
+PRC_CAS_equipment_3_desc:0 "O Guizhou JL-9B é uma variante do JL-9, um caça-treinador, projetado especificamente para um papel moderno e rápido de ataque/apoio ao solo."
+
+# CV CAS #
+# CAÇAS #
+PRC_fighter_equipment_1:0 "Shenyang J-5"
+PRC_fighter_equipment_1_short:0 "Shenyang J-5"
+PRC_fighter_equipment_1_desc:0 "O Shenyang J-5 é um interceptor e caça a jato de assento único, fabricado na China, derivado do soviético Mikoyan-Gurevich MiG-17. A Força Aérea do Exército de Libertação Popular (PLAAF) obteve vários caças MiG-17 fabricados na União Soviética e os designou J-5 no início dos anos 1950."
+PRC_fighter_equipment_2:0 "Shenyang J-8"
+PRC_fighter_equipment_2_short:0 "Shenyang J-8"
+PRC_fighter_equipment_2_desc:0 "O Shenyang J-8 é um caça interceptor a jato de alta velocidade e alta altitude de assento único, fabricado na China. Apesar de ter entrado em serviço relativamente recentemente, é comparável a muitos designs mais antigos de caças soviéticos, com mobilidade limitada."
+PRC_fighter_equipment_3:0 "Shenyang J-8II"
+PRC_fighter_equipment_3_short:0 "Shenyang J-8II"
+PRC_fighter_equipment_3_desc:0 "A série J-8II apresenta uma aparência bastante diferente do J-8 original, com um novo fuselagem frontal, rampas de entrada com placas separadoras e estrutura do nariz mais semelhante ao F-4 Phantom II ou Sukhoi Su-15 para acomodar um radar novo e mais potente. Os J-8II são movidos por motores Wopen-13A (WP-13A)."
+PRC_fighter_equipment_4:0 "Shenyang J-11"
+PRC_fighter_equipment_4_short:0 "Shenyang J-11"
+PRC_fighter_equipment_4_desc:0 "O Shenyang J-11 é um caça a jato de assento único e dois motores, cuja estrutura é baseada no Sukhoi Su-27, projetado na União Soviética. O J-11/A básico é um caça a jato de quarta geração que, como seus irmãos Sukhoi, é destinado a ser um concorrente direto dos caças ocidentais de quarta geração."
+PRC_fighter_equipment_5:0 "Chengdu J-10"
+PRC_fighter_equipment_5_short:0 "Chengdu J-10"
+PRC_fighter_equipment_5_desc:0 "O Chengdu J-10 é um caça multifuncional leve, capaz de operar em todas as condições climáticas, com configuração de asa delta e design de canard, além de controles de voo com comando por fio."
+PRC_fighter_equipment_6:0 "Shenyang J-16"
+PRC_fighter_equipment_6_short:0 "Shenyang J-16"
+PRC_fighter_equipment_6_desc:0 "O Shenyang J-16 é um caça de ataque projetado e fabricado pela Shenyang Aircraft Corporation, China. É uma versão de caça/bombardeiro multiuso baseada no J-11BS, com maior alcance e aviônicos atualizados, um conceito semelhante ao F-15E Strike Eagle."
+PRC_fighter_equipment_7:0 "Chengdu J-20"
+PRC_fighter_equipment_7_short:0 "Chengdu J-20"
+PRC_fighter_equipment_7_desc:0 "O Chengdu J-20 é um caça stealth de dois motores de quinta geração desenvolvido pela Chengdu Aerospace Corporation da China para a Força Aérea do Exército de Libertação Popular. O J-20 tem uma fuselagem longa e larga, com a seção frontal angulosa e uma cabine sem moldura, semelhante à do F-22 Raptor. A aeronave também apresenta uma cabine de vidro, com dois displays grandes principais de cristal líquido (LCD) dispostos lado a lado, três displays auxiliares menores e um display de holograma de ângulo largo (HUD)."
+PRC_fighter_equipment_8:0 "Shenyang J-31"
+PRC_fighter_equipment_8_short:0 "Shenyang J-31"
+PRC_fighter_equipment_8_desc:0 "O Shenyang J-31 é um caça a jato de quinta geração, de dois motores e tamanho médio, desenvolvido pela Shenyang Aircraft Corporation."
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+PRC_nav_bomber_equipment_1:0 "Tu-126"
+PRC_nav_bomber_equipment_1_short:0 "Tu-126"
+PRC_nav_bomber_equipment_1_desc:0 "Tu-126"
+PRC_nav_bomber_equipment_2:0 "Xian Y-7"
+PRC_nav_bomber_equipment_2_short:0 "Xian Y-7"
+PRC_nav_bomber_equipment_2_desc:0 "Xian Y-7"
+PRC_nav_bomber_equipment_3:0 "KJ-200"
+PRC_nav_bomber_equipment_3_short:0 "KJ-200"
+PRC_nav_bomber_equipment_3_desc:0 "KJ-200"
+PRC_nav_bomber_equipment_4:0 "KJ-2000"
+PRC_nav_bomber_equipment_4_short:0 "KJ-2000"
+PRC_nav_bomber_equipment_4_desc:0 "KJ-2000"
+PRC_nav_bomber_equipment_5:0 "KJ-2000-II"
+PRC_nav_bomber_equipment_5_short:0 "KJ-2000-II"
+PRC_nav_bomber_equipment_5_desc:0 "KJ-2000-II"
+PRC_nav_bomber_equipment_6:0 "KJ-3000"
+PRC_nav_bomber_equipment_6_short:0 "KJ-3000"
+PRC_nav_bomber_equipment_6_desc:0 "KJ-3000"
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+PRC_strat_bomber_equipment_1:0 "Tu-4"
+PRC_strat_bomber_equipment_1_short:0 "Tu-4"
+PRC_strat_bomber_equipment_1_desc:0 "Tu-4"
+PRC_strat_bomber_equipment_2:0 "Xian H-6a"
+PRC_strat_bomber_equipment_2_short:0 "Xian H-6a"
+PRC_strat_bomber_equipment_2_desc:0 "O Xian H-6a é uma versão aprimorada do Tupolev Tu-16, fabricado sob licença pela China, com novos aviônicos e motores a jato mais eficientes."
+PRC_strat_bomber_equipment_3:0 "Xian H-6k"
+PRC_strat_bomber_equipment_3_short:0 "Xian H-6k"
+PRC_strat_bomber_equipment_3_desc:0 "O Xian H-6K, com estrutura reforçada utilizando materiais compostos, entradas de motor ampliadas para motores a turbofan Soloviev D-30 russos, dando um alcance de combate declarado de 3.500 quilômetros (2.200 mi), cabine de vidro com display multifuncional LCD de grande tamanho, e uma seção frontal reformulada eliminando a estação de navegação envidraçada em favor de um radar mais potente, o H-6K é uma aeronave significativamente mais moderna do que as versões anteriores."
+PRC_strat_bomber_equipment_4:0 "Tu-160"
+PRC_strat_bomber_equipment_4_short:0 "Tu-160"
+PRC_strat_bomber_equipment_4_desc:0 "Tu-160"
+PRC_strat_bomber_equipment_5:0 "Xian H-20"
+PRC_strat_bomber_equipment_5_short:0 "Xian H-20"
+PRC_strat_bomber_equipment_5_desc:0 "O Xian H-20 é um bombardeiro stealth subsônico do Exército de Libertação Popular Aérea. Referido como um 'projeto estratégico' pelo Exército de Libertação Popular, a aeronave apresenta um design de asa semelhante ao do Northrop Grumman B-2 Spirit."
+# TACTICAL BOMBERS #
+PRC_tac_bomber_equipment_1:0 "Aisheng ASN-209"
+PRC_tac_bomber_equipment_1_short:0 "Aisheng ASN-209"
+PRC_tac_bomber_equipment_1_desc:0 "Aisheng ASN-209"
+PRC_tac_bomber_equipment_2:0 "Chengdu Wing-Loong I"
+PRC_tac_bomber_equipment_2_short:0 "Chengdu Loong I"
+PRC_tac_bomber_equipment_2_desc:0 "Chengdu Wing-Loong I"
+PRC_tac_bomber_equipment_3:0 "Guizhou Sparrow Hawk II"
+PRC_tac_bomber_equipment_3_short:0 "Guizhou Hawk II"
+PRC_tac_bomber_equipment_3_desc:0 "Guizhou Sparrow Hawk II"
+PRC_tac_bomber_equipment_4:0 "AVIC Cloud Shadow"
+PRC_tac_bomber_equipment_4_short:0 "AVIC Cloud Shadow"
+PRC_tac_bomber_equipment_4_desc:0 "AVIC Cloud Shadow"
+PRC_tac_bomber_equipment_5:0 "Chengdu Soar Dragon"
+PRC_tac_bomber_equipment_5_short:0 "Chengdu Soar Dragon"
+PRC_tac_bomber_equipment_5_desc:0 "Chengdu Soar Dragon"
+# TRANSPORTS #
  
  
- ## QATAR ##
- # TRANSPORTS #
- QAT_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
- QAT_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
- QAT_transport_plane_equipment_2_desc:0 "The Boeing C-17 Globemaster III is a large military transport aircraft. It was developed for the United States Air Force (USAF) from the 1980s to the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II."
+## QATAR ##
+# TRANSPORTS #
+QAT_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
+QAT_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
+QAT_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave de transporte militar. Foi desenvolvido para a Força Aérea dos Estados Unidos (USAF) entre as décadas de 1980 e 1990 pela McDonnell Douglas. O C-17 dá continuidade ao nome de dois anteriores aviões de carga militar a pistão, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
  
  
  ## INDIA ##
  # FIGHTERS #
- RAJ_fighter_equipment_1:0 "MiG-21MF"
- RAJ_fighter_equipment_1_short:0 "MiG-21MF"
- RAJ_fighter_equipment_1_desc:0 "MiG-21MF"
- RAJ_fighter_equipment_2:0 "MiG-23"
- RAJ_fighter_equipment_2_short:0 "MiG-23"
- RAJ_fighter_equipment_2_desc:0 "MiG-23"
- RAJ_fighter_equipment_3:0 "Mirage 2000H"
- RAJ_fighter_equipment_3_short:0 "Mirage 2000H"
- RAJ_fighter_equipment_3_desc:0 "Mirage 2000H"
- RAJ_fighter_equipment_4:0 "Su-30MKI"
- RAJ_fighter_equipment_4_short:0 "Su-30MKI"
- RAJ_fighter_equipment_4_desc:0 "Su-30MKI"
- RAJ_fighter_equipment_5:0 "Super Sukhoi"
- RAJ_fighter_equipment_5_short:0 "Super Sukhoi"
- RAJ_fighter_equipment_5_desc:0 "Super Sukhoi"
- RAJ_fighter_equipment_6:0 "MiG-29UPG"
- RAJ_fighter_equipment_6_short:0 "MiG-29UPG"
- RAJ_fighter_equipment_6_desc:0 "MiG-29UPG"
- RAJ_fighter_equipment_7:0 "Tejas Mk. 1"
- RAJ_fighter_equipment_7_short:0 "Tejas Mk. 1"
- RAJ_fighter_equipment_7_desc:0 "Tejas Mk. 1"
- RAJ_fighter_equipment_8:0 "Tejas Mk. 2"
- RAJ_fighter_equipment_8_short:0 "Tejas Mk. 2"
- RAJ_fighter_equipment_8_desc:0 "Tejas Mk. 2"
- # TRANSPORTS #
- RAJ_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
- RAJ_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
- RAJ_transport_plane_equipment_2_desc:0 "The Boeing C-17 Globemaster III is a large military transport aircraft. It was developed for the United States Air Force (USAF) from the 1980s to the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II."
- 
- 
- ## RUSSIA ##
- # CAS #
- SOV_CAS_equipment_1:0 "Sukhoi Su-17"
- SOV_CAS_equipment_1_short:0 "Su-17"
- SOV_CAS_equipment_1_desc:0 "The Sukhoi Su-17 is a Soviet variable-sweep wing fighter-bomber developed from the Sukhoi Su-7. It enjoyed a long career in Soviet, later Russian, service and was widely exported to Eastern Bloc, Arab air forces, Angola and Peru as the Su-20 and Su-22. It is the first variable-sweep wing of Russian/Soviet origin."
-#  SOV_CAS_equipment_2:0 "Mikoyan MiG-27"
-#  SOV_CAS_equipment_2_short:0 "MiG-27"
-#  SOV_CAS_equipment_2_desc:0 "The Mikoyan MiG-27 is a variable-geometry ground-attack aircraft, originally built by the Mikoyan-Gurevich design bureau in the Soviet Union and later license-produced in India by Hindustan Aeronautics as the Bahadur. It is based on the Mikoyan-Gurevich MiG-23 fighter aircraft but optimized for air-to-ground attack."
- SOV_CAS_equipment_2:0 "Sukhoi Su-25 Grach"
- SOV_CAS_equipment_2_short:0 "Su-25"
- SOV_CAS_equipment_2_desc:0 "The Sukhoi Su-25 Grach is a single-seat, twin-engine jet aircraft developed in the Soviet Union by Sukhoi. It was designed to provide close air support for the Soviet Ground Forces. The first prototype made its maiden flight on 22 February 1975. After testing, the aircraft went into series production in 1978 at Tbilisi in the Georgian Soviet Socialist Republic."
- # CV CAS #
- # FIGHTERS #
- SOV_fighter_equipment_1:0 "Mikoyan-Gurevich MiG-21"
- SOV_fighter_equipment_1_short:0 "MiG-21"
- SOV_fighter_equipment_1_desc:0 "The Mikoyan-Gurevich MiG-21 is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union. Its nicknames include: Balalaika, because its planform resembles the stringed musical instrument of the same name; Ołówek, Polish for 'pencil', due to the shape of its fuselage, and; Én bạc, meaning 'Silver Swallow', in Vietnamese."
- SOV_fighter_equipment_2:0 "Mikoyan MiG-29"
- SOV_fighter_equipment_2_short:0 "MiG-29"
- SOV_fighter_equipment_2_desc:0 "The Mikoyan MiG-29 is a twin-engine jet fighter aircraft designed in the Soviet Union. Developed by the Mikoyan design bureau as an air superiority fighter during the 1970s, the MiG-29, along with the larger Sukhoi Su-27, was developed to counter new U.S. fighters such as the McDonnell Douglas F-15 Eagle and the General Dynamics F-16 Fighting Falcon. The MiG-29 entered service with the Soviet Air Forces in 1982."
- SOV_fighter_equipment_3:0 "Mikoyan MiG-31"
- SOV_fighter_equipment_3_short:0 "MiG-31"
- SOV_fighter_equipment_3_desc:0 "The Mikoyan MiG-31 is a supersonic interceptor aircraft developed for use by the Soviet Air Forces. The aircraft was designed by the Mikoyan design bureau as a replacement for the earlier MiG-25 "Foxbat"; the MiG-31 is based on and shares design elements with the MiG-25. The MiG-31 has the distinction of being one of the fastest combat jets in the world. It continues to be operated by the Russian Air Force and the Kazakhstan Air Force following the end of the Cold War and the collapse of the Soviet Union in 1991."
- SOV_fighter_equipment_4:0 "Sukhoi Su-27"
- SOV_fighter_equipment_4_short:0 "Su-27"
- SOV_fighter_equipment_4_desc:0 "The Sukhoi Su-27 is a Soviet-origin twin-engine supermaneuverable fighter aircraft designed by Sukhoi. It was intended as a direct competitor for the large United States fourth-generation fighters such as the Grumman F-14 Tomcat and F-15 Eagle, with 3,530-kilometre (1,910 nmi) range, heavy aircraft ordnance, sophisticated avionics and high maneuverability. The Su-27 was designed for air superiority missions, and subsequent variants can perform almost all aerial warfare operations. It was designed with the Mikoyan MiG-29 as its complement."
- SOV_fighter_equipment_5:0 "Mikoyan MiG-35"
- SOV_fighter_equipment_5_short:0 "MiG-35"
- SOV_fighter_equipment_5_desc:0 "The Mikoyan MiG-35 is a Russian multirole fighter that is designed by Mikoyan, a division of the United Aircraft Corporation (UAC). Marketed as a 4++ generation jet fighter, it is a further development of the MiG-29M/M2 and MiG-29K/KUB fighters. The first prototype was a modification of the aircraft that previously served as a MiG-29M2 model demonstrator. Mikoyan first officially presented the MiG-35 internationally during the 2007 Aero India air show."
- SOV_fighter_equipment_6:0 "Sukhoi Su-30"
- SOV_fighter_equipment_6_short:0 "Su-30"
- SOV_fighter_equipment_6_desc:0 "The Sukhoi Su-30 is a twin-engine, two-seat supermaneuverable fighter aircraft developed in the Soviet Union by Russia's Sukhoi Aviation Corporation. It is a multirole fighter for all-weather, air-to-air and air-to-surface deep interdiction missions. The Su-30 started out as an internal development project in the Sukhoi Su-27 family by Sukhoi. The design plan was revamped and the name was made official by the Russian Defense Ministry in 1996."
- SOV_fighter_equipment_7:0 "Sukhoi Su-35S"
- SOV_fighter_equipment_7_short:0 "Su-35S"
- SOV_fighter_equipment_7_desc:0 "The Sukhoi Su-35 is the designation for two improved derivatives of the Su-27 air-defense fighter. They are single-seat, twin-engine, supermaneuverable aircraft, designed by the Sukhoi Design Bureau and built by the Komsomolsk-on-Amur Aircraft Plant. The first variant was designed by the USSR during the 1980s as an improvement on the Su-27 and was known as the Su-27M. In 2003, Sukhoi embarked on a second modernization of the Su-27 to serve as an interim aircraft awaiting the development of the Sukhoi PAK FA (Su-57) program."
- SOV_fighter_equipment_8:0 "Sukhoi Su-57"
- SOV_fighter_equipment_8_short:0 "Su-57"
- SOV_fighter_equipment_8_desc:0 "The Sukhoi Su-57 is a stealth, single-seat, twin-engine multirole fifth-generation jet fighter being developed since 2002 for air superiority and attack operations. The aircraft is the product of the PAK FA, a fifth-generation fighter program of the Russian Air Force. Sukhoi's internal name for the aircraft is T-50. The Su-57 is planned to be the first aircraft in Russian military service to use stealth technology."
- # CV FIGHTERS #
- SOV_cv_fighter_equipment_1:0 "Mikoyan-Gurevich MiG-21K"
- SOV_cv_fighter_equipment_1_short:0 "MiG-21K"
- SOV_cv_fighter_equipment_1_desc:0 "This is a fictional vehicle."
- SOV_cv_fighter_equipment_2:0 "Mikoyan MiG-29K"
- SOV_cv_fighter_equipment_2_short:0 "MiG-29K"
- SOV_cv_fighter_equipment_2_desc:0 "The Mikoyan MiG-29K is a Russian all-weather carrier-based multirole fighter aircraft developed by the Mikoyan Design Bureau. The MiG-29K was developed in the late 1980s from the MiG-29M. Mikoyan describes it as a 4+ generation aircraft."
- SOV_cv_fighter_equipment_3:0 "Yakovlev Yak-141"
- SOV_cv_fighter_equipment_3_short:0 "Yak-141"
- SOV_cv_fighter_equipment_3_desc:0 "The Yakovlev Yak-141, also known as the Yak-41, is a Soviet supersonic vertical takeoff/landing (VTOL) fighter aircraft designed by Yakovlev. The development of this aircraft was cancelled in 1991."
- SOV_cv_fighter_equipment_4:0 "Sukhoi Su-33"
- SOV_cv_fighter_equipment_4_short:0 "Su-33"
- SOV_cv_fighter_equipment_4_desc:0 "The Sukhoi Su-33 is an all-weather carrier-based twin-engine air superiority fighter designed by Sukhoi and manufactured by Komsomolsk-on-Amur Aircraft Production Association, derived from the Su-27 and initially known as the Su-27K. Compared with the Su-27, the Su-33 has a strengthened undercarriage and structure, folding wings and stabilators, all for carrier operations. The Su-33 has canards and its wings are larger than the Su-27 for increased lift."
- SOV_cv_fighter_equipment_5:0 "Mikoyan MiG-35K"
- SOV_cv_fighter_equipment_5_short:0 "MiG-35K"
- SOV_cv_fighter_equipment_5_desc:0 "This is a fictional vehicle."
- SOV_cv_fighter_equipment_6:0 "Sukhoi Su-30K"
- SOV_cv_fighter_equipment_6_short:0 "Su-30K"
- SOV_cv_fighter_equipment_6_desc:0 "This is a fictional vehicle."
- SOV_cv_fighter_equipment_7:0 "Sukhoi Su-35K"
- SOV_cv_fighter_equipment_7_short:0 "Su-35K"
- SOV_cv_fighter_equipment_7_desc:0 "According to the General Director of Mikoyan, Ilya Tarasenko, a carrier-based version of the MiG-35 is under development, as of 2019. The Radioelectronic Technologies Concern (KRET) has already adapted a new landing system to the BINS-SP-2 deck for the MiG-35."
- SOV_cv_fighter_equipment_8:0 "Sukhoi Su-57K"
- SOV_cv_fighter_equipment_8_short:0 "Su-57K"
- SOV_cv_fighter_equipment_8_desc:0 "This is a fictional vehicle."
- # NAVAL BOMBERS #
- SOV_nav_bomber_equipment_1:0 "Antonov An-12 MPA"
- SOV_nav_bomber_equipment_1_short:0 "An-12 MPA"
- SOV_nav_bomber_equipment_1_desc:0 "The Antonov An-12 is a four-engine turboprop transport aircraft designed in the Soviet Union. It is the military version of the Antonov An-10 and has many variants. For more than three decades the An-12 was the standard medium-range cargo and paratroop transport aircraft of the Soviet air forces. A total of 1,234 were eventually built. This variant serves as a maritime patrol aircraft."
- SOV_nav_bomber_equipment_2:0 "Tupolev Tu-142"
- SOV_nav_bomber_equipment_2_short:0 "Tu-142"
- SOV_nav_bomber_equipment_2_desc:0 "The Tupolev Tu-142 is a Soviet/Russian maritime reconnaissance and anti-submarine warfare (ASW) aircraft derived from the Tu-95 turboprop strategic bomber. A specialized communications variant designated Tu-142MR was tasked with long-range communications duties with Soviet ballistic missile submarines. The Tu-142 was designed by the Tupolev design bureau and manufactured by the Kuibyshev Aviation and Taganrog Machinery Plants from 1968 to 1994."
- SOV_nav_bomber_equipment_3:0 "Ilyushin Il-38"
- SOV_nav_bomber_equipment_3_short:0 "Il-38"
- SOV_nav_bomber_equipment_3_desc:0 "The Ilyushin Il-38 "Dolphin" is a maritime patrol aircraft and anti-submarine warfare aircraft designed in the Soviet Union. It was a development of the Ilyushin Il-18 turboprop transport. The Il-38 is an adaptation of the four-engine turboprop Ilyushin Il-18 for use as a maritime patrol aircraft for the Soviet Navy. It met a requirement to counter American ballistic missile submarines."
- SOV_nav_bomber_equipment_4:0 "Sukhoi Su-24"
- SOV_nav_bomber_equipment_4_short:0 "Su-24"
- SOV_nav_bomber_equipment_4_desc:0 "The Sukhoi Su-24 is a supersonic, all-weather attack aircraft developed in the Soviet Union. The aircraft has a variable-sweep wing, twin-engines and a side-by-side seating arrangement for its crew of two. It was the first of the USSR's aircraft to carry an integrated digital navigation/attack system. It remains in service with the Russian Air Force, Syrian Air Force, Ukrainian Air Force, Azerbaijan Air Force and various air forces to which it was exported."
+RAJ_fighter_equipment_1:0 "MiG-21MF"
+RAJ_fighter_equipment_1_short:0 "MiG-21MF"
+RAJ_fighter_equipment_1_desc:0 "MiG-21MF"
+RAJ_fighter_equipment_2:0 "MiG-23"
+RAJ_fighter_equipment_2_short:0 "MiG-23"
+RAJ_fighter_equipment_2_desc:0 "MiG-23"
+RAJ_fighter_equipment_3:0 "Mirage 2000H"
+RAJ_fighter_equipment_3_short:0 "Mirage 2000H"
+RAJ_fighter_equipment_3_desc:0 "Mirage 2000H"
+RAJ_fighter_equipment_4:0 "Su-30MKI"
+RAJ_fighter_equipment_4_short:0 "Su-30MKI"
+RAJ_fighter_equipment_4_desc:0 "Su-30MKI"
+RAJ_fighter_equipment_5:0 "Super Sukhoi"
+RAJ_fighter_equipment_5_short:0 "Super Sukhoi"
+RAJ_fighter_equipment_5_desc:0 "Super Sukhoi"
+RAJ_fighter_equipment_6:0 "MiG-29UPG"
+RAJ_fighter_equipment_6_short:0 "MiG-29UPG"
+RAJ_fighter_equipment_6_desc:0 "MiG-29UPG"
+RAJ_fighter_equipment_7:0 "Tejas Mk. 1"
+RAJ_fighter_equipment_7_short:0 "Tejas Mk. 1"
+RAJ_fighter_equipment_7_desc:0 "Tejas Mk. 1"
+RAJ_fighter_equipment_8:0 "Tejas Mk. 2"
+RAJ_fighter_equipment_8_short:0 "Tejas Mk. 2"
+RAJ_fighter_equipment_8_desc:0 "Tejas Mk. 2"
+# TRANSPORTES #
+RAJ_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
+RAJ_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
+RAJ_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave de transporte militar. Foi desenvolvido para a Força Aérea dos Estados Unidos (USAF) dos anos 1980 até o início dos anos 1990 pela McDonnell Douglas. O C-17 leva o nome de dois anteriores aviões de carga militares com motores a pistão, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
+
+## RÚSSIA ##
+# CAS #
+SOV_CAS_equipment_1:0 "Sukhoi Su-17"
+SOV_CAS_equipment_1_short:0 "Su-17"
+SOV_CAS_equipment_1_desc:0 "O Sukhoi Su-17 é um bombardeiro de caça soviético de asa variável desenvolvido a partir do Sukhoi Su-7. Teve uma longa carreira no serviço soviético, posteriormente russo, e foi amplamente exportado para os países do Bloco de Leste, forças aéreas árabes, Angola e Peru como Su-20 e Su-22. É a primeira asa variável de origem russa/soviética."
+SOV_CAS_equipment_2:0 "Sukhoi Su-25 Grach"
+SOV_CAS_equipment_2_short:0 "Su-25"
+SOV_CAS_equipment_2_desc:0 "O Sukhoi Su-25 Grach é uma aeronave a jato de um único assento e dois motores desenvolvida na União Soviética pela Sukhoi. Foi projetado para fornecer apoio aéreo próximo para as Forças Terrestres Soviéticas. O primeiro protótipo fez seu voo inaugural em 22 de fevereiro de 1975. Após os testes, a aeronave entrou em produção em série em 1978 em Tbilisi, na República Socialista Soviética da Geórgia."
+# CV CAS #
+# CAÇADORES #
+SOV_fighter_equipment_1:0 "Mikoyan-Gurevich MiG-21"
+SOV_fighter_equipment_1_short:0 "MiG-21"
+SOV_fighter_equipment_1_desc:0 "O Mikoyan-Gurevich MiG-21 é um caça a jato supersônico e interceptor, projetado pelo Bureau de Design Mikoyan-Gurevich na União Soviética. Seus apelidos incluem: Balalaika, porque sua forma lembra o instrumento musical de cordas do mesmo nome; Ołówek, em polonês 'lápis', devido ao formato de sua fuselagem; e Én bạc, que significa 'Andorinha Prateada', em vietnamita."
+SOV_fighter_equipment_2:0 "Mikoyan MiG-29"
+SOV_fighter_equipment_2_short:0 "MiG-29"
+SOV_fighter_equipment_2_desc:0 "O Mikoyan MiG-29 é uma aeronave caça a jato de dois motores desenvolvida na União Soviética. Projetada pelo bureau de design Mikoyan como um caça de superioridade aérea durante os anos 1970, o MiG-29, juntamente com o maior Sukhoi Su-27, foi desenvolvido para enfrentar novos caças dos EUA, como o McDonnell Douglas F-15 Eagle e o General Dynamics F-16 Fighting Falcon. O MiG-29 entrou em serviço com as Forças Aéreas Soviéticas em 1982."
+SOV_fighter_equipment_3:0 "Mikoyan MiG-31"
+SOV_fighter_equipment_3_short:0 "MiG-31"
+SOV_fighter_equipment_3_desc:0 "O Mikoyan MiG-31 é um interceptor supersônico desenvolvido para uso pelas Forças Aéreas Soviéticas. A aeronave foi projetada pelo bureau de design Mikoyan como substituto do anterior MiG-25 'Foxbat'; o MiG-31 é baseado no MiG-25 e compartilha elementos de design com ele. O MiG-31 tem a distinção de ser um dos caças mais rápidos do mundo. Continua a ser operado pela Força Aérea Russa e pela Força Aérea do Cazaquistão após o fim da Guerra Fria e o colapso da União Soviética em 1991."
+SOV_fighter_equipment_4:0 "Sukhoi Su-27"
+SOV_fighter_equipment_4_short:0 "Su-27"
+SOV_fighter_equipment_4_desc:0 "O Sukhoi Su-27 é uma aeronave de combate supersônica de origem soviética, projetada pela Sukhoi. Foi projetado para competir diretamente com grandes caças de quarta geração dos Estados Unidos, como o Grumman F-14 Tomcat e o F-15 Eagle, com um alcance de 3.530 quilômetros, armamentos pesados, aviônicos sofisticados e alta manobrabilidade. O Su-27 foi projetado para missões de superioridade aérea, e variantes subsequentes podem realizar quase todas as operações de guerra aérea. Foi projetado como complemento do Mikoyan MiG-29."
+SOV_fighter_equipment_5:0 "Mikoyan MiG-35"
+SOV_fighter_equipment_5_short:0 "MiG-35"
+SOV_fighter_equipment_5_desc:0 "O Mikoyan MiG-35 é um caça multifuncional russo projetado pela Mikoyan, uma divisão da United Aircraft Corporation (UAC). Comercializado como um caça da geração 4++, é um desenvolvimento adicional dos caças MiG-29M/M2 e MiG-29K/KUB. O primeiro protótipo foi uma modificação da aeronave que anteriormente servia como demonstrador do modelo MiG-29M2. A Mikoyan apresentou oficialmente o MiG-35 internacionalmente durante o salão aeroespacial Aero India em 2007."
+SOV_fighter_equipment_6:0 "Sukhoi Su-30"
+SOV_fighter_equipment_6_short:0 "Su-30"
+SOV_fighter_equipment_6_desc:0 "O Sukhoi Su-30 é um caça supermanobrável de dois assentos e dois motores desenvolvido na União Soviética pela Sukhoi Aviation Corporation da Rússia. É um caça multifuncional para missões de interdição profunda ar-ar e ar-superfície em qualquer clima. O Su-30 começou como um projeto de desenvolvimento interno da família Sukhoi Su-27 pela Sukhoi. O plano de design foi reformulado e o nome foi oficializado pelo Ministério da Defesa Russo em 1996."
+SOV_fighter_equipment_7:0 "Sukhoi Su-35S"
+SOV_fighter_equipment_7_short:0 "Su-35S"
+SOV_fighter_equipment_7_desc:0 "O Sukhoi Su-35 é a designação para dois derivados melhorados do caça de defesa aérea Su-27. São aeronaves supermanobráveis de assento único e dois motores, projetadas pelo Sukhoi Design Bureau e construídas pela Komsomolsk-on-Amur Aircraft Plant. A primeira variante foi projetada pela URSS durante a década de 1980 como uma melhoria do Su-27 e era conhecida como Su-27M. Em 2003, a Sukhoi iniciou uma segunda modernização do Su-27 para servir como uma aeronave provisória enquanto aguardava o desenvolvimento do programa Sukhoi PAK FA (Su-57)."
+SOV_fighter_equipment_8:0 "Sukhoi Su-57"
+SOV_fighter_equipment_8_short:0 "Su-57"
+SOV_fighter_equipment_8_desc:0 "O Sukhoi Su-57 é um caça multifuncional stealth de assento único e dois motores de quinta geração, em desenvolvimento desde 2002 para operações de superioridade aérea e ataque. A aeronave é o produto do PAK FA, um programa de caça de quinta geração da Força Aérea Russa. O nome interno da Sukhoi para a aeronave é T-50. O Su-57 está planejado para ser a primeira aeronave em serviço militar russo a usar tecnologia stealth."
+# CV FIGHTERS #
+SOV_cv_fighter_equipment_1:0 "Mikoyan-Gurevich MiG-21K"
+SOV_cv_fighter_equipment_1_short:0 "MiG-21K"
+SOV_cv_fighter_equipment_1_desc:0 "Este é um veículo fictício."
+SOV_cv_fighter_equipment_2:0 "Mikoyan MiG-29K"
+SOV_cv_fighter_equipment_2_short:0 "MiG-29K"
+SOV_cv_fighter_equipment_2_desc:0 "O Mikoyan MiG-29K é um caça multifuncional russo embarcado para qualquer clima, desenvolvido pelo Mikoyan Design Bureau. O MiG-29K foi desenvolvido no final da década de 1980 a partir do MiG-29M. A Mikoyan o descreve como uma aeronave da geração 4+."
+SOV_cv_fighter_equipment_3:0 "Yakovlev Yak-141"
+SOV_cv_fighter_equipment_3_short:0 "Yak-141"
+SOV_cv_fighter_equipment_3_desc:0 "O Yakovlev Yak-141, também conhecido como Yak-41, é um caça supersônico soviético de decolagem e pouso vertical (VTOL) projetado por Yakovlev. O desenvolvimento dessa aeronave foi cancelado em 1991."
+SOV_cv_fighter_equipment_4:0 "Sukhoi Su-33"
+SOV_cv_fighter_equipment_4_short:0 "Su-33"
+SOV_cv_fighter_equipment_4_desc:0 "O Sukhoi Su-33 é um caça de superioridade aérea embarcado, com dois motores e para qualquer clima, projetado pela Sukhoi e fabricado pela Komsomolsk-on-Amur Aircraft Production Association, derivado do Su-27 e inicialmente conhecido como Su-27K. Comparado com o Su-27, o Su-33 tem trem de pouso e estrutura reforçados, asas e estabilizadores dobráveis, todos projetados para operações embarcadas. O Su-33 possui canard e suas asas são maiores do que as do Su-27 para aumentar a sustentação."
+SOV_cv_fighter_equipment_5:0 "Mikoyan MiG-35K"
+SOV_cv_fighter_equipment_5_short:0 "MiG-35K"
+SOV_cv_fighter_equipment_5_desc:0 "Este é um veículo fictício."
+SOV_cv_fighter_equipment_6:0 "Sukhoi Su-30K"
+SOV_cv_fighter_equipment_6_short:0 "Su-30K"
+SOV_cv_fighter_equipment_6_desc:0 "Este é um veículo fictício."
+SOV_cv_fighter_equipment_7:0 "Sukhoi Su-35K"
+SOV_cv_fighter_equipment_7_short:0 "Su-35K"
+SOV_cv_fighter_equipment_7_desc:0 "De acordo com o Diretor Geral da Mikoyan, Ilya Tarasenko, uma versão embarcada do MiG-35 está em desenvolvimento, desde 2019. O Radioelectronic Technologies Concern (KRET) já adaptou um novo sistema de pouso para a ponte de voo BINS-SP-2 do MiG-35."
+SOV_cv_fighter_equipment_8:0 "Sukhoi Su-57K"
+SOV_cv_fighter_equipment_8_short:0 "Su-57K"
+SOV_cv_fighter_equipment_8_desc:0 "Este é um veículo fictício."
+# NAVAL BOMBERS #
+SOV_nav_bomber_equipment_1:0 "Antonov An-12 MPA"
+SOV_nav_bomber_equipment_1_short:0 "An-12 MPA"
+SOV_nav_bomber_equipment_1_desc:0 "O Antonov An-12 é uma aeronave de transporte com quatro motores a turbopropulsor projetada na União Soviética. É a versão militar do Antonov An-10 e possui várias variantes. Por mais de três décadas, o An-12 foi a aeronave padrão de transporte de médio alcance e transporte de paraquedistas das forças aéreas soviéticas. Um total de 1.234 unidades foram construídas. Esta variante serve como aeronave de patrulha marítima."
+SOV_nav_bomber_equipment_2:0 "Tupolev Tu-142"
+SOV_nav_bomber_equipment_2_short:0 "Tu-142"
+SOV_nav_bomber_equipment_2_desc:0 "O Tupolev Tu-142 é uma aeronave soviética/russa de reconhecimento marítimo e guerra antisubmarino (ASW) derivada do bombardeiro estratégico a turbopropulsor Tu-95. Uma variante especializada, denominada Tu-142MR, era responsável pelas comunicações de longo alcance com os submarinos soviéticos de mísseis balísticos. O Tu-142 foi projetado pelo bureau de design Tupolev e fabricado pelas fábricas de aviação de Kuibyshev e de máquinas de Taganrog de 1968 a 1994."
+SOV_nav_bomber_equipment_3:0 "Ilyushin Il-38"
+SOV_nav_bomber_equipment_3_short:0 "Il-38"
+SOV_nav_bomber_equipment_3_desc:0 "O Ilyushin Il-38 'Dolphin' é uma aeronave de patrulha marítima e guerra antisubmarino projetada na União Soviética. Foi um desenvolvimento do transporte a turbopropulsor Ilyushin Il-18. O Il-38 é uma adaptação do Ilyushin Il-18 de quatro motores a turbopropulsor para ser usado como aeronave de patrulha marítima para a Marinha Soviética. Atendeu à necessidade de combater submarinos de mísseis balísticos americanos."
+SOV_nav_bomber_equipment_4:0 "Sukhoi Su-24"
+SOV_nav_bomber_equipment_4_short:0 "Su-24"
+SOV_nav_bomber_equipment_4_desc:0 "O Sukhoi Su-24 é uma aeronave de ataque supersônica, para qualquer clima, desenvolvida na União Soviética. A aeronave tem asas de varredura variável, dois motores e uma configuração de assentos lado a lado para sua tripulação de dois. Foi a primeira aeronave da URSS a carregar um sistema integrado de navegação/ataque digital. Continua em serviço na Força Aérea Russa, Força Aérea Síria, Força Aérea Ucraniana, Força Aérea do Azerbaijão e diversas forças aéreas para as quais foi exportado."
  #SOV_nav_bomber_equipment_5:0 ""
  #SOV_nav_bomber_equipment_5_short:0 ""
  #SOV_nav_bomber_equipment_5_desc:0 "Modern Gen 5 MPA"
@@ -929,181 +925,182 @@
  #SOV_nav_bomber_equipment_6_short:0 ""
  #SOV_nav_bomber_equipment_6_desc:0 "Gen 6 MPA"
  # CV NAVAL BOMBERS #
- SOV_cv_nav_bomber_equipment_4:0 "Sukhoi Su-24K"
- SOV_cv_nav_bomber_equipment_4_short:0 "Su-24K"
- SOV_cv_nav_bomber_equipment_4_desc:0 "This is a fictional vehicle."
- # STRATEGIC BOMBERS #
- SOV_strat_bomber_equipment_1:0 "Tupolev Tu-95"
- SOV_strat_bomber_equipment_1_short:0 "Tu-95"
- SOV_strat_bomber_equipment_1_desc:0 "The Tupolev Tu-95 is a large, four-engine turboprop-powered strategic bomber and missile platform. First flown in 1952, the Tu-95 entered service with the Soviet Union in 1956 and is expected to serve the Russian Aerospace Forces until at least 2040. A development of the bomber for maritime patrol is designated Tu-142, while a passenger airliner derivative was called Tu-114."
- SOV_strat_bomber_equipment_2:0 "Tupolev Tu-22M"
- SOV_strat_bomber_equipment_2_short:0 "Tu-22M"
- SOV_strat_bomber_equipment_2_desc:0 "The Tupolev Tu-22M is a supersonic, variable-sweep wing, long-range strategic and maritime strike bomber developed by the Tupolev Design Bureau. According to some sources, the bomber was believed to be designated Tu-26 at one time. During the Cold War, the Tu-22M was operated by the Soviet Air Forces (VVS) in a missile carrier strategic bombing role, and by the Soviet Naval Aviation in a long-range maritime anti-shipping role."
- SOV_strat_bomber_equipment_3:0 "Tupolev Tu-160"
- SOV_strat_bomber_equipment_3_short:0 "Tu-160"
- SOV_strat_bomber_equipment_3_desc:0 "The Tupolev Tu-160 is a supersonic, variable-sweep wing heavy strategic bomber designed by the Tupolev Design Bureau in the Soviet Union. It is the largest and heaviest Mach 2+ supersonic military aircraft ever built and second only to the XB-70 Valkyrie in overall length. It is the largest and heaviest combat aircraft, the fastest bomber now in use and the largest and heaviest variable-sweep wing airplane ever flown, as of 2019."
- SOV_strat_bomber_equipment_4:0 "Tupolev Tu-22M3M"
- SOV_strat_bomber_equipment_4_short:0 "Tu-22M3M"
- SOV_strat_bomber_equipment_4_desc:0 "A contract for a full mid-life upgrade, the Tu-22M3M was signed in September 2014. The aircraft is to receive a further modified NV-45M radar, together with new navigation equipment and a modified flight control system. A new self-defense electronic radar suite is fitted, replacing the tail gun of the existing Tu-22M3. Much of the new avionics are shared with the upgraded Tu-160M2."
- SOV_strat_bomber_equipment_5:0 "Tupolev PAK DA"
- SOV_strat_bomber_equipment_5_short:0 "PAK DA"
- SOV_strat_bomber_equipment_5_desc:0 "The Tupolev PAK DA or PAK DA factory designation Izdeliye 80, is a next-generation stealth strategic bomber being developed by Tupolev for the Russian Air Force. The PAK DA is set to complement and eventually replace older variants, namely the Tupolev Tu-95 and Tupolev Tu-160, in Russia's Air Force service. The first flight is scheduled for 2025–2026 with serial production to follow in 2028–2029."
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- SOV_transport_plane_equipment_1:0 "Tupolev Tu-134"
- SOV_transport_plane_equipment_1_short:0 "Tu-134"
- SOV_transport_plane_equipment_1_desc:0 "The Tupolev Tu-134 is a twin-engine, narrow-body, jet airliner built in the Soviet Union from 1966 to 1989. It is the world's most-produced twinjet of its class. The original version featured a glazed-nose design, and, like certain other Russian airliners, it can operate from unpaved airfields."
- SOV_transport_plane_equipment_2:0 "Antonov An-148"
- SOV_transport_plane_equipment_2_short:0 "An-148"
- SOV_transport_plane_equipment_2_desc:0 "The Antonov An-148 is a regional jet designed and built by Antonov of Ukraine. Development of the aircraft was started in the 1990s, and its maiden flight took place on 17 December 2004. The aircraft completed its certification program on 26 February 2007. The An-148 has a maximum range of 2,100–4,400 km (1,100–2,400 nmi; 1,300–2,700 mi) and can carry 68–85 passengers, depending on the configuration."
+SOV_cv_nav_bomber_equipment_4:0 "Sukhoi Su-24K"
+SOV_cv_nav_bomber_equipment_4_short:0 "Su-24K"
+SOV_cv_nav_bomber_equipment_4_desc:0 "Este é um veículo fictício."
+# STRATEGIC BOMBERS #
+SOV_strat_bomber_equipment_1:0 "Tupolev Tu-95"
+SOV_strat_bomber_equipment_1_short:0 "Tu-95"
+SOV_strat_bomber_equipment_1_desc:0 "O Tupolev Tu-95 é um bombardeiro estratégico de grande porte, com quatro motores turbopropulsores, e plataforma de mísseis. Voado pela primeira vez em 1952, o Tu-95 entrou em serviço com a União Soviética em 1956 e espera-se que sirva às Forças Aeroespaciais da Rússia até pelo menos 2040. O desenvolvimento do bombardeiro para patrulha marítima é designado Tu-142, enquanto uma versão derivada para passageiros foi chamada Tu-114."
+SOV_strat_bomber_equipment_2:0 "Tupolev Tu-22M"
+SOV_strat_bomber_equipment_2_short:0 "Tu-22M"
+SOV_strat_bomber_equipment_2_desc:0 "O Tupolev Tu-22M é um bombardeiro estratégico supersônico de asas de varredura variável e longo alcance, desenvolvido pelo Bureau de Projetos Tupolev. De acordo com algumas fontes, o bombardeiro foi acreditado ser designado Tu-26 em algum momento. Durante a Guerra Fria, o Tu-22M foi operado pelas Forças Aéreas Soviéticas (VVS) em um papel de bombardeio estratégico com transportador de mísseis, e pela Aviação Naval Soviética em um papel de ataque marítimo de longo alcance contra embarcações."
+SOV_strat_bomber_equipment_3:0 "Tupolev Tu-160"
+SOV_strat_bomber_equipment_3_short:0 "Tu-160"
+SOV_strat_bomber_equipment_3_desc:0 "O Tupolev Tu-160 é um bombardeiro estratégico pesado supersônico de asas de varredura variável, projetado pelo Bureau de Projetos Tupolev na União Soviética. É a maior e mais pesada aeronave militar supersônica Mach 2+ já construída e a segunda em comprimento total, apenas atrás do XB-70 Valkyrie. É a maior e mais pesada aeronave de combate, o bombardeiro mais rápido atualmente em uso e a maior e mais pesada aeronave com asas de varredura variável já voada, até 2019."
+SOV_strat_bomber_equipment_4:0 "Tupolev Tu-22M3M"
+SOV_strat_bomber_equipment_4_short:0 "Tu-22M3M"
+SOV_strat_bomber_equipment_4_desc:0 "Um contrato para uma atualização completa de meio de vida, o Tu-22M3M foi assinado em setembro de 2014. A aeronave receberá um radar NV-45M modificado, junto com novos equipamentos de navegação e um sistema de controle de voo modificado. Um novo sistema de radar eletrônico de autodefesa foi instalado, substituindo a metralhadora traseira do Tu-22M3 existente. Grande parte da nova aviação é compartilhada com o Tu-160M2 atualizado."
+SOV_strat_bomber_equipment_5:0 "Tupolev PAK DA"
+SOV_strat_bomber_equipment_5_short:0 "PAK DA"
+SOV_strat_bomber_equipment_5_desc:0 "O Tupolev PAK DA ou designação Izdeliye 80, é um bombardeiro estratégico furtivo de próxima geração sendo desenvolvido pela Tupolev para a Força Aérea Russa. O PAK DA está projetado para complementar e eventualmente substituir variantes mais antigas, nomeadamente o Tupolev Tu-95 e o Tupolev Tu-160, no serviço da Força Aérea da Rússia. O primeiro voo está previsto para 2025-2026, com produção em série programada para 2028-2029."
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+SOV_transport_plane_equipment_1:0 "Tupolev Tu-134"
+SOV_transport_plane_equipment_1_short:0 "Tu-134"
+SOV_transport_plane_equipment_1_desc:0 "O Tupolev Tu-134 é um jato de corpo estreito com dois motores, fabricado na União Soviética de 1966 a 1989. É o bimotor mais produzido em sua classe no mundo. A versão original apresentava um design de nariz envidraçado e, como outros aviões comerciais russos, pode operar a partir de aeródromos não pavimentados."
+SOV_transport_plane_equipment_2:0 "Antonov An-148"
+SOV_transport_plane_equipment_2_short:0 "An-148"
+SOV_transport_plane_equipment_2_desc:0 "O Antonov An-148 é um jato regional projetado e fabricado pela Antonov da Ucrânia. O desenvolvimento da aeronave foi iniciado na década de 1990, e seu voo inaugural ocorreu em 17 de dezembro de 2004. O programa de certificação foi concluído em 26 de fevereiro de 2007. O An-148 tem um alcance máximo de 2.100–4.400 km (1.100–2.400 milhas náuticas; 1.300–2.700 milhas) e pode transportar de 68 a 85 passageiros, dependendo da configuração."
  
- ## SPAIN ##
- # CAS #
- # CV CAS #
- # FIGHTERS #
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- SPR_nav_bomber_equipment_4:0 "CASA/IPTN CN-235"
- SPR_nav_bomber_equipment_4_short:0 "CN-235"
- SPR_nav_bomber_equipment_4_desc:0 "The CASA/IPTN CN-235 is a medium-range twin-engined transport aircraft that was jointly developed by Construcciones Aeronáuticas SA (CASA) of Spain and Indonesian manufacturer IPTN, as a regional airliner and military transport. Its primary military roles include maritime patrol, surveillance, and air transport."
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- # TRANSPORTS #
- SPR_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- SPR_transport_plane_equipment_2_short:0 "A400M Atlas"
- SPR_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
+## SPAIN ##
+# CAS #
+# CV CAS #
+# FIGHTERS #
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+SPR_nav_bomber_equipment_4:0 "CASA/IPTN CN-235"
+SPR_nav_bomber_equipment_4_short:0 "CN-235"
+SPR_nav_bomber_equipment_4_desc:0 "O CASA/IPTN CN-235 é uma aeronave de transporte com dois motores e alcance médio, desenvolvida conjuntamente pela Construcciones Aeronáuticas SA (CASA) da Espanha e o fabricante indonésio IPTN, como um avião regional e transporte militar. Seus principais papéis militares incluem patrulha marítima, vigilância e transporte aéreo."
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+# TRANSPORTS #
+SPR_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+SPR_transport_plane_equipment_2_short:0 "A400M Atlas"
+SPR_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia com quatro motores turbopropulsores. Foi projetado pela Airbus Military (atualmente Airbus Defence and Space) como um cargueiro tático com capacidades estratégicas, para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
  
  
  ## TURKEY ##
- # CAS #
- TUR_CAS_equipment_1:0 "F-4E Phantom II"
- TUR_CAS_equipment_1_short:0 "F-4E Phantom II"
- TUR_CAS_equipment_1_desc:0 "The Turkish Air Force remains one of the most prominent users of the F-4, configured for reconnaissance or ground attack missions against insurgent emplacements."
- TUR_CAS_equipment_2:0 "F-4E-2020 Terminator"
- TUR_CAS_equipment_2_short:0 "F-4E-2020"
- TUR_CAS_equipment_2_desc:0 "This IAI-designed Phantom 2000 upgrade package to the F-4E features improvements to avionics and structure, tentatively extending its service life to 2020."
- TUR_CAS_equipment_3:0 "F-16C/D Block 40 (CAS)"
- TUR_CAS_equipment_3_short:0 "F-16C/D Block 40 (CAS)"
- TUR_CAS_equipment_3_desc:0 "The F-16 and its variants can be reconfigured to an exclusive ground-attack role, most suitable for the Turkish Air Force's usual counter-insurgency duties."
- # CV CAS #
- # FIGHTERS #
- TUR_fighter_equipment_1:0 "F-86 Sabre"
- TUR_fighter_equipment_1_short:0 "F-86 Sabre"
- TUR_fighter_equipment_1_desc:0 "Since joining NATO, Turkey has equipped her Air Force with a great amount of American-made aircraft, including the F-86."
- TUR_fighter_equipment_2:0 "F-5A/B"
- TUR_fighter_equipment_2_short:0 "F-5A/B"
- TUR_fighter_equipment_2_desc:0 "The Turkish Air Force has acquired dozens of F-5 units from various countries, using it for various missions including training and ground attack."
- TUR_fighter_equipment_3:0 "F-16C/D Block 30"
- TUR_fighter_equipment_3_short:0 "F-16C/D Block 30"
- TUR_fighter_equipment_3_desc:0 "Produced under license by TAI, the F-16 and its variants are the bulk of the Turkish Air Force, versatile enough for most operations."
- TUR_fighter_equipment_4:0 "F-16C/D Block 40"
- TUR_fighter_equipment_4_short:0 "F-16C/D Block 40"
- TUR_fighter_equipment_4_desc:0 "An upgrade package for the F-16 featuring improved avionics, software and structural changes can now be produced locally."
- TUR_fighter_equipment_5:0 "F-16C/D Block 50"
- TUR_fighter_equipment_5_short:0 "F-16C/D Block 50"
- TUR_fighter_equipment_5_desc:0 "An upgrade package for the F-16 featuring improved avionics, software and structural changes can now be produced locally."
- TUR_fighter_equipment_6:0 "TAI TF-X"
- TUR_fighter_equipment_6_short:0 "TF-X"
- TUR_fighter_equipment_6_desc:0 "We have F-35 at home"
- TUR_fighter_equipment_7:0 "TAI Hürjet"
- TUR_fighter_equipment_7_short:0 "Hürjet"
- TUR_fighter_equipment_7_desc:0 " The TAI Hürjet is a proposed single-engine, tandem seat, supersonic advanced trainer and light combat aircraft, under development by Turkish Aerospace Industries (TAI)."
-
- TUR_fighter_equipment_8:0 "TF-30 Kartal"
- TUR_fighter_equipment_8_short:0 "TF-30"
- TUR_fighter_equipment_8_desc:0 "Based on previous experience with the TF-23, the Kartal is a multirole fighter designed to dominate the skies with an edge in cyberwarfare technology."
- # CV FIGHTERS #
- # NAVAL BOMBERS #
- TUR_nav_bomber_equipment_5:0 "Meltem III ATR 72-600 TMPA"
- TUR_nav_bomber_equipment_5_short:0 "Meltem III ATR 72-600 TMPA"
- TUR_nav_bomber_equipment_5_desc:0 "Meltem III ATR 72-600 TMPA"
- # CV NAVAL BOMBERS #
- # STRATEGIC BOMBERS #
- # TACTICAL BOMBERS #
- TUR_tac_bomber_equipment_1:0 "Baykar Bayraktar TB2"
- TUR_tac_bomber_equipment_1_short:0 "Bayraktar TB2"
- TUR_tac_bomber_equipment_1_desc:0 "The Bayraktar TB2 is a Turkish medium altitude long endurance (MALE) unmanned combat aerial vehicle (UCAV) capable of remotely controlled or autonomous flight operations. It is manufactured by Turkey′s Baykar company primarily for the Turkish Armed Forces"
- TUR_tac_bomber_equipment_2:0 "TUSAŞ Anka-S"
- TUR_tac_bomber_equipment_2_short:0 "Anka-S"
- TUR_tac_bomber_equipment_2_desc:0  "The TAI Anka is a family of unmanned aerial vehicles (UAV) developed by Turkish Aerospace Industries (TAI) for the Turkish Armed Forces. The first version, Anka-A, was classified as a medium-altitude long-endurance unmanned aerial vehicle (MALE UAV). Envisioned in the early 2000s for tactical surveillance and reconnaissance missions, further versions evolved into a modular platform with synthetic aperture radar, precise weapons and satellite communication."
- TUR_tac_bomber_equipment_3:0 "Baykar Bayraktar Akıncı"
- TUR_tac_bomber_equipment_3_short:0 "Bayraktar Akıncı"
- TUR_tac_bomber_equipment_3_desc:0 "Bayraktar Akıncı (Turkish pronunciation: [Bayraktar Akıncı]) is a High-Altitude Long-Endurance (HALE) Unmanned Combat Aerial Vehicle (UCAV) being manufactured by the Turkish technology company Baykar. Currently, the project is in the mass production phase. The aircraft has a 5.5 tons of Maximum Takeoff Weight (MTOW) while 1350kg of this is composed by payload."
- TUR_tac_bomber_equipment_4:0 "TUSAŞ Anka-Aksungur"
- TUR_tac_bomber_equipment_4_short:0 "Anka-Aksungur"
- TUR_tac_bomber_equipment_4_desc:0 ""
- # TRANSPORTS #
- TUR_transport_plane_equipment_2:0 "Airbus A400M Atlas"
- TUR_transport_plane_equipment_2_short:0 "A400M Atlas"
- TUR_transport_plane_equipment_2_desc:0 "The Airbus A400M Atlas is a European, four-engine turboprop military transport aircraft. It was designed by Airbus Military (now Airbus Defence and Space) as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
+# CAS #
+TUR_CAS_equipment_1:0 "F-4E Phantom II"
+TUR_CAS_equipment_1_short:0 "F-4E Phantom II"
+TUR_CAS_equipment_1_desc:0 "A Força Aérea Turca continua sendo um dos maiores usuários do F-4, configurado para missões de reconhecimento ou ataque ao solo contra posições insurgentes."
+TUR_CAS_equipment_2:0 "F-4E-2020 Terminator"
+TUR_CAS_equipment_2_short:0 "F-4E-2020"
+TUR_CAS_equipment_2_desc:0 "Este pacote de atualização do Phantom 2000 projetado pela IAI para o F-4E apresenta melhorias nos aviônicos e na estrutura, com expectativa de estender sua vida útil até 2020."
+TUR_CAS_equipment_3:0 "F-16C/D Block 40 (CAS)"
+TUR_CAS_equipment_3_short:0 "F-16C/D Block 40 (CAS)"
+TUR_CAS_equipment_3_desc:0 "O F-16 e suas variantes podem ser reconfigurados para um papel exclusivo de ataque ao solo, mais adequado para as habituais missões de contra-insurgência da Força Aérea Turca."
+# CV CAS #
+# FIGHTERS #
+TUR_fighter_equipment_1:0 "F-86 Sabre"
+TUR_fighter_equipment_1_short:0 "F-86 Sabre"
+TUR_fighter_equipment_1_desc:0 "Desde que entrou para a OTAN, a Turquia equipou sua Força Aérea com uma grande quantidade de aeronaves fabricadas nos Estados Unidos, incluindo o F-86."
+TUR_fighter_equipment_2:0 "F-5A/B"
+TUR_fighter_equipment_2_short:0 "F-5A/B"
+TUR_fighter_equipment_2_desc:0 "A Força Aérea Turca adquiriu dezenas de unidades F-5 de vários países, utilizando-as para diversas missões, incluindo treinamento e ataque ao solo."
+TUR_fighter_equipment_3:0 "F-16C/D Block 30"
+TUR_fighter_equipment_3_short:0 "F-16C/D Block 30"
+TUR_fighter_equipment_3_desc:0 "Produzido sob licença pela TAI, o F-16 e suas variantes representam a maior parte da Força Aérea Turca, sendo versátil o suficiente para a maioria das operações."
+TUR_fighter_equipment_4:0 "F-16C/D Block 40"
+TUR_fighter_equipment_4_short:0 "F-16C/D Block 40"
+TUR_fighter_equipment_4_desc:0 "Um pacote de atualização para o F-16 com melhorias nos aviônicos, software e mudanças estruturais, agora podendo ser produzido localmente."
+TUR_fighter_equipment_5:0 "F-16C/D Block 50"
+TUR_fighter_equipment_5_short:0 "F-16C/D Block 50"
+TUR_fighter_equipment_5_desc:0 "Um pacote de atualização para o F-16 com melhorias nos aviônicos, software e mudanças estruturais, agora podendo ser produzido localmente."
+TUR_fighter_equipment_6:0 "TAI TF-X"
+TUR_fighter_equipment_6_short:0 "TF-X"
+TUR_fighter_equipment_6_desc:0 "Temos o F-35 em casa"
+TUR_fighter_equipment_7:0 "TAI Hürjet"
+TUR_fighter_equipment_7_short:0 "Hürjet"
+TUR_fighter_equipment_7_desc:0 "O TAI Hürjet é um proposto avião de treinamento avançado e combate leve supersônico, de assento tandem e motor único, em desenvolvimento pela Turkish Aerospace Industries (TAI)."
+TUR_fighter_equipment_8:0 "TF-30 Kartal"
+TUR_fighter_equipment_8_short:0 "TF-30"
+TUR_fighter_equipment_8_desc:0 "Baseado na experiência anterior com o TF-23, o Kartal é um caça multifuncional projetado para dominar os céus com uma vantagem em tecnologia de guerra cibernética."
+# CV FIGHTERS #
+# NAVAL BOMBERS #
+TUR_nav_bomber_equipment_5:0 "Meltem III ATR 72-600 TMPA"
+TUR_nav_bomber_equipment_5_short:0 "Meltem III ATR 72-600 TMPA"
+TUR_nav_bomber_equipment_5_desc:0 "Meltem III ATR 72-600 TMPA"
+# CV NAVAL BOMBERS #
+# STRATEGIC BOMBERS #
+# TACTICAL BOMBERS #
+TUR_tac_bomber_equipment_1:0 "Baykar Bayraktar TB2"
+TUR_tac_bomber_equipment_1_short:0 "Bayraktar TB2"
+TUR_tac_bomber_equipment_1_desc:0 "O Bayraktar TB2 é um veículo aéreo de combate não tripulado (UCAV) turco de alta endurance e média altitude (MALE), capaz de operações de voo controlado remotamente ou autônomas. É fabricado pela empresa turca Baykar, principalmente para as Forças Armadas da Turquia."
+TUR_tac_bomber_equipment_2:0 "TUSAŞ Anka-S"
+TUR_tac_bomber_equipment_2_short:0 "Anka-S"
+TUR_tac_bomber_equipment_2_desc:0 "O TAI Anka é uma família de veículos aéreos não tripulados (VANT) desenvolvida pela Turkish Aerospace Industries (TAI) para as Forças Armadas da Turquia. A primeira versão, Anka-A, foi classificada como um VANT de média altitude e longa endurance (MALE UAV). Concebido no início dos anos 2000 para missões de vigilância e reconhecimento tático, versões posteriores evoluíram para uma plataforma modular com radar de abertura sintética, armamentos precisos e comunicação por satélite."
+TUR_tac_bomber_equipment_3:0 "Baykar Bayraktar Akıncı"
+TUR_tac_bomber_equipment_3_short:0 "Bayraktar Akıncı"
+TUR_tac_bomber_equipment_3_desc:0 "Bayraktar Akıncı (pronúncia turca: [Bayraktar Akıncı]) é um Veículo Aéreo de Combate Não Tripulado (UCAV) de Alta Altitude e Longa Endurance (HALE) fabricado pela empresa turca Baykar. Atualmente, o projeto está na fase de produção em massa. A aeronave tem um peso máximo de decolagem (MTOW) de 5,5 toneladas, sendo 1350kg deste peso composto por carga útil."
+TUR_tac_bomber_equipment_4:0 "TUSAŞ Anka-Aksungur"
+TUR_tac_bomber_equipment_4_short:0 "Anka-Aksungur"
+TUR_tac_bomber_equipment_4_desc:0 ""
+# TRANSPORTS #
+TUR_transport_plane_equipment_2:0 "Airbus A400M Atlas"
+TUR_transport_plane_equipment_2_short:0 "A400M Atlas"
+TUR_transport_plane_equipment_2_desc:0 "O Airbus A400M Atlas é uma aeronave de transporte militar europeia com quatro motores turbopropulsores. Foi projetada pela Airbus Military (agora Airbus Defence and Space) como uma transportadora tática com capacidades estratégicas para substituir aeronaves de transporte mais antigas, como o Transall C-160 e o Lockheed C-130 Hercules."
  
+## UNITED ARAB EMIRATES ##
+# TRANSPORTS #
+UAE_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
+UAE_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
+UAE_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave de transporte militar. Foi desenvolvido para a Força Aérea dos Estados Unidos (USAF) desde os anos 1980 até o início dos anos 1990 pela McDonnell Douglas. O C-17 continua o nome de duas aeronaves de carga militar anteriores com motores a pistão, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
  
- ## UNITED ARAB EMIRATES ##
- # TRANSPORTS #
- UAE_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
- UAE_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
- UAE_transport_plane_equipment_2_desc:0 "The Boeing C-17 Globemaster III is a large military transport aircraft. It was developed for the United States Air Force (USAF) from the 1980s to the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II."
- 
- ## URUGUAY ##
- # CAS #
- URG_CAS_equipment_1:0 "A-37 Dragonfly"
- URG_CAS_equipment_1_short:0 "A-37"
- # TRANSPORTS #
- URG_transport_plane_equipment:0 "Lockheed C-130 Hercules"
- URG_transport_plane_equipment_short:0 "C-130 Hercules"
- URG_transport_plane_equipment_desc:0 "The Lockheed C-130 Hercules is an American four-engine turboprop military transport aircraft designed and built originally by Lockheed (now Lockheed Martin). Capable of using unprepared runways for takeoffs and landings, the C-130 was originally designed as a troop, medevac, and cargo transport aircraft."
+## URUGUAY ##
+# CAS #
+URG_CAS_equipment_1:0 "A-37 Dragonfly"
+URG_CAS_equipment_1_short:0 "A-37"
+# TRANSPORTS #
+URG_transport_plane_equipment:0 "Lockheed C-130 Hercules"
+URG_transport_plane_equipment_short:0 "C-130 Hercules"
+URG_transport_plane_equipment_desc:0 "O Lockheed C-130 Hercules é uma aeronave de transporte militar americana com quatro motores turbopropulsores, projetada e construída originalmente pela Lockheed (agora Lockheed Martin). Capaz de usar pistas não preparadas para decolagens e pousos, o C-130 foi inicialmente projetado como uma aeronave de transporte de tropas, medevac e carga."
 
 
- ## USA ##
- # CAS #
- USA_CAS_equipment:0 "Attack Aircraft"
- USA_CAS_equipment_short:0 "Attack Aircraft"
- USA_CAS_equipment_desc:0 "Attack Aircraft"
- USA_CAS_equipment_1:0 "North American F-100 Super Sabre"
- USA_CAS_equipment_1_short:0 "F-100 Super Sabre"
- USA_CAS_equipment_1_desc:0 "The North American F-100 Super Sabre is an American supersonic jet fighter aircraft that served with the United States Air Force (USAF) from 1954 to 1971 and with the Air National Guard (ANG) until 1979. The first of the Century Series of USAF jet fighters, it was the first USAF fighter capable of supersonic speed in level flight."
- USA_CAS_equipment_2:0 "Fairchild Republic A-10 Thunderbolt II"
- USA_CAS_equipment_2_short:0 "A-10 Thunderbolt II"
- USA_CAS_equipment_2_desc:0 "The Fairchild Republic A-10 Thunderbolt II is a single-seat, twin turbofan engine, straight wing jet aircraft developed by Fairchild-Republic for the United States Air Force (USAF). The A-10 was designed for close air support (CAS) of friendly ground troops, attacking armored vehicles and tanks, and providing quick-action support against enemy ground forces."
- USA_CAS_equipment_3:0 "McDonnell Douglas F-15E Strike Eagle"
- USA_CAS_equipment_3_short:0 "F-15E Strike Eagle"
- USA_CAS_equipment_3_desc:0 "The McDonnell Douglas (now Boeing) F-15E Strike Eagle is an American all-weather multirole strike fighter derived from the McDonnell Douglas F-15 Eagle. The F-15E was designed in the 1980s for long-range, high-speed interdiction without relying on escort or electronic-warfare aircraft."
- # CV CAS #
- USA_cv_CAS_equipment_1:0 "Douglas A-4 Skyhawk"
- USA_cv_CAS_equipment_1_short:0 "A-4 Skyhawk"
- USA_cv_CAS_equipment_1_desc:0 "The Douglas A-4 Skyhawk is a single seat subsonic carrier-capable attack aircraft developed for the United States Navy and United States Marine Corps in the early 1950s. The delta winged, single turbojet engined Skyhawk was designed and produced by Douglas Aircraft Company, and later by McDonnell Douglas."
- USA_cv_CAS_equipment_2:0 "Grumman A-6 Intruder"
- USA_cv_CAS_equipment_2_short:0 "A-6 Intruder"
- USA_cv_CAS_equipment_2_desc:0 "The Grumman A-6 Intruder is an American, twinjet all-weather attack aircraft built by Grumman Aerospace. In service with the United States Navy and Marine Corps between 1963 and 1997, the Intruder was designed as an all-weather medium attack aircraft to replace the piston-engined Douglas A-1 Skyraider."
- USA_cv_CAS_equipment_3:0 "McDonnell Douglas AV-8B Harrier II"
- USA_cv_CAS_equipment_3_short:0 "AV-8B Harrier II"
- USA_cv_CAS_equipment_3_desc:0 "The McDonnell Douglas (now Boeing) AV-8B Harrier II is a single-engine ground-attack aircraft that constitutes the second generation of the Harrier Jump Jet family. Capable of vertical or short takeoff and landing (V/STOL), the aircraft was designed in the late 1970s as an Anglo-American development of the British Hawker Siddeley Harrier, the first operational V/STOL aircraft."
- # FIGHTERS #
- USA_fighter_equipment_1:0 "North American F-86 Sabre"
- USA_fighter_equipment_1_short:0 "F-86 Sabre"
- USA_fighter_equipment_1_desc:0 "The North American F-86 Sabre is a transonic jet fighter aircraft. Produced by North American Aviation, the Sabre is best known as the United States' first swept wing fighter that could counter the similarly-winged Soviet MiG-15 in high-speed dogfights in the skies of the Korean War."
- USA_fighter_equipment_2:0 "McDonnell Douglas F-4 Phantom II"
- USA_fighter_equipment_2_short:0 "F-4 Phantom II"
- USA_fighter_equipment_2_desc:0 "The McDonnell Douglas F-4 Phantom II is a tandem two-seat, twin-engine, all-weather, long-range supersonic jet interceptor and fighter-bomber originally developed for the United States Navy by McDonnell Aircraft. It first entered service in 1960 with the U.S. Navy."
- USA_fighter_equipment_3:0 "General Dynamics F-16 Fighting Falcon"
- USA_fighter_equipment_3_short:0 "F-16 Fighting Falcon"
- USA_fighter_equipment_3_desc:0 "The General Dynamics F-16 Fighting Falcon is a single-engine supersonic multirole fighter aircraft originally developed by General Dynamics (now Lockheed Martin) for the United States Air Force (USAF). Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft."
- USA_fighter_equipment_4:0 "McDonnell Douglas F-15 Eagle"
- USA_fighter_equipment_4_short:0 "F-15 Eagle"
- USA_fighter_equipment_4_desc:0 "The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather tactical fighter aircraft designed by McDonnell Douglas (now Boeing). Following reviews of proposals, the United States Air Force selected McDonnell Douglas's design in 1967 to meet the service's need for a dedicated air superiority fighter."
- USA_fighter_equipment_5:0 "Lockheed Martin F-22 Raptor"
- USA_fighter_equipment_5_short:0 "F-22 Raptor"
- USA_fighter_equipment_5_desc:0 "The Lockheed Martin F-22 Raptor is a fifth-generation, single-seat, twin-engine, all-weather stealth tactical fighter aircraft developed for the United States Air Force (USAF). The result of the USAF's Advanced Tactical Fighter (ATF) program, the aircraft was designed primarily as an air superiority fighter, but also has ground attack, electronic warfare, and signal intelligence capabilities."
- USA_fighter_equipment_6:0 "Lockheed Martin F-35 Lightning II"
- USA_fighter_equipment_6_short:0 "F-35 Lightning II"
- USA_fighter_equipment_6_desc:0 "The Lockheed Martin F-35 Lightning II is a family of single-seat, single-engine, all-weather, stealth, fifth-generation, multirole combat aircraft, designed for ground-attack and air-superiority missions. It is built by Lockheed Martin and many subcontractors, including Northrop Grumman, Pratt & Whitney, and BAE Systems."
- USA_fighter_equipment_7:0 "Rockwell International F-40 Mustang II"
- USA_fighter_equipment_7_short:0 "F-40 Mustang II"
- USA_fighter_equipment_7_desc:0 "A fictional aircraft to fill the gap between the F-35 and the also fictional F-95 series."
- USA_fighter_equipment_8:0 "Rockwell International F-46 Avant Sabre"
- USA_fighter_equipment_8_short:0 "F-95 Avant Sabre"
- USA_fighter_equipment_8_desc:0 "A fictional aircraft of the future."
+## USA ##
+# CAS #
+USA_CAS_equipment:0 "Aeronaves de Ataque"
+USA_CAS_equipment_short:0 "Aeronaves de Ataque"
+USA_CAS_equipment_desc:0 "Aeronaves de Ataque"
+USA_CAS_equipment_1:0 "North American F-100 Super Sabre"
+USA_CAS_equipment_1_short:0 "F-100 Super Sabre"
+USA_CAS_equipment_1_desc:0 "O North American F-100 Super Sabre é um caça a jato supersônico americano que serviu com a Força Aérea dos Estados Unidos (USAF) de 1954 a 1971 e com a Guarda Nacional Aérea (ANG) até 1979. O primeiro caça da Série Century da USAF, foi o primeiro caça da USAF capaz de atingir velocidade supersônica em voo nivelado."
+USA_CAS_equipment_2:0 "Fairchild Republic A-10 Thunderbolt II"
+USA_CAS_equipment_2_short:0 "A-10 Thunderbolt II"
+USA_CAS_equipment_2_desc:0 "O Fairchild Republic A-10 Thunderbolt II é uma aeronave de ataque a jato de assento único e dois motores turbofan, desenvolvida pela Fairchild-Republic para a Força Aérea dos Estados Unidos (USAF). O A-10 foi projetado para apoio aéreo aproximado (CAS) das tropas amigas no solo, atacando veículos blindados e tanques, e fornecendo suporte de ação rápida contra forças inimigas no solo."
+USA_CAS_equipment_3:0 "McDonnell Douglas F-15E Strike Eagle"
+USA_CAS_equipment_3_short:0 "F-15E Strike Eagle"
+USA_CAS_equipment_3_desc:0 "O McDonnell Douglas (agora Boeing) F-15E Strike Eagle é um caça de ataque multifuncional americano, projetado para todas as condições meteorológicas, derivado do McDonnell Douglas F-15 Eagle. O F-15E foi projetado na década de 1980 para interdição de longo alcance e alta velocidade, sem depender de aeronaves de escolta ou guerra eletrônica."
+# CV CAS #
+USA_cv_CAS_equipment_1:0 "Douglas A-4 Skyhawk"
+USA_cv_CAS_equipment_1_short:0 "A-4 Skyhawk"
+USA_cv_CAS_equipment_1_desc:0 "O Douglas A-4 Skyhawk é uma aeronave de ataque sub-sônica de assento único, capaz de operar de porta-aviões, desenvolvida para a Marinha dos Estados Unidos e o Corpo de Fuzileiros Navais dos Estados Unidos no início dos anos 1950. A aeronave de asa delta e motor a jato único foi projetada e produzida pela Douglas Aircraft Company, e depois pela McDonnell Douglas."
+USA_cv_CAS_equipment_2:0 "Grumman A-6 Intruder"
+USA_cv_CAS_equipment_2_short:0 "A-6 Intruder"
+USA_cv_CAS_equipment_2_desc:0 "O Grumman A-6 Intruder é uma aeronave de ataque americana, de dois motores a jato e capaz de operar em todas as condições meteorológicas, construída pela Grumman Aerospace. Em serviço com a Marinha dos Estados Unidos e o Corpo de Fuzileiros Navais dos Estados Unidos entre 1963 e 1997, o Intruder foi projetado como uma aeronave de ataque médio para todas as condições climáticas, substituindo o Douglas A-1 Skyraider de motores a pistão."
+USA_cv_CAS_equipment_3:0 "McDonnell Douglas AV-8B Harrier II"
+USA_cv_CAS_equipment_3_short:0 "AV-8B Harrier II"
+USA_cv_CAS_equipment_3_desc:0 "O McDonnell Douglas (agora Boeing) AV-8B Harrier II é uma aeronave de ataque ao solo com um motor, que constitui a segunda geração da família de jatos Harrier Jump. Capaz de decolagem e pouso vertical ou curto (V/STOL), a aeronave foi projetada no final dos anos 1970 como um desenvolvimento anglo-americano do Harrier britânico Hawker Siddeley, o primeiro avião V/STOL operacional."
+# FIGHTERS #
+USA_fighter_equipment_1:0 "North American F-86 Sabre"
+USA_fighter_equipment_1_short:0 "F-86 Sabre"
+USA_fighter_equipment_1_desc:0 "O North American F-86 Sabre é uma aeronave de caça a jato transônica. Produzido pela North American Aviation, o Sabre é mais conhecido como o primeiro caça americano com asas inclinadas, capaz de enfrentar o MiG-15 soviético de asas semelhantes em combates aéreos de alta velocidade nos céus da Guerra da Coreia."
+USA_fighter_equipment_2:0 "McDonnell Douglas F-4 Phantom II"
+USA_fighter_equipment_2_short:0 "F-4 Phantom II"
+USA_fighter_equipment_2_desc:0 "O McDonnell Douglas F-4 Phantom II é uma aeronave de combate e interceptação supersônica de longo alcance e dois assentos em tandem, projetada para operar em todas as condições meteorológicas. Originalmente desenvolvida para a Marinha dos Estados Unidos pela McDonnell Aircraft, entrou em serviço em 1960 com a Marinha dos EUA."
+USA_fighter_equipment_3:0 "General Dynamics F-16 Fighting Falcon"
+USA_fighter_equipment_3_short:0 "F-16 Fighting Falcon"
+USA_fighter_equipment_3_desc:0 "O General Dynamics F-16 Fighting Falcon é uma aeronave de caça supersônica de um único motor, originalmente desenvolvida pela General Dynamics (agora Lockheed Martin) para a Força Aérea dos Estados Unidos (USAF). Projetado como um caça de superioridade aérea diurna, evoluiu para uma bem-sucedida aeronave multifuncional para todas as condições meteorológicas."
+USA_fighter_equipment_4:0 "McDonnell Douglas F-15 Eagle"
+USA_fighter_equipment_4_short:0 "F-15 Eagle"
+USA_fighter_equipment_4_desc:0 "O McDonnell Douglas F-15 Eagle é uma aeronave de combate tático americana, de dois motores e projetada para operar em todas as condições meteorológicas, desenvolvida pela McDonnell Douglas (agora Boeing). Após avaliações das propostas, a Força Aérea dos Estados Unidos selecionou o projeto da McDonnell Douglas em 1967 para atender à necessidade de um caça dedicado à superioridade aérea."
+USA_fighter_equipment_5:0 "Lockheed Martin F-22 Raptor"
+USA_fighter_equipment_5_short:0 "F-22 Raptor"
+USA_fighter_equipment_5_desc:0 "O Lockheed Martin F-22 Raptor é um caça tático de quinta geração, de um único assento, dois motores, stealth e para todas as condições meteorológicas, desenvolvido para a Força Aérea dos Estados Unidos (USAF). Resultado do programa Advanced Tactical Fighter (ATF) da USAF, a aeronave foi projetada principalmente como um caça de superioridade aérea, mas também possui capacidades de ataque terrestre, guerra eletrônica e inteligência de sinais."
+USA_fighter_equipment_6:0 "Lockheed Martin F-35 Lightning II"
+USA_fighter_equipment_6_short:0 "F-35 Lightning II"
+USA_fighter_equipment_6_desc:0 "O Lockheed Martin F-35 Lightning II é uma família de aeronaves de combate stealth de quinta geração, de um único assento, um único motor, para todas as condições meteorológicas e multifuncionais, projetadas para missões de ataque terrestre e superioridade aérea. É construído pela Lockheed Martin e diversos subcontratados, incluindo Northrop Grumman, Pratt & Whitney e BAE Systems."
+USA_fighter_equipment_7:0 "Rockwell International F-40 Mustang II"
+USA_fighter_equipment_7_short:0 "F-40 Mustang II"
+USA_fighter_equipment_7_desc:0 "Uma aeronave fictícia para preencher a lacuna entre o F-35 e a também fictícia série F-95."
+USA_fighter_equipment_8:0 "Rockwell International F-46 Avant Sabre"
+USA_fighter_equipment_8_short:0 "F-95 Avant Sabre"
+USA_fighter_equipment_8_desc:0 "Uma aeronave fictícia do futuro."
+
+# em tradução
+
  # CV FIGHTERS #
  USA_cv_fighter_equipment_1:0 "Grumman F9F Panther"
  USA_cv_fighter_equipment_1_short:0 "F9F Panther"
@@ -1116,10 +1113,10 @@
  USA_cv_fighter_equipment_3_desc:0 "The Grumman F-14 Tomcat is an American supersonic, twin-engine, two-seat, twin-tail, variable-sweep wing fighter aircraft. It was the first such U.S. jet fighter with twin tails. The Tomcat was developed for the United States Navy's Naval Fighter Experimental (VFX) program after the collapse of the F-111B project."
  USA_cv_fighter_equipment_4:0 "McDonnell Douglas F/A-18 Hornet"
  USA_cv_fighter_equipment_4_short:0 "F/A-18 Hornet"
- USA_cv_fighter_equipment_4_desc:0 "The McDonnell Douglas F/A-18 Hornet is a twin-engine, supersonic, all-weather, carrier-capable, multirole combat jet, designed as both a fighter and attack aircraft."
+ USA_cv_fighter_equipment_4_desc:0 "The McDonnell Douglas F/A-18 Hornet is a twin-engine, supersonic, all-weather, carrier-capable, Multifunção combat jet, designed as both a fighter and attack aircraft."
  USA_cv_fighter_equipment_5:0 "McDonnell Douglas F/A-18E/F Super Hornet"
  USA_cv_fighter_equipment_5_short:0 "F/A-18E/F Super Hornet"
- USA_cv_fighter_equipment_5_desc:0 "The Boeing F/A-18E and F/A-18F Super Hornet are twin-engine, carrier-capable, multirole fighter aircraft variants based on the McDonnell Douglas F/A-18 Hornet. The F/A-18E single-seat and F/A-18F tandem-seat variants are larger and more advanced derivatives of the F/A-18C and D Hornet."
+ USA_cv_fighter_equipment_5_desc:0 "The Boeing F/A-18E and F/A-18F Super Hornet are twin-engine, carrier-capable, Multifunção fighter aircraft variants based on the McDonnell Douglas F/A-18 Hornet. The F/A-18E single-seat and F/A-18F tandem-seat variants are larger and more advanced derivatives of the F/A-18C and D Hornet."
  USA_cv_fighter_equipment_6:0 "Lockheed Martin F-35C Lightning II"
  USA_cv_fighter_equipment_6_short:0 "F-35C Lightning II"
  USA_cv_fighter_equipment_6_desc:0 "The F-35 has three main models: the conventional takeoff and landing F-35A (CTOL), the short take-off and vertical-landing F-35B (STOVL), and the catapult-assisted take-off but arrested recovery, carrier-based F-35C (CATOBAR)."
