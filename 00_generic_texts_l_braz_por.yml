@@ -1,4 +1,5 @@
-﻿l_braz_por:
+﻿#completo
+l_braz_por:
 
   TRIGGER_HAS_POWER_BALANCE:0 "$POWER_BALANCE|Y$ está ativo em [root.GetName]"
   TRIGGER_HAS_NOT_POWER_BALANCE:0 "$POWER_BALANCE|Y$ não está ativo em [root.GetName]"

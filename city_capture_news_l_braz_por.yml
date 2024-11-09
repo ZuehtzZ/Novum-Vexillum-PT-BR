@@ -1,4 +1,5 @@
-﻿l_braz_por:
+﻿#completo
+l_braz_por:
 city_capture_news.1.t:0 "A Queda de Londres"
 city_capture_news.1.desc.1:0 "Relatórios de Londres confirmam que a capital inglesa foi capturada pelas tropas [ROOT.GetAdjective] em avanço. \n\nDisparos de armas pequenas ainda podem ser ouvidos em alguns bairros, mas não foram avistadas forças britânicas significativas dentro da cidade.\n\nBig Ben, o símbolo mais importante de Londres, foi destruído por shells de artilharia durante uma luta de rua. Não se sabe se os projéteis de uma das forças defensivas ou ofensivas destruíram o Big Ben.\n\nPela primeira vez desde Guilherme, o Conquistador, Londres caiu para um invasor estrangeiro."
 city_capture_news.1.desc.2:0 "Relatórios de Londres foram capturados pelas tropas [ROOT.GetAdjective] em avanço. \n\nDisparos de armas pequenas ainda podem ser ouvidos em alguns bairros, mas não foram avistadas forças [FROM.GetAdjective] significativas dentro da cidade.\n\nBig Ben, o símbolo mais importante de Londres, foi destruído por shells de artilharia durante uma luta de rua. Não se sabe se os projéteis de uma das forças defensivas ou ofensivas destruíram o Big Ben."
