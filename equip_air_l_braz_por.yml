@@ -1144,7 +1144,7 @@ USA_nav_bomber_equipment_5_desc:0 "O Lockheed P-3 Orion é uma aeronave turboél
 USA_nav_bomber_equipment_6:0 "Boeing P-8 Poseidon"
 USA_nav_bomber_equipment_6_short:0 "P-8 Poseidon"
 USA_nav_bomber_equipment_6_desc:0 "O Boeing P-8 Poseidon (anteriormente Aeronave Marítima Multimissão) é uma aeronave militar desenvolvida para a Marinha dos Estados Unidos (USN). A aeronave foi desenvolvida pela Boeing Defense, Space & Security, modificada a partir do 737-800ERX. O P-8 é operado nas funções de guerra antissubmarina (ASW), guerra antissuperfície (ASUW) e interdição de embarcações."
- # CV NAVAL BOMBERS #
+ # CV NAVAL BOMBERS # 
 USA_cv_nav_bomber_equipment_1:0 "Douglas A-1 Skyraider"
 USA_cv_nav_bomber_equipment_1_short:0 "A-1 Skyraider"
 USA_cv_nav_bomber_equipment_1_desc:0 "O Douglas A-1 Skyraider (anteriormente AD Skyraider) é uma aeronave de ataque americana monoposto que esteve em serviço entre o final dos anos 1940 e início dos anos 1980. O Skyraider teve uma carreira notavelmente longa e bem-sucedida; tornou-se um anacronismo movido a pistão e hélice na era dos jatos."
@@ -1209,4 +1209,4 @@ USA_transport_plane_equipment_1_desc:0 "O Lockheed C-130 Hercules é uma aeronav
 USA_transport_plane_equipment_2:0 "Boeing C-17 Globemaster III"
 USA_transport_plane_equipment_2_short:0 "C-17 Globemaster III"
 USA_transport_plane_equipment_2_desc:0 "O Boeing C-17 Globemaster III é uma grande aeronave militar de transporte. Foi desenvolvida para a Força Aérea dos Estados Unidos (USAF) entre os anos 1980 e início dos anos 1990 pela McDonnell Douglas. O C-17 herdou o nome de duas aeronaves militares de carga com motor a pistão anteriores, o Douglas C-74 Globemaster e o Douglas C-124 Globemaster II."
- ## Written and edited by E. Wolfe ##
+ ## Written and edited by E. Wolfe ## L
