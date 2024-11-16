@@ -3,134 +3,134 @@
 # Generic Industry
 
 # Mining Companies
-AFT_Foreign_Mining_Companies:0 "Foreign Mining Companies"
+AFT_Foreign_Mining_Companies:0 "Empresas de Mineração Estrangeiras"
 
-AFT_Foreign_Exploitative_Mining_Companies:0 "Exploitative Foreign Mining Companies"
+AFT_Foreign_Exploitative_Mining_Companies:0 "Empresas de Mineração Estrangeiras Exploratórias"
 
 # Path to Freedom
-AFT_Individual_Freedom:0 "Individual Freedom"
+AFT_Individual_Freedom:0 "Liberdade Individual"
 
-# Socilism
-AFT_Leftist_Doctrine:0 "Leftist Doctrine"
+# Socialism
+AFT_Leftist_Doctrine:0 "Doutrina Esquerdista"
 
 # Social Democracy
-AFT_Social_Democratic_Doctrine:0 "Social Democratic Doctrine"
+AFT_Social_Democratic_Doctrine:0 "Doutrina Social-Democrática"
 
 # Strengthen Unions
-AFT_Strong_Unions:0 "Strong Unions"
+AFT_Strong_Unions:0 "Fortalecer os Sindicatos"
 
 # Progressivism
-AFT_Progressive_Doctrine:0 "Progressive Doctrine"
+AFT_Progressive_Doctrine:0 "Doutrina Progressista"
 
 # Net-Zero Emissions
-AFT_Carbon_Tax:0 "Carbon Tax"
+AFT_Carbon_Tax:0 "Imposto sobre Carbono"
 
-# Scoial Liberalism
-AFT_Liberal_Doctrine:0 "Liberal Doctrine"
+# Social Liberalism
+AFT_Liberal_Doctrine:0 "Doutrina Liberal"
 
 # Liberalism
-AFT_Capitalist_Doctrine:0 "Capitalist Doctrine"
+AFT_Capitalist_Doctrine:0 "Doutrina Capitalista"
 
 # Free Market Driven Economy
-AFT_Market_Economy:0 "Market Economy"
+AFT_Market_Economy:0 "Economia de Mercado"
 
 # Conservatism
-AFT_Conservative_Doctrine:0 "Conservative Doctrine"
+AFT_Conservative_Doctrine:0 "Doutrina Conservadora"
 
 # Reactionary Democracy
-AFT_Reactionary_Doctrine:0 "Reactionary Doctrine"
+AFT_Reactionary_Doctrine:0 "Doutrina Reacionária"
 
 # Make Deals with the Oligarchs
-AFT_Oligarchs_Support:0 "Oligarchs Support"
+AFT_Oligarchs_Support:0 "Apoio aos Oligarcas"
 
 # Encourage Immigration
-AFT_Immigrant_Influx:0 "Immigrant Influx"
+AFT_Immigrant_Influx:0 "Fluxo de Imigrantes"
 
 # Reduce Government Spending
-AFT_Low_Government_Spending:0 "Low Government Spending"
+AFT_Low_Government_Spending:0 "Reduzir Gastos Públicos"
 
 # Increase Military Spending
-AFT_Large_Military_Spending:0 "Large Military Spending"
+AFT_Large_Military_Spending:0 "Grandes Gastos Militares"
 
 # Communist Values
-AFT_Marxist_Doctrine:0 "Marxist Doctrine"
+AFT_Marxist_Doctrine:0 "Doutrina Marxista"
 
 # Fascism
-AFT_Neo-Fascist_Doctrine:0 "Neo-Fascist Doctrine"
+AFT_Neo-Fascist_Doctrine:0 "Doutrina Neo-Fascista"
 
 # Nationalism
-AFT_Nationalist_Doctrine:0 "Nationalist Doctrine"
+AFT_Nationalist_Doctrine:0 "Doutrina Nacionalista"
 
-# Promote Parmilitary Organizations
-AFT_Paramilitary_Support:0 "Paramilitary Support"
+# Promote Paramilitary Organizations
+AFT_Paramilitary_Support:0 "Apoio às Organizações Paramilitares"
 
 # Unity and Nation
-AFT_Army_of_Purity:0 "Army of Purity"
+AFT_Army_of_Purity:0 "Exército da Pureza"
 
 # Monarchism
-AFT_Royal_Doctrine:0 "Royal Doctrine"
+AFT_Royal_Doctrine:0 "Doutrina Real"
 
 # Ensure Support for the Nobility
-AFT_Nobility:0 "Nobility"
+AFT_Nobility:0 "Nobreza"
 
 # Established the Royal Guard
-AFT_The_Royal_Guard:0 "The Royal Guard"
+AFT_The_Royal_Guard:0 "A Guarda Real"
 
 # The Values of Old
-AFT_National_Heritage:0 "National Heritage"
+AFT_National_Heritage:0 "Patrimônio Nacional"
 
-# Religious Fanaticis
-AFT_Religious_Fanaticis:0 "Religious Fanaticis"
+# Religious Fanaticism
+AFT_Religious_Fanaticis:0 "Fanatismo Religioso"
 
 # Christian
-AFT_Path_of_Jesus:0 "Path of Jesus"
-AFT_Christian_Militias:0 "Christian Militias"
+AFT_Path_of_Jesus:0 "Caminho de Jesus"
+AFT_Christian_Militias:0 "Milícias Cristãs"
 
 # Islamism
-AFT_Path_of_Allah:0 "Path of Allah"
-AFT_Legalize_Child_Marriage:0 "Legalize Child Marriage"
+AFT_Path_of_Allah:0 "Caminho de Alá"
+AFT_Legalize_Child_Marriage:0 "Legalizar o Casamento Infantil"
 
 # Establish Shariah Police
-AFT_Shariah_Police:0 "Shariah Police"
+AFT_Shariah_Police:0 "Polícia da Sharia"
 
 # Islamic Militias
-AFT_Muslim_Militia:0 "Muslim Militia"
+AFT_Muslim_Militia:0 "Milícia Muçulmana"
 
 # Traditional Values
-AFT_Male_Workforce:0 "Male Workforce"
+AFT_Male_Workforce:0 "Força de Trabalho Masculina"
 
 # Mobilize the Female Workforce
-AFT_Equal_Workforce:0 "Equal Workforce"
+AFT_Equal_Workforce:0 "Força de Trabalho Igualitária"
 
 # Birth Control Programs
-AFT_Steady_Birth_Rate:0 "Steady Birth Rate"
+AFT_Steady_Birth_Rate:0 "Taxa de Nascimento Estável"
 
 # Invest in Public Services
-AFT_Public_Services_Investment:0 "Public Services Investment"
+AFT_Public_Services_Investment:0 "Investimento em Serviços Públicos"
 
 # Research Incentives
-AFT_Private_Research_and_Census_Reform:0 "Private Research & Census Reform"
+AFT_Private_Research_and_Census_Reform:0 "Reforma de Pesquisa Privada & Censo"
 
 # Expand the Secret Service
-AFT_Secret_Service_Expansion:0 "Secret Service Expansion"
+AFT_Secret_Service_Expansion:0 "Expansão do Serviço Secreto"
 
 # Isolationism
-AFT_Neutral_Foreign_Policy:0 "Neutral Foreign Policy"
+AFT_Neutral_Foreign_Policy:0 "Política Externa Neutra"
 
 # Reduce Foreign Influence
-AFT_Reduced_Foreign_Influence:0 "Reduced Foreign Influence"
+AFT_Reduced_Foreign_Influence:0 "Reduzir a Influência Estrangeira"
 
 # Army Officer Academy
-AFT_Army_Officer_Academy:0 "Army Officer Academy"
+AFT_Army_Officer_Academy:0 "Academia de Oficiais do Exército"
 
 # Fighter Focus
-AFT_Figther_Focus:0 "Fighter Focus"
+AFT_Figther_Focus:0 "Foco em Caças"
 
 # Bomber Focus
-AFT_Bomber_Focus:0 "Bomber Focus"
+AFT_Bomber_Focus:0 "Foco em Bombardeiros"
 
-# Air Force Safety Refroms
-AFT_Air_Force_Safety_Refroms:0 "Air Force Safety Refroms"
+# Air Force Safety Reforms
+AFT_Air_Force_Safety_Refroms:0 "Reformas de Segurança da Força Aérea"
 
 # Airshow event
-AFT_Airshow_Event:0 "Airshow Event"
+AFT_Airshow_Event:0 "Evento de Exibição Aérea"
